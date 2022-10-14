@@ -1,0 +1,30 @@
+<div class="controls container">
+    <div class="title row py-4">
+        <div class="col-12">
+            <h4>Mapa Cloropletico</h4>
+            <button mat-flat-button color="primary">PPA</button>
+        </div>
+    </div>
+    <div class="row py-4">
+        <div class="col-12">
+            <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
+                <div class="example-container">
+                    <mat-form-field hintLabel="Max 10 characters" appearance="fill">
+                      <mat-label>Enter some input</mat-label>
+                      <input matInput #input maxlength="10" placeholder="Ex. Nougat">
+                      <mat-hint align="end">{{input.value?.length || 0}}/10</mat-hint>
+                    </mat-form-field>
+                  
+                    <mat-form-field appearance="fill">
+                      <mat-label>Select me</mat-label>
+                      <mat-select>
+                        <mat-option value="option">Option</mat-option>
+                      </mat-select>
+                      <mat-hint align="end">Here's the dropdown arrow ^</mat-hint>
+                    </mat-form-field>
+                  </div>
+                  
+            </form>
+        </div>
+    </div>
+</div>

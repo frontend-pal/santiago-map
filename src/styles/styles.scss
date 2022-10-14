@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+// @import "~material-icons/iconfont/material-icons.css";
+@import "scss/material-helper.scss";
+
+@import "~mapbox-gl/dist/mapbox-gl.css"; /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #202020;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  user-select: none;
+}
+
+body a,
+body label,
+body p {
+  font-family: inherit;
+  user-select: all;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
