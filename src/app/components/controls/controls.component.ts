@@ -6,6 +6,13 @@ import { map, startWith } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Municipality } from 'src/app/models/municipality';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
+import { MapControllerService } from 'src/app/services/map-controller.service';
+import { LngLatLike } from 'mapbox-gl';
+
+const COLCOORDS: LngLatLike = {
+  lng: -74.5472906,
+  lat: 4.561896
+};
 
 @Component({
   selector: 'app-controls',
@@ -23,7 +30,8 @@ export class ControlsComponent implements OnInit {
   filteredMunOptions?: Observable<Municipality[]>;
 
   constructor(
-    private jsonService: JsonListService
+    private jsonService: JsonListService,
+    private mapService: MapControllerService
   ) { }
 
   ngOnInit(): void {
@@ -68,8 +76,6 @@ export class ControlsComponent implements OnInit {
   private _filterMun(search: string | Municipality): Municipality[] {
     let filterValue: string;
 
-    console.log(search);
-
     if (typeof search === 'string') {
       filterValue = search === null ? '' : search.toLowerCase();
     } else {
@@ -92,8 +98,8 @@ export class ControlsComponent implements OnInit {
     });
   }
 
-  getMunicipalityByCode(departmentCode: number) {
-    const code = departmentCode !== undefined ? departmentCode : 0;
+  getMunicipalityByCode(departmentCode: string) {
+    const code = departmentCode !== undefined ? departmentCode : '';
 
     this.municipality = this.jsonService.getMunicipalityByCode(code);
     this.initAutocompleteMun();
@@ -121,7 +127,12 @@ export class ControlsComponent implements OnInit {
       const currentDepartment: Department = event.option.value;
 
       console.log(currentDepartment);
+
       this.getMunicipalityByCode(currentDepartment.code);
+      this.goToLocation({
+        lng: currentDepartment.long,
+        lat: currentDepartment.lat
+      })
     } else {
       this.municipality = this.allMunicipalities;
     }
@@ -131,7 +142,35 @@ export class ControlsComponent implements OnInit {
 
   getTest2(event: MatAutocompleteSelectedEvent) {
     const currentMun: Municipality = event.option.value;
+    const currentDepartment = this.departments.find(x => x.code === this.addZero(currentMun.departmentCode));
+    console.log();
+    console.log(currentDepartment);
+    console.log(this.departments);
 
-    console.log(currentMun);
+    if (!!currentDepartment) {
+      this.mapForm.controls['department'].patchValue(currentDepartment);
+      this.goToLocation({
+        lng: currentDepartment.long,
+        lat: currentDepartment.lat
+      });
+    }
+  }
+
+  goToLocation(mapCoords: LngLatLike) {
+    if (!this.mapService.isMapready) throw new Error('No hay un mapa disponible.');
+
+    this.mapService.flyTo(mapCoords);
+  }
+
+  resetMap() {
+    this.goToLocation(COLCOORDS);
+  }
+
+  addZero(code: string) {
+    if (parseInt(code) > 10) {
+      return code;
+    } else {
+      return ('0' + code);
+    }
   }
 }

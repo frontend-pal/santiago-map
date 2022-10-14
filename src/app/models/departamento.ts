@@ -1,4 +1,6 @@
 export interface Department {
-    code: number;
+    code: string;
     name: string;
+    lat: number;
+    long: number;
 }

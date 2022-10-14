@@ -1,5 +1,6 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { Map } from 'mapbox-gl';
+import { MapControllerService } from 'src/app/services/map-controller.service';
 
 @Component({
   selector: 'app-map-view',
@@ -10,8 +11,10 @@ export class MapViewComponent implements AfterViewInit {
 
   @ViewChild('mapDiv')
   mapDivElement!: ElementRef;
-  
-  constructor() { }
+
+  constructor(
+    private mapService: MapControllerService
+  ) { }
 
 
   ngAfterViewInit() {
@@ -21,6 +24,8 @@ export class MapViewComponent implements AfterViewInit {
       center: [-74.5472906, 4.561896],
       zoom: 4
     });
+
+    this.mapService.setMap(map);
   }
 
 }

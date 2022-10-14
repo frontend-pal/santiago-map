@@ -32,7 +32,7 @@ export class JsonListService {
       );
   }
 
-  public getMunicipalityByCode(code: number | undefined): Municipality[] | [] {
+  public getMunicipalityByCode(code: string | undefined): Municipality[] | [] {
     return this.municipios.length !== 0 && code !== undefined ? this.municipios.filter(x => x.departmentCode === code?.toString()) : [];
   }
 }

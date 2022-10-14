@@ -1,134 +1,200 @@
 [
     {
-        "name": "Amazonas",
-        "code": 91
+        "code": "05",
+        "name": "ANTIOQUIA",
+        "lat": 6.915828,
+        "long": -75.608387
     },
     {
-        "name": "Antioquia",
-        "code": 5
+        "code": "08",
+        "name": "ATLANTICO",
+        "lat": 10.983333,
+        "long": -74.783333
     },
     {
-        "name": "Arauca",
-        "code": 81
+        "code": "11",
+        "name": "BOGOTA",
+        "lat": 4.60971,
+        "long": -74.08175
     },
     {
-        "name": "Atlántico",
-        "code": 8
+        "code": "13",
+        "name": "BOLIVAR",
+        "lat": 10.4,
+        "long": -75.5
     },
     {
-        "name": "Bogotá D.C.",
-        "code": 11
+        "code": "15",
+        "name": "BOYACA",
+        "lat": 5.533333,
+        "long": -73.366667
     },
     {
-        "name": "Bolívar",
-        "code": 13
+        "code": "17",
+        "name": "CALDAS",
+        "lat": 5.1,
+        "long": -75.55
     },
     {
-        "name": "Boyacá",
-        "code": 15
+        "code": "18",
+        "name": "CAQUETA",
+        "lat": 1.616667,
+        "long": -75.6
     },
     {
-        "name": "Caldas",
-        "code": 17
+        "code": "19",
+        "name": "CAUCA",
+        "lat": 2.45,
+        "long": -76.616667
     },
     {
-        "name": "Caquetá",
-        "code": 18
+        "code": "20",
+        "name": "CESAR",
+        "lat": 10.483333,
+        "long": -73.25
     },
     {
-        "name": "Casanare",
-        "code": 85
+        "code": "23",
+        "name": "CORDOBA",
+        "lat": 8.75,
+        "long": -75.883333
     },
     {
-        "name": "Cauca",
-        "code": 19
+        "code": "25",
+        "name": "CUNDINAMARCA",
+        "lat": 5,
+        "long": -74.16667
     },
     {
-        "name": "Cesar",
-        "code": 20
+        "code": "27",
+        "name": "CHOCO",
+        "lat": 5.7,
+        "long": -76.666667
     },
     {
-        "name": "Chocó",
-        "code": 27
+        "code": "41",
+        "name": "HUILA",
+        "lat": 2.998611,
+        "long": -75.304444
     },
     {
-        "name": "Córdoba",
-        "code": 23
+        "code": "44",
+        "name": "GUAJIRA",
+        "lat": 11.55,
+        "long": -72.9
     },
     {
-        "name": "Cundinamarca",
-        "code": 25
+        "code": "47",
+        "name": "MAGDALENA",
+        "lat": 11.241944,
+        "long": -74.205278
     },
     {
-        "name": "Guainía",
-        "code": 94
+        "code": "50",
+        "name": "META",
+        "lat": 4.15,
+        "long": -73.633333
     },
     {
-        "name": "Guaviare",
-        "code": 95
+        "code": "52",
+        "name": "NARIÑO",
+        "lat": 1.166667,
+        "long": -77.266667
     },
     {
-        "name": "Huila",
-        "code": 41
+        "code": "54",
+        "name": "NORTESANTANDER",
+        "lat": 7.9,
+        "long": -72.5
     },
     {
-        "name": "La Guajira",
-        "code": 44
+        "code": "63",
+        "name": "QUINDIO",
+        "lat": 4.533333,
+        "long": -75.7
     },
     {
-        "name": "Magdalena",
-        "code": 47
+        "code": "66",
+        "name": "RISARALDA",
+        "lat": 4.816667,
+        "long": -75.7
     },
     {
-        "name": "Meta",
-        "code": 50
+        "code": "68",
+        "name": "SANTANDER",
+        "lat": 7.133333,
+        "long": -73
     },
     {
-        "name": "Nariño",
-        "code": 52
+        "code": "70",
+        "name": "SUCRE",
+        "lat": 9.3,
+        "long": -75.4
     },
     {
-        "name": "Norte de Santander",
-        "code": 54
+        "code": "73",
+        "name": "TOLIMA",
+        "lat": 4.433333,
+        "long": -75.233333
     },
     {
-        "name": "Putumayo",
-        "code": 86
+        "code": "76",
+        "name": "VALLECAUCA",
+        "lat": 3.416667,
+        "long": -76.516667
     },
     {
-        "name": "Quindío",
-        "code": 63
+        "code": "81",
+        "name": "ARAUCA",
+        "lat": 7.083333,
+        "long": -70.75
     },
     {
-        "name": "Risaralda",
-        "code": 66
+        "code": "85",
+        "name": "CASANARE",
+        "lat": 5.35,
+        "long": -72.41
     },
     {
-        "name": "San Andrés",
-        "code": 88
+        "code": "86",
+        "name": "PUTUMAYO",
+        "lat": 1.15,
+        "long": -76.616667
     },
     {
-        "name": "Santander",
-        "code": 68
+        "code": "88",
+        "name": "SAN ANDRES",
+        "lat": 12.55,
+        "long": -81.716667
     },
     {
-        "name": "Sucre",
-        "code": 70
+        "code": "91",
+        "name": "AMAZONAS",
+        "lat": -1.5,
+        "long": -71.5
     },
     {
-        "name": "Tolima",
-        "code": 73
+        "code": "94",
+        "name": "GUANIA",
+        "lat": 3.865278,
+        "long": -67.923889
     },
     {
-        "name": "Valle del Cauca",
-        "code": 76
+        "code": "95",
+        "name": "GUAVIARE",
+        "lat": 2.566667,
+        "long": -72.633333
     },
     {
-        "name": "Vaupés",
-        "code": 97
+        "code": "97",
+        "name": "VAUPES",
+        "lat": 1.2,
+        "long": -70.166667
     },
     {
-        "name": "Vichada",
-        "code": "99"
+        "code": "99",
+        "name": "VICHADA",
+        "lat": 5,
+        "long": -69.508333
     }
 ]

@@ -1,6 +1,6 @@
 export interface Municipality {
-    departmentCode?: String;
-    code: String;
-    departmentName: String;
-    name: String;
+    departmentCode: string;
+    code: string;
+    departmentName: string;
+    name: string;
 }
