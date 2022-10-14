@@ -5,3 +5,49 @@
     background-color: #161616;
   }
 }
+
+.map-card {
+  border-radius: 0;
+  padding: 16px;
+
+  .card-title {
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .card-value {
+    font-weight: 400;
+  }
+  .card-subtitle-value {
+    color: #fff;
+    font-weight: 100;
+  }
+  .card-footer-value {
+    color: #fff;
+    font-weight: 300;
+  }
+}
+
+.red {
+  background-color: #b81b2c;
+
+  .card-value {
+    color: #e9dbae;
+  }
+}
+
+.blue {
+  background-color: #253364;
+
+  .card-value {
+    color: #2378af;
+  }
+}
+
+.pink {
+  background-color: #e86172;
+
+  .card-value {
+    color: #d52f45;
+  }
+}

@@ -9,22 +9,26 @@ import { ControlsComponent } from './components/controls/controls.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './modules/custom-material/custom-material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapViewComponent,
     HeaderComponent,
-    ControlsComponent
+    ControlsComponent,
+    FooterComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
     BrowserAnimationsModule,
-    CustomMaterialModule
+    BrowserModule,
+    CustomMaterialModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

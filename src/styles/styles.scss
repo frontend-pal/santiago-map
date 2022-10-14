@@ -1,8 +1,9 @@
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-grid';
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap-grid";
 
 // @import "~material-icons/iconfont/material-icons.css";
 @import "scss/material-helper.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
 
 @import "~mapbox-gl/dist/mapbox-gl.css"; /* You can add global styles to this file, and also import other style files */
 
@@ -21,5 +22,43 @@ body p {
   user-select: all;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* starts here */
+
+.full-width {
+  width: 100%;
+}
+
+input[type="text"] {
+  text-transform: uppercase;
+}
+
+.mat-option-text {
+  text-transform: uppercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.mat-option-tex {
+  text-transform: uppercase;
+}
+
+.w-code {
+  display: inline-block;
+  width: 24px !important;
+}
+
+.w-mun-code {
+  display: inline-block;
+  width: 54px !important;
+}

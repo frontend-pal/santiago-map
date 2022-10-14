@@ -19,12 +19,8 @@ export class MapViewComponent implements AfterViewInit {
       container: this.mapDivElement.nativeElement,
       style: 'mapbox://styles/mapbox/dark-v10',
       center: [-74.5472906, 4.561896],
-      zoom: 5.7      
+      zoom: 4
     });
-
-    // map.addLayer({
-
-    // });
   }
 
 }
