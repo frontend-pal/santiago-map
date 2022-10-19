@@ -20,7 +20,7 @@ const COLCOORDS: LngLatLike = {
   styleUrls: ['./controls.component.scss']
 })
 export class ControlsComponent implements OnInit {
-
+  toggleMenu = false;
   mapForm!: FormGroup;
   departments: Department[] | [] = [];
   filteredDeptOptions?: Observable<Department[]>;

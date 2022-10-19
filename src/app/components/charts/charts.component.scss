@@ -1,0 +1,164 @@
+$background: transparent;
+$easing: cubic-bezier(0.25, 1.7, 0.35, 0.8);
+$duration: 0.5s;
+
+:host {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #1e1e1e;
+}
+
+.main-chart-container {
+  width: calc(33.33vw + 24px);
+  max-width: calc(280px + 24px);
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  transition: all ease-in-out $duration;
+
+  &.closed {
+    max-width: 24px;
+  }
+}
+
+.chart-container {
+  margin-left: 24px;
+}
+
+.map-card {
+  border-radius: 0;
+  padding: 16px;
+
+  .card-title {
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .card-value {
+    font-weight: 400;
+  }
+  .card-subtitle-value {
+    color: #fff;
+    font-weight: 100;
+  }
+  .card-footer-value {
+    color: #fff;
+    font-weight: 300;
+  }
+}
+
+.red {
+  background-color: #b81b2c;
+
+  .card-value {
+    color: #e9dbae;
+  }
+}
+
+.blue {
+  background-color: #253364;
+
+  .card-value {
+    color: #2378af;
+  }
+}
+
+.pink {
+  background-color: #e86172;
+
+  .card-value {
+    color: #d52f45;
+  }
+}
+
+.arrow-container {
+  background-color: #0096ca;
+  cursor: pointer;
+  position: absolute;
+  height: 100vh;
+  transition: all ease-in-out 250ms;
+  width: 24px;
+
+  &:hover {
+    background-color: #0097ca86;
+  }
+}
+
+.arrow-icon {
+  background-color: $background;
+  height: 2.8em;
+  width: 2.8em;
+  display: block;
+  padding: 0.5em;
+  margin: 1em auto;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.arrow-icon {
+  transform: scale(0.375) rotate(90deg);
+  position: absolute;
+  top: calc(50vh - 15px);
+  left: -13px;
+}
+
+.left-bar {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 10px;
+  display: block;
+  transform: rotate(35deg);
+  float: right;
+  border-radius: 2px;
+  &:after {
+    content: "";
+    background-color: white;
+    width: 40px;
+    height: 10px;
+    display: block;
+    float: right;
+    border-radius: 6px 10px 10px 6px;
+    transition: all $duration $easing;
+    z-index: -1;
+  }
+}
+
+.right-bar {
+  position: absolute;
+  background-color: transparent;
+  top: 0px;
+  left: 26px;
+  width: 40px;
+  height: 10px;
+  display: block;
+  transform: rotate(-35deg);
+  float: right;
+  border-radius: 2px;
+  &:after {
+    content: "";
+    background-color: white;
+    width: 40px;
+    height: 10px;
+    display: block;
+    float: right;
+    border-radius: 10px 6px 6px 10px;
+    transition: all $duration $easing;
+    z-index: -1;
+  }
+}
+
+.open {
+  .left-bar:after {
+    transform-origin: center center;
+    transform: rotate(-70deg);
+  }
+  .right-bar:after {
+    transform-origin: center center;
+    transform: rotate(70deg);
+  }
+}

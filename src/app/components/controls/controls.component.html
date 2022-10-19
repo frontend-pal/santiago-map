@@ -1,112 +1,62 @@
-<div class="controls container">
-  <div class="title row py-2">
+<div class="main-left-container" [ngClass]="{'closed': toggleMenu}">
+  <div class="position-relative p-0">
+    <div class="banner"></div>
+    <div class="menu">
+      <div (click)="toggleMenu = !toggleMenu" class="hamburger hamburger--spin js-hamburger"
+        [ngClass]="{'is-active': !toggleMenu}">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-4 mb-2 title">
     <div class="col-12">
       <h4>Mapa Cloropletico</h4>
       <button mat-flat-button color="primary">PPA</button>
       <button mat-flat-button color="secondary" (click)="resetMap()">Center Map</button>
     </div>
   </div>
-  <div class="row py-1">
-    <div class="col-12">
-      <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
-        <div class="example-container">
-          <h4 class="text-uppercase">Seleccion un departamento:</h4>
-          <mat-form-field class="full-width text-uppercase" appearance="fill">
-            <mat-label>Buscar departamento</mat-label>
-            <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
-              [matAutocomplete]="auto" matInput>
-              <button *ngIf="mapForm.controls['department'].value !== ''" matSuffix mat-icon-button aria-label="Clear" (click)="mapForm.controls['department'].patchValue('');getTest()">
+  <div class="container controls">
+    <div class="row py-1">
+      <div class="col-12">
+        <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
+          <div class="example-container">
+            <h4 class="text-uppercase">Seleccion un departamento:</h4>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Buscar departamento</mat-label>
+              <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
+                [matAutocomplete]="auto" matInput>
+              <button *ngIf="mapForm.controls['department'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
+                (click)="mapForm.controls['department'].patchValue('');getTest()">
                 <mat-icon>close</mat-icon>
               </button>
-            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayDept.bind(this)"
-              autoActiveFirstOption (optionSelected)="getTest($event)">
-              <mat-option *ngFor="let option of filteredDeptOptions | async" [value]="option">
-                <span class="w-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
-              </mat-option>
-            </mat-autocomplete>
-          </mat-form-field>
-        </div>
+              <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayDept.bind(this)"
+                autoActiveFirstOption (optionSelected)="getTest($event)">
+                <mat-option *ngFor="let option of filteredDeptOptions | async" [value]="option">
+                  <span class="w-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+          </div>
 
-        <div class="example-container">
-          <h4 class="text-uppercase">Seleccion un Municipio:</h4>
-          <mat-form-field class="full-width text-uppercase" appearance="fill">
-            <mat-label>Buscar departamento</mat-label>
-            <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="municipality"
-              [matAutocomplete]="autoMun" matInput>
-            <mat-autocomplete autoActiveFirstOption #autoMun="matAutocomplete" [displayWith]="displayMun.bind(this)"
-              autoActiveFirstOption (optionSelected)="getTest2($event)">
-              <mat-option *ngFor="let option of filteredMunOptions | async" [value]="option">
-                <span class="w-mun-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
-              </mat-option>
-            </mat-autocomplete>
-          </mat-form-field>
-        </div>
+          <div class="example-container">
+            <h4 class="text-uppercase">Seleccion un Municipio:</h4>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Buscar departamento</mat-label>
+              <input type="text" placeholder="código o nombre" aria-label="Number" matInput
+                formControlName="municipality" [matAutocomplete]="autoMun" matInput>
+              <mat-autocomplete autoActiveFirstOption #autoMun="matAutocomplete" [displayWith]="displayMun.bind(this)"
+                autoActiveFirstOption (optionSelected)="getTest2($event)">
+                <mat-option *ngFor="let option of filteredMunOptions | async" [value]="option">
+                  <span class="w-mun-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+          </div>
 
-      </form>
-    </div>
-  </div>
-  <div class="row py-4">
-    <div class="col-12 col-sm-6 col-md-4">
-      <mat-card class="map-card red">
-        <mat-card-content>
-          <h4 class="card-title">Nivel Amenaza Total</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-value">13.979.329</h2>
-          <h4 class="card-subtitle-value">Maximo</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-footer-value">
-            1.024.243
-          </h2>
-        </mat-card-content>
-        <!-- <mat-card-actions>
-          <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button>
-        </mat-card-actions> -->
-      </mat-card>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-      <mat-card class="map-card blue">
-        <mat-card-content>
-          <h4 class="card-title">Probabilidad Amenaza Total</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-value">15.433.989</h2>
-          <h4 class="card-subtitle-value">Maximo</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-footer-value">
-            74.592
-          </h2>
-        </mat-card-content>
-        <!-- <mat-card-actions>
-          <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button>
-        </mat-card-actions> -->
-      </mat-card>
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4">
-      <mat-card class="map-card pink">
-        <mat-card-content>
-          <h4 class="card-title">Riesgo Maximo</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-value">430.417</h2>
-          <h4 class="card-subtitle-value">Riesgo Minimo</h4>
-        </mat-card-content>
-        <mat-card-content>
-          <h2 class="card-footer-value">
-            2.383
-          </h2>
-        </mat-card-content>
-        <!-- <mat-card-actions>
-          <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button>
-        </mat-card-actions> -->
-      </mat-card>
+        </form>
+      </div>
     </div>
   </div>
 </div>

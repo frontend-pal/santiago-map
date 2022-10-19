@@ -1,0 +1,76 @@
+<div class="main-chart-container" [ngClass]="{'closed': toggleMenu}">
+    <div class="arrow-container" (click)="toggleMenu = !toggleMenu">
+        <a class="arrow-icon" [ngClass]="{'open': !toggleMenu}">
+            <span class="left-bar"></span>
+            <span class="right-bar"></span>
+        </a>
+    </div>
+    <div class="chart-container" [ngClass]="{'closed': toggleMenu}">
+        <div class="container-fluid">
+            <div class="row py-4">
+                <div class="col-12 mb-4">
+                    <mat-card class="map-card red">
+                        <mat-card-content>
+                            <h4 class="card-title">Nivel Amenaza Total</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-value">13.979.329</h2>
+                            <h4 class="card-subtitle-value">Maximo</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-footer-value">
+                                1.024.243
+                            </h2>
+                        </mat-card-content>
+                        <!-- <mat-card-actions>
+                      <button mat-button>LIKE</button>
+                      <button mat-button>SHARE</button>
+                    </mat-card-actions> -->
+                    </mat-card>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <mat-card class="map-card blue">
+                        <mat-card-content>
+                            <h4 class="card-title">Probabilidad Amenaza Total</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-value">15.433.989</h2>
+                            <h4 class="card-subtitle-value">Maximo</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-footer-value">
+                                74.592
+                            </h2>
+                        </mat-card-content>
+                        <!-- <mat-card-actions>
+                      <button mat-button>LIKE</button>
+                      <button mat-button>SHARE</button>
+                    </mat-card-actions> -->
+                    </mat-card>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <mat-card class="map-card pink">
+                        <mat-card-content>
+                            <h4 class="card-title">Riesgo Maximo</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-value">430.417</h2>
+                            <h4 class="card-subtitle-value">Riesgo Minimo</h4>
+                        </mat-card-content>
+                        <mat-card-content>
+                            <h2 class="card-footer-value">
+                                2.383
+                            </h2>
+                        </mat-card-content>
+                        <!-- <mat-card-actions>
+                      <button mat-button>LIKE</button>
+                      <button mat-button>SHARE</button>
+                    </mat-card-actions> -->
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

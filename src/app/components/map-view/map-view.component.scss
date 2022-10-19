@@ -1,4 +1,10 @@
 .map-container {
-  min-height: calc(100vh - 240px);
-  width: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.p-relative,
+.p-relative * {
+  position: relative;
 }
