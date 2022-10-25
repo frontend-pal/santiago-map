@@ -28,11 +28,11 @@
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
                 [matAutocomplete]="auto" matInput>
               <button *ngIf="mapForm.controls['department'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
-                (click)="mapForm.controls['department'].patchValue('');getTest()">
+                (click)="mapForm.controls['department'].patchValue('');goToDpto()">
                 <mat-icon>close</mat-icon>
               </button>
               <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayDept.bind(this)"
-                autoActiveFirstOption (optionSelected)="getTest($event)">
+                autoActiveFirstOption (optionSelected)="goToDpto($event)">
                 <mat-option *ngFor="let option of filteredDeptOptions | async" [value]="option">
                   <span class="w-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
                 </mat-option>
@@ -47,7 +47,7 @@
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput
                 formControlName="municipality" [matAutocomplete]="autoMun" matInput>
               <mat-autocomplete autoActiveFirstOption #autoMun="matAutocomplete" [displayWith]="displayMun.bind(this)"
-                autoActiveFirstOption (optionSelected)="getTest2($event)">
+                autoActiveFirstOption (optionSelected)="goToMuni($event)">
                 <mat-option *ngFor="let option of filteredMunOptions | async" [value]="option">
                   <span class="w-mun-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
                 </mat-option>
