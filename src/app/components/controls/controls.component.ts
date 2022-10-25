@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
 import { Municipality } from 'src/app/models/municipality';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MapControllerService } from 'src/app/services/map-controller.service';
-import { LngLatLike } from 'mapbox-gl';
+import { LatLngExpression } from 'leaflet';
 
-const COLCOORDS: LngLatLike = {
+const COLCOORDS: LatLngExpression = {
   lng: -74.5472906,
   lat: 4.561896
 };
@@ -122,7 +122,7 @@ export class ControlsComponent implements OnInit {
     return element ? element.code + ' - ' + element.name : '';
   }
 
-  getTest(event?: MatAutocompleteSelectedEvent) {
+  goToDpto(event?: MatAutocompleteSelectedEvent) {
     if (event) {
       const currentDepartment: Department = event.option.value;
 
@@ -132,7 +132,7 @@ export class ControlsComponent implements OnInit {
       this.goToLocation({
         lng: currentDepartment.long,
         lat: currentDepartment.lat
-      })
+      }, 6)
     } else {
       this.municipality = this.allMunicipalities;
     }
@@ -140,7 +140,7 @@ export class ControlsComponent implements OnInit {
     this.mapForm.controls['municipality'].patchValue('');
   }
 
-  getTest2(event: MatAutocompleteSelectedEvent) {
+  goToMuni(event: MatAutocompleteSelectedEvent) {
     const currentMun: Municipality = event.option.value;
     const currentDepartment = this.departments.find(x => x.code === this.addZero(currentMun.departmentCode));
     console.log();
@@ -150,20 +150,20 @@ export class ControlsComponent implements OnInit {
     if (!!currentDepartment) {
       this.mapForm.controls['department'].patchValue(currentDepartment);
       this.goToLocation({
+        lat: currentDepartment.lat,
         lng: currentDepartment.long,
-        lat: currentDepartment.lat
-      });
+      }, 8);
     }
   }
 
-  goToLocation(mapCoords: LngLatLike) {
+  goToLocation(mapCoords: LatLngExpression, zoom: number) {
     if (!this.mapService.isMapready) throw new Error('No hay un mapa disponible.');
 
-    this.mapService.flyTo(mapCoords);
+    this.mapService.flyTo(mapCoords, zoom);
   }
 
   resetMap() {
-    this.goToLocation(COLCOORDS);
+    this.goToLocation(COLCOORDS, 6);
   }
 
   addZero(code: string) {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LngLatLike, Map } from 'mapbox-gl';
+import { LatLngExpression, Map } from 'leaflet';
 
 @Injectable({
   providedIn: 'root'
@@ -16,13 +16,13 @@ export class MapControllerService {
     this.map = map;
   }
 
-  flyTo(coords: LngLatLike): void {
+  flyTo(coords: LatLngExpression, zoom = 6): void {
     if ( !this.isMapready ) throw new Error('El mapa no esta inicializado correctamente.');
 
-    this.map?.flyTo({
-      zoom: 6,
-      center: coords
-    })
+    this.map?.flyTo(
+      coords,
+      zoom
+    )
   }
 
 }

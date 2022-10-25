@@ -5,7 +5,7 @@
 @import "scss/material-helper.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
 
-@import "~mapbox-gl/dist/mapbox-gl.css"; /* You can add global styles to this file, and also import other style files */
+@import "~leaflet/dist/leaflet.css";
 
 body {
   background-color: #202020;

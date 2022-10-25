@@ -4,6 +4,17 @@
   position: fixed;
 }
 
+.map-frame {
+  border: 2px solid black;
+  height: 100%;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
 .p-relative,
 .p-relative * {
   position: relative;
