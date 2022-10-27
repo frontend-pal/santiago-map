@@ -14,6 +14,35 @@ const COLCOORDS: LatLngExpression = {
   lat: 4.561896
 };
 
+const DISEASES = [
+  { name: 'Peste Porcina Africana', value: 1 }
+];
+
+const RISKS = [
+  { name: 'Tipo de Alimentación', value: 1 },
+  { name: 'Infraestructura y uso intalaciones', value: 2 },
+  { name: 'Contacto indirecto asociado a personas', value: 3 },
+  { name: 'Manejo de animales muertos', value: 4 },
+  { name: 'Manejo de cerdos reproductores', value: 5 },
+  { name: 'Presencia de otras especies', value: 6 },
+  { name: 'Movilización animal', value: 7 },
+  { name: 'Movilización de productos', value: 8 },
+  { name: 'Cercanía a fronteras', value: 9 },
+  { name: 'Cercanía a puertos, aeropuertos y otros', value: 10 },
+  { name: 'Cercanía y densidad de granjas', value: 11 },
+  { name: 'Cercanía a vias', value: 12 },
+  { name: 'Cercanía a basureros y rellenos sanitarios', value: 13 },
+  { name: 'Cercanía Centros poblados', value: 14 },
+  { name: 'Cercanía Ferias comerciales, exposiciones, subastas y remates', value: 15 },
+  { name: 'Cercanía Plantas de beneficio', value: 16 },
+  { name: 'Cercanía Procesadoras de productos cárnicos', value: 17 },
+  { name: 'Presencia de cerdos asilvestrados', value: 18 },
+  { name: 'Orientación productiva de la granja', value: 19 },
+  { name: 'Tipo de granja porcina e intensificación de la producción', value: 20 },
+  { name: 'Ingreso de porcinos y productos cárnicos', value: 21 },
+  { name: 'Movimiento internacional de personas', value: 22 }
+];
+
 @Component({
   selector: 'app-controls',
   templateUrl: './controls.component.html',
@@ -24,6 +53,9 @@ export class ControlsComponent implements OnInit {
   mapForm!: FormGroup;
   departments: Department[] | [] = [];
   filteredDeptOptions?: Observable<Department[]>;
+  diseases?: { name: string, value: number }[] | [] = [];
+  risks?: { name: string, value: number }[] | [] = [];
+  viewTypes?: { name: string, value: number }[] | [] = [];
 
   allMunicipalities!: Municipality[];
   municipality: Municipality[] | [] = [];
@@ -35,13 +67,19 @@ export class ControlsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.diseases = DISEASES;
+    this.risks = RISKS;
+    this.viewTypes = [];
     this.initForm();
   }
 
   initForm() {
     this.mapForm = new FormGroup({
       department: new FormControl('', null),
-      municipality: new FormControl('', null)
+      municipality: new FormControl('', null),
+      disease: new FormControl('', null),
+      risk: new FormControl('', null),
+      viewType: new FormControl('', null)
     })
 
     this.getData();

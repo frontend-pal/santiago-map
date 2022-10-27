@@ -10,18 +10,18 @@
       </div>
     </div>
   </div>
-  <div class="p-4 mb-2 title">
+  <!-- <div class="p-4 mb-2 title">
     <div class="col-12">
       <h4>Mapa Cloropletico</h4>
       <button mat-flat-button color="primary">PPA</button>
       <button mat-flat-button color="secondary" (click)="resetMap()">Center Map</button>
     </div>
-  </div>
+  </div> -->
   <div class="container controls">
     <div class="row py-1">
       <div class="col-12">
         <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
-          <div class="example-container">
+          <div class="form-container mt-4">
             <h4 class="text-uppercase">Seleccion un departamento:</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
@@ -40,7 +40,7 @@
             </mat-form-field>
           </div>
 
-          <div class="example-container">
+          <div class="form-container mt-4">
             <h4 class="text-uppercase">Seleccion un Municipio:</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
@@ -52,6 +52,43 @@
                   <span class="w-mun-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
                 </mat-option>
               </mat-autocomplete>
+            </mat-form-field>
+          </div>
+
+          <div class="form-container mt-4">
+            <h4 class="text-uppercase">Seleccion una enfermedad</h4>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>BUSCAR ENFERMEDAD</mat-label>
+              <mat-select formControlName="disease" >
+                <mat-option *ngFor="let disease of diseases" [value]="disease.value">
+                  {{ disease.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          
+          <div class="form-container mt-4">
+            <h4 class="text-uppercase">Análisis de riesgo específico</h4>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-select formControlName="risk" >
+                <mat-option *ngFor="let risk of risks" [value]="risk.value">
+                  {{ risk.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-container mt-4">
+            <h4 class="text-uppercase">Análisis de riesgo específico</h4>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione tipo de visualización</mat-label>
+              <mat-select formControlName="viewType" >
+                <mat-option *ngFor="let view of viewTypes" [value]="view.value">
+                  {{ view.name }}
+                </mat-option>
+              </mat-select>
             </mat-form-field>
           </div>
 
