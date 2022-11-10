@@ -6,12 +6,12 @@ $duration: 0.5s;
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #1e1e1e;
+  background-color: #404040;
 }
 
 .main-chart-container {
   width: calc(33.33vw + 24px);
-  max-width: calc(280px + 24px);
+  max-width: calc(340px + 24px);
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
@@ -160,5 +160,135 @@ $duration: 0.5s;
   .right-bar:after {
     transform-origin: center center;
     transform: rotate(70deg);
+  }
+}
+
+.big-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.big-title-number {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+.mid-title {
+  font-size: 1.125rem;
+  margin-top: 1.75rem;
+}
+
+.mid-title-number {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin-top: 0.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.categoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .number {
+    font-size: 2rem;
+  }
+
+  .icon {
+    border-radius: 4px;
+    padding: 4px;
+    height: 52px;
+    width: 52px;
+    margin-right: 8px;
+  }
+
+  .title {
+    text-align: left;
+
+    span {
+      font-size: 0.875rem;
+      
+    }
+
+    .tiny-title {
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0;
+      
+    }
+  }
+
+  &.proc-productivo {
+    .icon {
+      background-color: #c30c0c;
+    }
+
+    .title {
+      color: #c30c0c;
+    }
+  }
+
+  &.proc-biofisico {
+    .icon {
+      background-color: #072a51;
+    }
+
+    .title {
+      color: #072a51;
+    }
+  }
+
+  &.proc-biofisico-amb {
+    .icon {
+      background-color: #2bbdf3;
+    }
+
+    .title {
+      color: #2bbdf3;
+    }
+  }
+
+  &.proc-bioseguridad {
+    .icon {
+      background-color: #00b050;
+    }
+
+    .title {
+      color: #00b050;
+    }
+  }
+
+  &.proc-movilizacion {
+    .icon {
+      background-color: #97d258;
+    }
+
+    .title {
+      color: #97d258;
+    }
+  }
+
+  &.proc-socio-ec {
+    .icon {
+      background-color: #385723;
+    }
+
+    .title {
+      color: #385723;
+    }
+  }
+
+  &.proc-manejo-san {
+    .icon {
+      background-color: #ffc44f;
+    }
+
+    .title {
+      color: #ffc44f;
+    }
   }
 }

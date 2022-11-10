@@ -32,7 +32,25 @@ export class JsonListService {
       );
   }
 
+  public getColombiaGeoJson() {
+    return this.http.get('../../assets/json/Colombia_departamentos_poblacion.geojson');
+  }
+
+  public getMunicGeoJson() {
+    return this.http.get('../../assets/json/municipios/MGN_ANM_MPIOS.geojson');
+  }
+
+  public getDptoGeoJson(dpto?: string) {
+    return this.http.get('../../assets/json/dptos/ANTIOQUIA.geojson');
+  }
+
   public getMunicipalityByCode(code: string | undefined): Municipality[] | [] {
     return this.municipios.length !== 0 && code !== undefined ? this.municipios.filter(x => x.departmentCode === code?.toString()) : [];
+  }
+
+  public getDptoDataGeoJson(name: string) {
+    name = name.toUpperCase();
+    console.log(name);
+    return this.http.get(`../../assets/json/excelData/${name}.json`);
   }
 }

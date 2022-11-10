@@ -43,7 +43,7 @@
           <div class="form-container mt-4">
             <h4 class="text-uppercase">Seleccion un Municipio:</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Buscar departamento</mat-label>
+              <mat-label>Buscar Municipio</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput
                 formControlName="municipality" [matAutocomplete]="autoMun" matInput>
               <mat-autocomplete autoActiveFirstOption #autoMun="matAutocomplete" [displayWith]="displayMun.bind(this)"
@@ -81,7 +81,7 @@
           </div>
 
           <div class="form-container mt-4">
-            <h4 class="text-uppercase">Análisis de riesgo específico</h4>
+            <h4 class="text-uppercase">Tipo de visualización</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione tipo de visualización</mat-label>
               <mat-select formControlName="viewType" >

@@ -1,5 +1,6 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import L, { LatLngLiteral, Map } from 'leaflet';
+import { JsonListService } from 'src/app/services/Json-list.service';
 import { MapControllerService } from 'src/app/services/map-controller.service';
 
 export const DEFAULT_LAT = 4.561896;
@@ -15,14 +16,16 @@ export class MapViewComponent implements AfterViewInit {
     lat: DEFAULT_LAT,
     lng: DEFAULT_LON
   };
+  private geoJsonData!: any;
 
   constructor(
-    private mapService: MapControllerService
+    private mapService: MapControllerService,
+    private jsonService: JsonListService
   ) { }
 
 
   ngAfterViewInit(): void {
-    this.initMap();
+    this.getGeoJson();
   }
 
   private initMap(): void {
@@ -42,13 +45,23 @@ export class MapViewComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
     });
 
-    const CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 20
-    });
+    // const CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    //   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    //   subdomains: 'abcd',
+    //   maxZoom: 20
+    // });
 
     blackTile.addTo(this.map);
+
+    L.geoJSON(this.geoJsonData).addTo(this.map);
+
     this.mapService.setMap(this.map);
+  }
+
+  getGeoJson() {
+    this.jsonService.getDptoGeoJson().subscribe(res => {
+      this.geoJsonData = res;
+      this.initMap();
+    });
   }
 }

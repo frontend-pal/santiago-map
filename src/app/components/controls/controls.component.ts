@@ -8,6 +8,7 @@ import { Municipality } from 'src/app/models/municipality';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MapControllerService } from 'src/app/services/map-controller.service';
 import { LatLngExpression } from 'leaflet';
+import { ControlFormService } from 'src/app/services/control-form.service';
 
 const COLCOORDS: LatLngExpression = {
   lng: -74.5472906,
@@ -62,6 +63,7 @@ export class ControlsComponent implements OnInit {
   filteredMunOptions?: Observable<Municipality[]>;
 
   constructor(
+    private controlFormService: ControlFormService,
     private jsonService: JsonListService,
     private mapService: MapControllerService
   ) { }
@@ -181,10 +183,9 @@ export class ControlsComponent implements OnInit {
   goToMuni(event: MatAutocompleteSelectedEvent) {
     const currentMun: Municipality = event.option.value;
     const currentDepartment = this.departments.find(x => x.code === this.addZero(currentMun.departmentCode));
-    console.log();
-    console.log(currentDepartment);
-    console.log(this.departments);
 
+    console.log("entre a municipio");
+    this.setControl('municipality', currentMun)
     if (!!currentDepartment) {
       this.mapForm.controls['department'].patchValue(currentDepartment);
       this.goToLocation({
@@ -192,6 +193,14 @@ export class ControlsComponent implements OnInit {
         lng: currentDepartment.long,
       }, 8);
     }
+  }
+
+  setControl(controlName: string, value: Municipality | Department) {
+    console.log(controlName, value);
+    this.controlFormService.setControlData({
+      control: controlName,
+      value: value
+    });
   }
 
   goToLocation(mapCoords: LatLngExpression, zoom: number) {

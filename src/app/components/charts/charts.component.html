@@ -6,8 +6,114 @@
         </a>
     </div>
     <div class="chart-container" [ngClass]="{'closed': toggleMenu}">
-        <div class="container-fluid">
-            <div class="row py-4">
+        <div class="px-1">
+            <div class="row py-4 m-0 text-center">
+                <div class="col-12 mb-4">
+                    <h2 class="big-title">Riesgo Específico</h2>
+                    <h1 class="big-title-number">
+                        0,0%
+                    </h1>
+                </div>
+                <div class="col-6 mb-4">
+                    <h4 class="mid-title">Amenaza</h4>
+                    <h3 class="mid-title-number">
+                        0,0%
+                    </h3>
+                </div>
+                <div class="col-6 mb-4">
+                    <h4 class="mid-title">Vulnerabilidad</h4>
+                    <h3 class="mid-title-number">
+                        0,0%
+                    </h3>
+                </div>
+
+                <div class="col-12 mt-2 px-0 categoria proc-productivo">
+                    <div class="col-4 number">{{ catProcesoProductivo * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-1.svg" alt="Proceso Productivo">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Proceso Productivo
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-biofisico">
+                    <div class="col-4 number">{{ catEspacioBiofisico * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-2.svg" alt="Espacio Biofísico">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Espacio Biofísico
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-biofisico-amb">
+                    <div class="col-4 number">{{ catEntornoBiosifico * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-3.svg" alt="Entorno Biofísico-Ambiental">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Entorno<br>Biofísico-Ambiental
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-bioseguridad">
+                    <div class="col-4 number">{{ catBioseguridad * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-4.svg" alt="Bioseguridad">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Bioseguridad
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-movilizacion">
+                    <div class="col-4 number">{{ catMovilizacion * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-5.svg" alt="Movilización">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Movilización
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-socio-ec">
+                    <div class="col-4 number">{{ catSocioEconomico * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-6.svg" alt="Entorno Socio-Económico">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Entorno<br>Socio-Económico
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-12 mt-2 px-0 categoria proc-manejo-san">
+                    <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.1-1' }}%</div>
+                    <div class="col-2 icon">
+                        <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
+                    </div>
+                    <div class="col-6 title">
+                        <span>Categoría</span>
+                        <h4 class="tiny-title">
+                            Manejo Sanitario
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row py-4">
                 <div class="col-12 mb-4">
                     <mat-card class="map-card red">
                         <mat-card-content>
@@ -22,10 +128,10 @@
                                 1.024.243
                             </h2>
                         </mat-card-content>
-                        <!-- <mat-card-actions>
+                        <mat-card-actions>
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
-                    </mat-card-actions> -->
+                    </mat-card-actions>
                     </mat-card>
                 </div>
 
@@ -43,10 +149,10 @@
                                 74.592
                             </h2>
                         </mat-card-content>
-                        <!-- <mat-card-actions>
+                      <mat-card-actions>
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
-                    </mat-card-actions> -->
+                    </mat-card-actions>
                     </mat-card>
                 </div>
 
@@ -64,13 +170,13 @@
                                 2.383
                             </h2>
                         </mat-card-content>
-                        <!-- <mat-card-actions>
+                        <mat-card-actions>
                       <button mat-button>LIKE</button>
                       <button mat-button>SHARE</button>
-                    </mat-card-actions> -->
+                    </mat-card-actions>
                     </mat-card>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
