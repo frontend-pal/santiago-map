@@ -16,16 +16,14 @@ export class MapViewComponent implements AfterViewInit {
     lat: DEFAULT_LAT,
     lng: DEFAULT_LON
   };
-  private geoJsonData!: any;
 
   constructor(
-    private mapService: MapControllerService,
-    private jsonService: JsonListService
+    private mapService: MapControllerService
   ) { }
 
 
   ngAfterViewInit(): void {
-    this.getGeoJson();
+    this.initMap();
   }
 
   private initMap(): void {
@@ -53,15 +51,8 @@ export class MapViewComponent implements AfterViewInit {
 
     blackTile.addTo(this.map);
 
-    L.geoJSON(this.geoJsonData).addTo(this.map);
+    // L.geoJSON(this.geoJsonData).addTo(this.map);
 
     this.mapService.setMap(this.map);
-  }
-
-  getGeoJson() {
-    this.jsonService.getDptoGeoJson().subscribe(res => {
-      this.geoJsonData = res;
-      this.initMap();
-    });
   }
 }

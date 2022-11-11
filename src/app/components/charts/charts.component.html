@@ -10,20 +10,28 @@
             <div class="row py-4 m-0 text-center">
                 <div class="col-12 mb-4">
                     <h2 class="big-title">Riesgo Específico</h2>
-                    <h1 class="big-title-number">
-                        0,0%
+                    <h1 class="big-title-number" *ngIf="!!currentRisk && currentRisk !== -1">
+                        {{ currentRisk | number:'1.1-1' }}%
+                    </h1>
+                    <h1 class="big-title-number" *ngIf="!!currentRisk && currentRisk === -1">
+                        N/A
                     </h1>
                 </div>
                 <div class="col-6 mb-4">
                     <h4 class="mid-title">Amenaza</h4>
-                    <h3 class="mid-title-number">
-                        0,0%
+                    <h3 class="mid-title-number" *ngIf="!!currentRisk && currentRisk !== -1">
+                        <ng-container *ngIf="currentRisk < 33"> Bajo </ng-container>
+                        <ng-container *ngIf="currentRisk > 33 && currentRisk < 66"> Medio </ng-container>
+                        <ng-container *ngIf="currentRisk > 66"> Alto </ng-container>
+                    </h3>
+                    <h3 class="mid-title-number" *ngIf="!!currentRisk && currentRisk === -1">
+                        N/A
                     </h3>
                 </div>
                 <div class="col-6 mb-4">
                     <h4 class="mid-title">Vulnerabilidad</h4>
                     <h3 class="mid-title-number">
-                        0,0%
+                        N/A
                     </h3>
                 </div>
 

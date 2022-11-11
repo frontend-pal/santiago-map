@@ -20,6 +20,12 @@ export class ChartsComponent implements OnInit {
   catSocioEconomico: number = 0;
   catManejoSanitario: number = 0;
 
+  // Excel Data
+  currentData?: any | null;
+
+  // Riesgo
+  currentRisk?: number | null = null;
+
   constructor(
     private controlFormService: ControlFormService,
     private jsonService: JsonListService
@@ -30,7 +36,17 @@ export class ChartsComponent implements OnInit {
     console.log(this.controlFormService);
     this.controlFormService.controlData.subscribe(res => {
       console.log("entre al update de atras");
-      this.updateData(res);
+      switch (res.control) {
+        case 'municipality':
+          this.updateData(res);
+          break;
+        case 'risk':
+          this.setRiskData(res);
+          break;
+        default:
+          // void
+          break;
+      }
     });
   }
 
@@ -42,38 +58,48 @@ export class ChartsComponent implements OnInit {
     this.catMovilizacion = 0;
     this.catSocioEconomico = 0;
     this.catManejoSanitario = 0;
+    this.currentRisk = null;
   }
 
   updateData(event: ControlEvent) {
-    console.log("entre al update de aadelante");
-    console.log(event);
-    if (event.control === 'municipality') {
-      const municData = event.value as Municipality
+    switch (event.control) {
+      case 'municipality':
+        const municData = event.value as Municipality
 
-      this.jsonService.getDptoDataGeoJson(municData?.departmentName).subscribe(res => {
-        console.log(res);
-        if (!!res) this.setDptoData(res, municData);
+        this.jsonService.getDptoDataGeoJson(municData?.departmentName).subscribe(res => {
+          console.log(res);
+          if (!!res) this.setMunicData(res, municData);
 
-      });
+        });
+        break;
+      case 'reset':
+        this.resetCategories();
+        break;
+
+      default:
+        break;
     }
   }
 
-  public setDptoData(data: any, munic: Municipality) {
-    const currentData = data.find((x: any) => x.divipola === munic.code);
+  public setMunicData(data: any, munic: Municipality) {
+    this.currentData = data.find((x: any) => x.divipola === munic.code);
 
-    console.log(currentData['Probabilidad Categoria Procesoproductivo']);
-    if (!!currentData) {
-      this.catProcesoProductivo = currentData['Probabilidad Categoria Procesoproductivo'];
-      this.catEspacioBiofisico = currentData['Probabilidad Categoria Espacio BioFisico'];
-      this.catEntornoBiosifico = currentData['Probabilidad Categoria Entorno BioFisicoAmbiental'];
-      this.catBioseguridad = currentData['Probabilidad Categoria Bio seguridad'];
-      this.catMovilizacion = currentData['Probabilidad Categoria Movilizacion'];
-      this.catSocioEconomico = currentData['Probabilidad Categoria Entorno socioeconomico'];
+    if (!!this.currentData) {
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_productivo'];
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_BioFisico'];
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_BioFisico_Ambiental'];
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'];
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'];
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_sociEco'];
       this.catManejoSanitario = 0; // Aún no esta
     } else {
       this.resetCategories();
     }
   }
 
-
+  public setRiskData(data: ControlEvent) {
+    console.log(data);
+    this.currentRisk = this.currentData[data.value as string];
+    if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
+  }
 }

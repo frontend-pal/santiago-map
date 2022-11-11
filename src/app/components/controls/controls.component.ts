@@ -9,6 +9,7 @@ import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MapControllerService } from 'src/app/services/map-controller.service';
 import { LatLngExpression } from 'leaflet';
 import { ControlFormService } from 'src/app/services/control-form.service';
+import { MatSelectChange } from '@angular/material/select';
 
 const COLCOORDS: LatLngExpression = {
   lng: -74.5472906,
@@ -16,32 +17,32 @@ const COLCOORDS: LatLngExpression = {
 };
 
 const DISEASES = [
-  { name: 'Peste Porcina Africana', value: 1 }
+  { name: 'Peste Porcina Africana', value: 'ppa' }
 ];
 
 const RISKS = [
-  { name: 'Tipo de Alimentación', value: 1 },
-  { name: 'Infraestructura y uso intalaciones', value: 2 },
-  { name: 'Contacto indirecto asociado a personas', value: 3 },
-  { name: 'Manejo de animales muertos', value: 4 },
-  { name: 'Manejo de cerdos reproductores', value: 5 },
-  { name: 'Presencia de otras especies', value: 6 },
-  { name: 'Movilización animal', value: 7 },
-  { name: 'Movilización de productos', value: 8 },
-  { name: 'Cercanía a fronteras', value: 9 },
-  { name: 'Cercanía a puertos, aeropuertos y otros', value: 10 },
-  { name: 'Cercanía y densidad de granjas', value: 11 },
-  { name: 'Cercanía a vias', value: 12 },
-  { name: 'Cercanía a basureros y rellenos sanitarios', value: 13 },
-  { name: 'Cercanía Centros poblados', value: 14 },
-  { name: 'Cercanía Ferias comerciales, exposiciones, subastas y remates', value: 15 },
-  { name: 'Cercanía Plantas de beneficio', value: 16 },
-  { name: 'Cercanía Procesadoras de productos cárnicos', value: 17 },
-  { name: 'Presencia de cerdos asilvestrados', value: 18 },
-  { name: 'Orientación productiva de la granja', value: 19 },
-  { name: 'Tipo de granja porcina e intensificación de la producción', value: 20 },
-  { name: 'Ingreso de porcinos y productos cárnicos', value: 21 },
-  { name: 'Movimiento internacional de personas', value: 22 }
+  { name: 'Tipo de Alimentación', value: 'Prob_Fac_Riesgo_Tipo_de_alimentación'},
+  { name: 'Infraestructura y uso intalaciones', value: 'Prob_Fac_Riesgo_infra_y_uso_intalaciones'},
+  { name: 'Contacto indirecto asociado a personas', value: 'Prob_Fac_Riesgo_Contac_IndirecPerson'},
+  { name: 'Manejo de animales muertos', value: 'Prob_Fac_Riesgo_Manejo_muertos'},
+  { name: 'Manejo de cerdos reproductores', value: '_Prob_FacRiesgo_Manejo_Reprod'},
+  { name: 'Presencia de otras especies', value: 'Prob_Fac_Riesgo_Presen_OtrasEspecie'},
+  { name: 'Movilización animal', value: 'Prob_Fac_Riesgo_Moviliza_animal'},
+  { name: 'Movilización de productos', value: 'Prob_Fac_Riesgo_Moviliza_de_productos'},
+  { name: 'Cercanía a fronteras', value: 'Prob_Fac_Riesgo_Cerc_a_fronteras'},
+  { name: 'Cercanía a puertos, aeropuertos y otros', value: 'Prob_Fac_Riesgo_Cerc_a_puertos'},
+  { name: 'Cercanía y densidad de granjas', value: 'Prob_Fac_Riesgo_Cerc_y_densidadgranj'},
+  { name: 'Cercanía a vias', value: 'Prob_Fac_Riesgo_Cerc_a_vias'},
+  { name: 'Cercanía a basureros y rellenos sanitarios', value: 'Prob_Fac_Riesgo_Cerc_a_basureros'},
+  { name: 'Cercanía Centros poblados', value: 'Prob_Fac_Riesgo_Cerc_Centros_poblados'},
+  { name: 'Cercanía Ferias comerciales, exposiciones, subastas y remates', value: 'Prob_Fac_Riesgo_Cerc_Ferias_comerciales'},
+  { name: 'Cercanía Plantas de beneficio', value: 'Prob_Fac_Riesgo_Cerc_Plantas_de_beneficio'},
+  { name: 'Cercanía Procesadoras de productos cárnicos', value: 'Prob_Fac_Riesgo_Cerc_Procesadoras_de_productos_cárnicos'},
+  { name: 'Presencia de cerdos asilvestrados', value: 'Prob_Fac_Riesgo_Presen_Asilvestrados'},
+  { name: 'Orientación productiva de la granja', value: 'Prob_Fac_Riesgo_Orien_Producti'},
+  { name: 'Tipo de granja porcina e intensificación de la producción', value: 'Prob_Fac_Riesgo_Tipo_Granj'},
+  { name: 'Ingreso de porcinos y productos cárnicos', value: 'Prob_Fac_Riesgo_Ingr_Porci'},
+  { name: 'Movimiento internacional de personas', value: 'Prob_Fac_Riesgo_Mov_Internacional_pers'}
 ];
 
 @Component({
@@ -54,8 +55,8 @@ export class ControlsComponent implements OnInit {
   mapForm!: FormGroup;
   departments: Department[] | [] = [];
   filteredDeptOptions?: Observable<Department[]>;
-  diseases?: { name: string, value: number }[] | [] = [];
-  risks?: { name: string, value: number }[] | [] = [];
+  diseases?: { name: string, value: string }[] | [] = [];
+  risks?: { name: string, value: string }[] | [] = [];
   viewTypes?: { name: string, value: number }[] | [] = [];
 
   allMunicipalities!: Municipality[];
@@ -184,18 +185,30 @@ export class ControlsComponent implements OnInit {
     const currentMun: Municipality = event.option.value;
     const currentDepartment = this.departments.find(x => x.code === this.addZero(currentMun.departmentCode));
 
-    console.log("entre a municipio");
-    this.setControl('municipality', currentMun)
+    this.setControl('municipality', currentMun);
     if (!!currentDepartment) {
       this.mapForm.controls['department'].patchValue(currentDepartment);
-      this.goToLocation({
-        lat: currentDepartment.lat,
-        lng: currentDepartment.long,
-      }, 8);
+      // this.goToLocation({
+      //   lat: currentDepartment.lat,
+      //   lng: currentDepartment.long,
+      // }, 8);
     }
+
+    this.getMuniMap(currentMun);
   }
 
-  setControl(controlName: string, value: Municipality | Department) {
+  setRisk(event: MatSelectChange ) {
+    console.log(event.value);
+    this.setControl('risk', event.value);
+  }
+
+  getMuniMap(currentMun: Municipality) {
+    this.jsonService.getMuniDataGeoJson(currentMun).subscribe(res => {
+      if (!!res) this.mapService.setGeoJson(res);
+    });
+  }
+
+  setControl(controlName: string, value: Municipality | Department | string) {
     console.log(controlName, value);
     this.controlFormService.setControlData({
       control: controlName,

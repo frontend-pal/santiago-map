@@ -1,15 +1,18 @@
 import { Injectable } from '@angular/core';
-import { LatLngExpression, Map } from 'leaflet';
-
+import L, { LatLngExpression, Map } from 'leaflet';
 @Injectable({
   providedIn: 'root'
 })
 export class MapControllerService {
-  private map?: Map;
+  private map!: Map;
 
 
   get isMapready() {
     return !!this.map;
+  } 
+
+  get myMap() {
+    return this.map;
   }
 
   setMap(map: Map): void {
@@ -27,13 +30,13 @@ export class MapControllerService {
 
   public getColor(d: any) {
     return d > 1000 ? '#800026' :
-           d > 500  ? '#BD0026' :
-           d > 200  ? '#E31A1C' :
-           d > 100  ? '#FC4E2A' :
-           d > 50   ? '#FD8D3C' :
-           d > 20   ? '#FEB24C' :
-           d > 10   ? '#FED976' :
-                      '#FFEDA0';
+      d > 500 ? '#BD0026' :
+        d > 200 ? '#E31A1C' :
+          d > 100 ? '#FC4E2A' :
+            d > 50 ? '#FD8D3C' :
+              d > 20 ? '#FEB24C' :
+                d > 10 ? '#FED976' :
+                  '#FFEDA0';
   }
 
   public style(feature: any) {
@@ -58,5 +61,9 @@ export class MapControllerService {
     });
 
     layer.bringToFront();
+  }
+
+  public setGeoJson(res: any) {
+    this.isMapready && L.geoJSON(res).addTo(this.map);
   }
 }

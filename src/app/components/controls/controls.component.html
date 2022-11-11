@@ -72,7 +72,7 @@
             <h4 class="text-uppercase">Análisis de riesgo específico</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
-              <mat-select formControlName="risk" >
+              <mat-select formControlName="risk" (selectionChange)="setRisk($event)">
                 <mat-option *ngFor="let risk of risks" [value]="risk.value">
                   {{ risk.name }}
                 </mat-option>

@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Department } from '../models/departamento';
 import { Municipality } from '../models/municipality';
+import { Feature, GeoJsonData } from '../models/GeoJsonData';
 
 @Injectable({
   providedIn: 'root'
@@ -48,9 +49,22 @@ export class JsonListService {
     return this.municipios.length !== 0 && code !== undefined ? this.municipios.filter(x => x.departmentCode === code?.toString()) : [];
   }
 
-  public getDptoDataGeoJson(name: string) {
+  public getDptoDataGeoJson(name: string, disease = 'ppa') {
     name = name.toUpperCase();
-    console.log(name);
-    return this.http.get(`../../assets/json/excelData/${name}.json`);
+    disease = disease.toUpperCase();
+    return this.http.get(`../../assets/json/excelData/${name}_${disease}.json`);
+  }
+
+  public getMuniDataGeoJson(data: Municipality): Observable<Feature | undefined> {
+    const name = data.departmentName.toUpperCase();
+    const muniCode = data.code;
+
+    return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`)
+      .pipe(
+        map(res => {
+          const muniFeature = res.features.find(x => x.properties.mpios === muniCode);
+
+          return muniFeature;
+        }));
   }
 }

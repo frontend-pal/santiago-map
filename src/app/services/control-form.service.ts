@@ -5,7 +5,7 @@ import { Municipality } from '../models/municipality';
 
 export interface ControlEvent {
   control: string;
-  value: Municipality | Department | null;
+  value: Municipality | Department | string | null;
 }
 
 @Injectable({
@@ -19,8 +19,8 @@ export class ControlFormService {
   public get controlData(): Subject<ControlEvent> {
     return this._controlData;
   }
-  
+
   public setControlData(value: ControlEvent) {
     this._controlData.next(value);
-  }  
+  }
 }
