@@ -32,16 +32,16 @@ export class ChartsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    console.log("entre al init");
-    console.log(this.controlFormService);
     this.controlFormService.controlData.subscribe(res => {
-      console.log("entre al update de atras");
       switch (res.control) {
         case 'municipality':
           this.updateData(res);
           break;
         case 'risk':
           this.setRiskData(res);
+          break;
+        case 'reset':
+          this.resetCategories();
           break;
         default:
           // void
@@ -66,11 +66,10 @@ export class ChartsComponent implements OnInit {
       case 'municipality':
         const municData = event.value as Municipality
 
-        this.jsonService.getDptoDataGeoJson(municData?.departmentName).subscribe(res => {
-          console.log(res);
-          if (!!res) this.setMunicData(res, municData);
-
-        });
+        this.jsonService.getDptoDataGeoJson(municData?.departmentCode)
+          .subscribe(res => {
+            if (!!res) this.setMunicData(res, municData);
+          });
         break;
       case 'reset':
         this.resetCategories();
@@ -98,7 +97,6 @@ export class ChartsComponent implements OnInit {
   }
 
   public setRiskData(data: ControlEvent) {
-    console.log(data);
     this.currentRisk = this.currentData[data.value as string];
     if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
   }

@@ -5,7 +5,7 @@ import { Municipality } from '../models/municipality';
 
 export interface ControlEvent {
   control: string;
-  value: Municipality | Department | string | null;
+  value?: Municipality | Department | string | null;
 }
 
 @Injectable({

@@ -28,7 +28,7 @@
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
                 [matAutocomplete]="auto" matInput>
               <button *ngIf="mapForm.controls['department'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
-                (click)="mapForm.controls['department'].patchValue('');goToDpto()">
+                (click)="resetDpto()">
                 <mat-icon>close</mat-icon>
               </button>
               <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayDept.bind(this)"
@@ -46,6 +46,10 @@
               <mat-label>Buscar Municipio</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput
                 formControlName="municipality" [matAutocomplete]="autoMun" matInput>
+                <button *ngIf="mapForm.controls['municipality'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
+                (click)="resetMuni()">
+                <mat-icon>close</mat-icon>
+              </button>
               <mat-autocomplete autoActiveFirstOption #autoMun="matAutocomplete" [displayWith]="displayMun.bind(this)"
                 autoActiveFirstOption (optionSelected)="goToMuni($event)">
                 <mat-option *ngFor="let option of filteredMunOptions | async" [value]="option">
@@ -80,7 +84,7 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-4">
+          <!-- <div class="form-container mt-4">
             <h4 class="text-uppercase">Tipo de visualización</h4>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione tipo de visualización</mat-label>
@@ -90,7 +94,7 @@
                 </mat-option>
               </mat-select>
             </mat-form-field>
-          </div>
+          </div> -->
 
         </form>
       </div>

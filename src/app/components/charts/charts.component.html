@@ -8,16 +8,19 @@
     <div class="chart-container" [ngClass]="{'closed': toggleMenu}">
         <div class="px-1">
             <div class="row py-4 m-0 text-center">
-                <div class="col-12 mb-4">
+                <div class="col-12 mb-2">
                     <h2 class="big-title">Riesgo Específico</h2>
-                    <h1 class="big-title-number" *ngIf="!!currentRisk && currentRisk !== -1">
-                        {{ currentRisk | number:'1.1-1' }}%
-                    </h1>
-                    <h1 class="big-title-number" *ngIf="!!currentRisk && currentRisk === -1">
-                        N/A
-                    </h1>
+                    <ng-container  *ngIf="!!currentRisk && currentRisk !== -1">
+                        <h1 class="big-title-number">{{ currentRisk | number:'1.1-1' }}%</h1>
+                    </ng-container>
+                    <ng-container *ngIf="!!currentRisk && currentRisk === -1">
+                        <h1 class="big-title-number">N/A</h1>
+                    </ng-container>
+                    <ng-container *ngIf="currentRisk === null">
+                        <h1 class="big-title-number">N/A</h1>
+                    </ng-container>
                 </div>
-                <div class="col-6 mb-4">
+                <div class="col-6 mb-2">
                     <h4 class="mid-title">Amenaza</h4>
                     <h3 class="mid-title-number" *ngIf="!!currentRisk && currentRisk !== -1">
                         <ng-container *ngIf="currentRisk < 33"> Bajo </ng-container>
@@ -27,8 +30,11 @@
                     <h3 class="mid-title-number" *ngIf="!!currentRisk && currentRisk === -1">
                         N/A
                     </h3>
+                    <h3 class="mid-title-number" *ngIf="currentRisk === null">
+                        N/A
+                    </h3>
                 </div>
-                <div class="col-6 mb-4">
+                <div class="col-6 mb-2">
                     <h4 class="mid-title">Vulnerabilidad</h4>
                     <h3 class="mid-title-number">
                         N/A
