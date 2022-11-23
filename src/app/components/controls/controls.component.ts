@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
-import { Department } from 'src/app/models/departamento';
-import { JsonListService } from 'src/app/services/Json-list.service';
-import { map, startWith } from 'rxjs/operators';
-import { Observable } from 'rxjs';
-import { Municipality } from 'src/app/models/municipality';
+import { FormControl, FormGroup } from '@angular/forms';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
-import { MapControllerService } from 'src/app/services/map-controller.service';
-import { LatLngExpression } from 'leaflet';
-import { ControlFormService } from 'src/app/services/control-form.service';
 import { MatSelectChange } from '@angular/material/select';
+import { LatLngExpression } from 'leaflet';
+import { Observable } from 'rxjs';
+import { map, startWith } from 'rxjs/operators';
+import { Department } from 'src/app/models/departamento';
+import { Municipality } from 'src/app/models/municipality';
+import { ControlFormService } from 'src/app/services/control-form.service';
+import { JsonListService } from 'src/app/services/Json-list.service';
+import { MapControllerService } from 'src/app/services/map-controller.service';
 
 const COLCOORDS: LatLngExpression = {
   lng: -74.5472906,
@@ -18,6 +18,12 @@ const COLCOORDS: LatLngExpression = {
 
 const DISEASES = [
   { name: 'Peste Porcina Africana', value: 'ppa' }
+];
+
+const VISUALIZATIONTYPES = [
+  { name: 'Frontera Agrícola', value: 'agri' },
+  { name: 'Aptitud', value: 'apt' },
+  { name: 'Municipio', value: 'muni' }
 ];
 
 const RISKS = [
@@ -57,7 +63,7 @@ export class ControlsComponent implements OnInit {
   filteredDeptOptions?: Observable<Department[]>;
   diseases?: { name: string, value: string }[] | [] = [];
   risks?: { name: string, value: string }[] | [] = [];
-  viewTypes?: { name: string, value: number }[] | [] = [];
+  viewTypes?: { name: string, value: string }[] | [] = [];
 
   allMunicipalities!: Municipality[];
   municipality: Municipality[] | [] = [];
@@ -72,7 +78,7 @@ export class ControlsComponent implements OnInit {
   ngOnInit(): void {
     this.diseases = DISEASES;
     this.risks = RISKS;
-    this.viewTypes = [];
+    this.viewTypes = VISUALIZATIONTYPES;
     this.initForm();
   }
 
@@ -175,7 +181,7 @@ export class ControlsComponent implements OnInit {
     } else {
       this.municipality = this.allMunicipalities;
     }
-    this.resetMuni();    
+    this.resetMuni();
   }
 
   goToMuni(event?: MatAutocompleteSelectedEvent) {

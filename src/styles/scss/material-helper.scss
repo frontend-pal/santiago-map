@@ -1,5 +1,4 @@
-
-@use '~@angular/material' as mat;
+@use "~@angular/material" as mat;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -18,13 +17,15 @@ $map-data-app-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$map-data-app-theme: mat.define-light-theme((
-  color: (
-    primary: $map-data-app-primary,
-    accent: $map-data-app-accent,
-    warn: $map-data-app-warn,
+$map-data-app-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $map-data-app-primary,
+      accent: $map-data-app-accent,
+      warn: $map-data-app-warn,
+    ),
   )
-));
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
@@ -282,4 +283,28 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
   .mat-badge-content {
     font-family: "Roboto";
   }
+}
+
+/* inputs */
+
+.mat-form-field {
+  height: 64px;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 4px 4px 0 0;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-infix {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float
+  .mat-form-field-label,
+.mat-form-field-appearance-fill.mat-form-field-can-float
+  .mat-input-server:focus
+  + .mat-form-field-label-wrapper
+  .mat-form-field-label {
+  color: #2bbdf3;
 }

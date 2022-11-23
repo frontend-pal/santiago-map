@@ -21,8 +21,21 @@
     <div class="row py-1">
       <div class="col-12">
         <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
-          <div class="form-container mt-4">
-            <h4 class="text-uppercase">Seleccion un departamento:</h4>
+
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Tipo de visualización</h5>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione tipo de visualización</mat-label>
+              <mat-select formControlName="viewType">
+                <mat-option *ngFor="let view of viewTypes" [value]="view.value">
+                  {{ view.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Seleccion un departamento:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
@@ -40,13 +53,13 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-4">
-            <h4 class="text-uppercase">Seleccion un Municipio:</h4>
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Seleccion un Municipio:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar Municipio</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput
                 formControlName="municipality" [matAutocomplete]="autoMun" matInput>
-                <button *ngIf="mapForm.controls['municipality'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
+              <button *ngIf="mapForm.controls['municipality'].value !== ''" matSuffix mat-icon-button aria-label="Clear"
                 (click)="resetMuni()">
                 <mat-icon>close</mat-icon>
               </button>
@@ -59,11 +72,11 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-4">
-            <h4 class="text-uppercase">Seleccion una enfermedad</h4>
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Seleccion una enfermedad</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>BUSCAR ENFERMEDAD</mat-label>
-              <mat-select formControlName="disease" >
+              <mat-select formControlName="disease">
                 <mat-option *ngFor="let disease of diseases" [value]="disease.value">
                   {{ disease.name }}
                 </mat-option>
@@ -71,9 +84,9 @@
             </mat-form-field>
           </div>
 
-          
-          <div class="form-container mt-4">
-            <h4 class="text-uppercase">Análisis de riesgo específico</h4>
+
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Análisis de riesgo específico</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
               <mat-select formControlName="risk" (selectionChange)="setRisk($event)">
@@ -83,18 +96,6 @@
               </mat-select>
             </mat-form-field>
           </div>
-
-          <!-- <div class="form-container mt-4">
-            <h4 class="text-uppercase">Tipo de visualización</h4>
-            <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Seleccione tipo de visualización</mat-label>
-              <mat-select formControlName="viewType" >
-                <mat-option *ngFor="let view of viewTypes" [value]="view.value">
-                  {{ view.name }}
-                </mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div> -->
 
         </form>
       </div>

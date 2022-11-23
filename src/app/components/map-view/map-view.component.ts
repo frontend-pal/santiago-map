@@ -18,7 +18,8 @@ export class MapViewComponent implements AfterViewInit {
   };
 
   constructor(
-    private mapService: MapControllerService
+    private mapService: MapControllerService,
+    private jsonService: JsonListService
   ) { }
 
 
@@ -54,5 +55,12 @@ export class MapViewComponent implements AfterViewInit {
     // L.geoJSON(this.geoJsonData).addTo(this.map);
 
     this.mapService.setMap(this.map);
+    this.getColombiaMap();
+  }
+
+  getColombiaMap() {
+    this.jsonService.getColombiaGeoJson().subscribe(res => {
+      this.mapService.setGeoJson(res);
+    })
   }
 }

@@ -5,11 +5,11 @@ import L, { LatLngExpression, Map } from 'leaflet';
 })
 export class MapControllerService {
   private map!: Map;
-
+  public mapLayers = [];
 
   get isMapready() {
     return !!this.map;
-  } 
+  }
 
   get myMap() {
     return this.map;
@@ -63,7 +63,13 @@ export class MapControllerService {
     layer.bringToFront();
   }
 
-  public setGeoJson(res: any) {
+  public setGeoJson(res: any, clearLayer = true) {
+    if (clearLayer) this.clearGeoJson();
     this.isMapready && L.geoJSON(res).addTo(this.map);
+  }
+
+  public clearGeoJson() {
+    console.log("clear layers");
+    this.isMapready && L.geoJSON().clearLayers()
   }
 }
