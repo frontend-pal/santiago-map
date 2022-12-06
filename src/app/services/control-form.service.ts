@@ -20,7 +20,18 @@ export class ControlFormService {
     return this._controlData;
   }
 
-  public setControlData(value: ControlEvent) {
-    this._controlData.next(value);
+  public setControlData(controlEvt: ControlEvent) {
+    console.log(controlEvt);
+    if (typeof controlEvt?.value !== 'string') {
+      controlEvt.value = JSON.stringify(controlEvt?.value);
+    }
+
+    if (controlEvt.value === null || controlEvt.value === 'null') {
+      sessionStorage.removeItem(controlEvt.control);
+    } else {
+      sessionStorage.setItem(controlEvt.control, controlEvt.value);
+    }
+
+    this._controlData.next(controlEvt);
   }
 }

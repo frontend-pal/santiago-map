@@ -173,13 +173,11 @@ export class ControlsComponent implements OnInit {
     if (event) {
       const currentDepartment: Department = event.option.value;
 
-      this.getMunicipalityByCode(currentDepartment.code);
-      this.goToLocation({
-        lng: currentDepartment.long,
-        lat: currentDepartment.lat
-      }, 6)
+      console.log(currentDepartment);
+      this.setControl('dpto', currentDepartment);
+      // this.checkMapControls();
     } else {
-      this.municipality = this.allMunicipalities;
+      this.municipality = this.allMunicipalities;      
     }
     this.resetMuni();
   }
@@ -187,39 +185,45 @@ export class ControlsComponent implements OnInit {
   goToMuni(event?: MatAutocompleteSelectedEvent) {
     if (!!event) {
       const currentMun: Municipality = event.option.value;
-      const currentDepartment = this.departments.find(x => x.code === currentMun.departmentCode);
 
       this.setControl('municipality', currentMun);
-      if (!!currentDepartment) {
-        this.mapForm.controls['department'].patchValue(currentDepartment);
-        // this.goToLocation({
-        //   lat: currentDepartment.lat,
-        //   lng: currentDepartment.long,
-        // }, 8);
-      }
-
-      console.log(currentMun);
-      console.log(currentDepartment);
-      this.getMuniMap(currentMun);
-      this.mapForm.controls['risk'].enable();
-    } else {
-      this.controlFormService.setControlData({ control: 'reset' });
+      this.checkMapControls();
     }
   }
 
   setRisk(event: MatSelectChange) {
     this.setControl('risk', event.value);
+    this.checkMapControls();
+  }
+
+  getDptoMap(currentDepartment: any) {
+    console.log(currentDepartment);
+    this.getMunicipalityByCode(currentDepartment.code);
+    this.jsonService.getDptoGeoJson(currentDepartment.code).subscribe(res => {
+      console.log(res);
+      this.mapService.setDepartmentMap(res, currentDepartment.code);
+    });
+    this.goToLocation({
+      lng: currentDepartment.long,
+      lat: currentDepartment.lat
+    }, 6)
   }
 
   getMuniMap(currentMun: Municipality) {
+    if (!!currentMun && currentMun !== null) {
+      const currentDepartment = this.departments.find(x => x.code === currentMun.departmentCode);
+
+      this.mapForm.controls['department'].patchValue(currentDepartment);
+    }
+
     this.jsonService.getMuniDataGeoJson(currentMun).subscribe(res => {
       console.log(res);
-      if (!!res) this.mapService.setGeoJson(res);
+      if (!!res) this.mapService.seMuniMap(res, res.properties.dpto);
     });
   }
 
-  setControl(controlName: string, value: Municipality | Department | string) {
-    console.log(controlName, value);
+  setControl(controlName: string, value: Municipality | Department | string | null) {
+    console.log(value);
     this.controlFormService.setControlData({
       control: controlName,
       value: value
@@ -237,14 +241,41 @@ export class ControlsComponent implements OnInit {
   }
 
   resetDpto() {
+    this.mapForm.controls['municipality'].patchValue('');
     this.mapForm.controls['department'].patchValue('');
-    this.goToDpto();
+    this.setControl('municipality', null);
+    this.setControl('dpto', null);
+    this.checkMapControls();
   }
 
   resetMuni() {
     this.mapForm.controls['municipality'].patchValue('');
-    // this.mapForm.controls['risk'].patchValue('');
-    // this.mapForm.controls['risk'].disable();
-    this.goToMuni();
+
+    this.setControl('municipality', null);
+    this.checkMapControls();
+  }
+
+  checkMapControls() {
+    const currentMuniSelected = sessionStorage.getItem('municipality');
+    const currentDptoSelected = sessionStorage.getItem('dpto');
+    const currentRiskSelected = sessionStorage.getItem('risk');
+
+    console.log(currentMuniSelected);
+    console.log(currentDptoSelected);
+    if (!!currentMuniSelected && currentMuniSelected !== null) {
+      console.log("entre a muni --> " ,  currentMuniSelected)
+      this.getMuniMap(JSON.parse(currentMuniSelected));
+
+      return;
+    }
+
+    if (!!currentDptoSelected && currentDptoSelected !== null) {
+      console.log("entre a dpeto --> " ,  currentDptoSelected)
+      this.getDptoMap(JSON.parse(currentDptoSelected));
+
+      return;
+    }
+
+    this.mapService.getColombiaMap(currentRiskSelected || '')
   }
 }

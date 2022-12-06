@@ -27,6 +27,9 @@ export class ChartsComponent implements OnInit {
   // Riesgo
   currentRisk?: number | null = null;
 
+  // departamento
+  currentDpto?: any | null;
+
   constructor(
     private controlFormService: ControlFormService,
     private jsonService: JsonListService,
@@ -35,7 +38,11 @@ export class ChartsComponent implements OnInit {
 
   ngOnInit(): void {
     this.controlFormService.controlData.subscribe(res => {
+      console.log(res.control);
       switch (res.control) {
+        case 'dpto':
+          this.updateData(res);
+          break;
         case 'municipality':
           this.updateData(res);
           break;
@@ -61,10 +68,14 @@ export class ChartsComponent implements OnInit {
     this.catSocioEconomico = 0;
     this.catManejoSanitario = 0;
     this.currentRisk = null;
+    this.currentDpto = null;
   }
 
   updateData(event: ControlEvent) {
     switch (event.control) {
+      case 'dpto':
+        this.currentDpto = event.value;
+        break;
       case 'municipality':
         const municData = event.value as Municipality
 
@@ -99,10 +110,10 @@ export class ChartsComponent implements OnInit {
   }
 
   public setRiskData(data: ControlEvent) {
-    console.log(data);
+    console.log(this.currentDpto);
     // this.currentRisk = this.currentData[data.value as string];
     // if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
-    this.mapService.getColombiaMap(data?.value || '')
+    // this.mapService.getColombiaMap(data?.value || '')
   }
 
   public toggleRightMenu() {

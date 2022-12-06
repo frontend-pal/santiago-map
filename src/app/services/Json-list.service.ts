@@ -55,6 +55,10 @@ export class JsonListService {
     return this.http.get(`../../assets/json/excelData/${name}_${disease}.json`);
   }
 
+  public getDptoGeoJson(name: string) {
+    return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`);
+  }
+
   public getMuniDataGeoJson(data: Municipality): Observable<Feature | undefined> {
     const name = data.departmentCode;
     console.log(name);
