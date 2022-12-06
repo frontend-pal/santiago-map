@@ -91,7 +91,7 @@ export class ControlsComponent implements OnInit {
       viewType: new FormControl('', null)
     })
 
-    this.mapForm.controls['risk'].disable();
+    // this.mapForm.controls['risk'].disable();
     this.getData();
   }
 
@@ -219,6 +219,7 @@ export class ControlsComponent implements OnInit {
   }
 
   setControl(controlName: string, value: Municipality | Department | string) {
+    console.log(controlName, value);
     this.controlFormService.setControlData({
       control: controlName,
       value: value
@@ -242,8 +243,8 @@ export class ControlsComponent implements OnInit {
 
   resetMuni() {
     this.mapForm.controls['municipality'].patchValue('');
-    this.mapForm.controls['risk'].patchValue('');
-    this.mapForm.controls['risk'].disable();
+    // this.mapForm.controls['risk'].patchValue('');
+    // this.mapForm.controls['risk'].disable();
     this.goToMuni();
   }
 }

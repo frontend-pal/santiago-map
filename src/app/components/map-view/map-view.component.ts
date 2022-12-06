@@ -57,12 +57,8 @@ export class MapViewComponent implements AfterViewInit {
     // L.geoJSON(this.geoJsonData).addTo(this.map);
 
     this.mapService.setMap(this.map);
-    this.getColombiaMap();
-  }
-
-  getColombiaMap() {
-    this.jsonService.getColombiaGeoJson().subscribe(res => {
-      this.mapService.setGeoJson(res);
-    })
+    this.mapService.setlegend();
+    this.mapService.setInfo();
+    this.mapService.getColombiaMap();
   }
 }

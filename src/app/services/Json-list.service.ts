@@ -41,8 +41,8 @@ export class JsonListService {
     return this.http.get('../../assets/json/municipios/MGN_ANM_MPIOS.geojson');
   }
 
-  public getDptoGeoJson(dpto?: string) {
-    return this.http.get('../../assets/json/dptos/ANTIOQUIA.geojson');
+  public getDiseaseDptoJson(dpto?: string) {
+    return this.http.get('../../assets/json/departamentos_promedios.json');
   }
 
   public getMunicipalityByCode(code: string | undefined): Municipality[] | [] {

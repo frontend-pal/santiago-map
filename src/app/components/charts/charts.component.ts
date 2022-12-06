@@ -10,7 +10,7 @@ import { MapControllerService } from 'src/app/services/map-controller.service';
   styleUrls: ['./charts.component.scss']
 })
 export class ChartsComponent implements OnInit {
-  toggleMenu = false;
+  toggleMenu = true;
 
   // Categorias
   catProcesoProductivo: number = 0;
@@ -99,8 +99,10 @@ export class ChartsComponent implements OnInit {
   }
 
   public setRiskData(data: ControlEvent) {
-    this.currentRisk = this.currentData[data.value as string];
-    if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
+    console.log(data);
+    // this.currentRisk = this.currentData[data.value as string];
+    // if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
+    this.mapService.getColombiaMap(data?.value || '')
   }
 
   public toggleRightMenu() {
