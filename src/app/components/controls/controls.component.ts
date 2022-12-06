@@ -198,6 +198,8 @@ export class ControlsComponent implements OnInit {
         // }, 8);
       }
 
+      console.log(currentMun);
+      console.log(currentDepartment);
       this.getMuniMap(currentMun);
       this.mapForm.controls['risk'].enable();
     } else {
@@ -211,6 +213,7 @@ export class ControlsComponent implements OnInit {
 
   getMuniMap(currentMun: Municipality) {
     this.jsonService.getMuniDataGeoJson(currentMun).subscribe(res => {
+      console.log(res);
       if (!!res) this.mapService.setGeoJson(res);
     });
   }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Municipality } from 'src/app/models/municipality';
 import { ControlEvent, ControlFormService } from 'src/app/services/control-form.service';
 import { JsonListService } from 'src/app/services/Json-list.service';
+import { MapControllerService } from 'src/app/services/map-controller.service';
 
 @Component({
   selector: 'app-charts',
@@ -28,7 +29,8 @@ export class ChartsComponent implements OnInit {
 
   constructor(
     private controlFormService: ControlFormService,
-    private jsonService: JsonListService
+    private jsonService: JsonListService,
+    private mapService: MapControllerService
   ) { }
 
   ngOnInit(): void {
@@ -99,5 +101,10 @@ export class ChartsComponent implements OnInit {
   public setRiskData(data: ControlEvent) {
     this.currentRisk = this.currentData[data.value as string];
     if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
+  }
+
+  public toggleRightMenu() {
+    this.toggleMenu = !this.toggleMenu;
+    this.mapService.toggleMenu = this.toggleMenu;
   }
 }

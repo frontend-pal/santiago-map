@@ -56,7 +56,8 @@ export class JsonListService {
   }
 
   public getMuniDataGeoJson(data: Municipality): Observable<Feature | undefined> {
-    const name = data.departmentName.toUpperCase();
+    const name = data.departmentCode;
+    console.log(name);
     const muniCode = data.code;
 
     return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`)

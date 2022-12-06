@@ -11,7 +11,9 @@ export const DEFAULT_LON = -74.5472906;
   styleUrls: ['./map-view.component.scss']
 })
 export class MapViewComponent implements AfterViewInit {
-  private map!: Map;
+  private map!: L.Map;
+  private geojson?: L.GeoJSON;
+
   private latLng: LatLngLiteral = {
     lat: DEFAULT_LAT,
     lng: DEFAULT_LON
