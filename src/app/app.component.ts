@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   mapa!: mapboxgl.Map;
 
   ngOnInit(): void {
+    sessionStorage.clear();
     this.initMap();
   }
   initMap() {

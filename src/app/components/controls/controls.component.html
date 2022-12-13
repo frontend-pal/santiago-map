@@ -22,6 +22,21 @@
       <div class="col-12">
         <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
 
+
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Tipo de visualización</h5>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione tipo de visualización</mat-label>
+              <mat-select formControlName="viewType">
+                <mat-option *ngFor="let view of viewTypes" [value]="view.value" [matTooltip]="view.name"
+                  matTooltipPosition="right">
+                  {{ view.name }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+
           <div class="form-container mt-2">
             <h5 class="text-uppercase">Seleccion una enfermedad</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
@@ -36,18 +51,6 @@
 
 
           <div class="form-container mt-2">
-            <h5 class="text-uppercase">Análisis de riesgo específico</h5>
-            <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Seleccione analisis de riesgo</mat-label>
-              <mat-select formControlName="risk" (selectionChange)="setRisk($event)">
-                <mat-option *ngFor="let risk of risks" [value]="risk.value">
-                  {{ risk.name }}
-                </mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div>
-
-          <div class="form-container mt-2">
             <h5 class="text-uppercase">Seleccion un departamento:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
@@ -58,7 +61,7 @@
                 <mat-icon>close</mat-icon>
               </button>
               <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayDept.bind(this)"
-                autoActiveFirstOption (optionSelected)="goToDpto($event)">
+                autoActiveFirstOption (optionSelected)="goToDpto($event.option.value?.code)">
                 <mat-option *ngFor="let option of filteredDeptOptions | async" [value]="option">
                   <span class="w-code">{{ option.code }}</span><span>{{'- ' + option.name }}</span>
                 </mat-option>
@@ -85,18 +88,49 @@
             </mat-form-field>
           </div>
 
-
           <div class="form-container mt-2">
-            <h5 class="text-uppercase">Tipo de visualización</h5>
+            <h5 class="text-uppercase">Análisis de riesgo específico</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Seleccione tipo de visualización</mat-label>
-              <mat-select formControlName="viewType">
-                <mat-option *ngFor="let view of viewTypes" [value]="view.value">
-                  {{ view.name }}
+              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-select formControlName="risk" (selectionChange)="setRisk($event)">
+                <mat-option *ngFor="let risk of risk" [value]="risk.value">
+                  {{ risk.name }}
                 </mat-option>
               </mat-select>
             </mat-form-field>
           </div>
+
+          
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Categorías del componente</h5>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-select formControlName="riskComp" (selectionChange)="setRiskCat($event)">
+                <mat-option *ngFor="let comp of filteredRiskCOMP" [value]="comp.value">
+                  {{ comp.name }}
+                </mat-option>
+                <mat-option *ngIf="filteredRiskCOMP.length === 0" value="">
+                  Seleccione un riesgo específico
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-container mt-2">
+            <h5 class="text-uppercase">Riesgo de la categoría</h5>
+            <mat-form-field class="full-width text-uppercase" appearance="fill">
+              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-select formControlName="riskCat" (selectionChange)="setRisk($event)">
+                <mat-option *ngFor="let risk of filteredRiskCAT" [value]="risk.value">
+                  {{ risk.name }}
+                </mat-option>
+                <mat-option value="">
+                  Seleccione una categoría
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
 
         </form>
       </div>

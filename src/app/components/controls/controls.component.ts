@@ -10,46 +10,7 @@ import { Municipality } from 'src/app/models/municipality';
 import { ControlFormService } from 'src/app/services/control-form.service';
 import { JsonListService } from 'src/app/services/Json-list.service';
 import { MapControllerService } from 'src/app/services/map-controller.service';
-
-const COLCOORDS: LatLngExpression = {
-  lng: -74.5472906,
-  lat: 4.561896
-};
-
-const DISEASES = [
-  { name: 'Peste Porcina Africana', value: 'ppa' }
-];
-
-const VISUALIZATIONTYPES = [
-  { name: 'Frontera Agrícola', value: 'agri' },
-  { name: 'Aptitud', value: 'apt' },
-  { name: 'Municipio', value: 'muni' }
-];
-
-const RISKS = [
-  { name: 'Tipo de Alimentación', value: 'Prob_Fac_Riesgo_Tipo_de_alimentación' },
-  { name: 'Infraestructura y uso intalaciones', value: 'Prob_Fac_Riesgo_infra_y_uso_intalaciones' },
-  { name: 'Contacto indirecto asociado a personas', value: 'Prob_Fac_Riesgo_Contac_IndirecPerson' },
-  { name: 'Manejo de animales muertos', value: 'Prob_Fac_Riesgo_Manejo_muertos' },
-  { name: 'Manejo de cerdos reproductores', value: '_Prob_FacRiesgo_Manejo_Reprod' },
-  { name: 'Presencia de otras especies', value: 'Prob_Fac_Riesgo_Presen_OtrasEspecie' },
-  { name: 'Movilización animal', value: 'Prob_Fac_Riesgo_Moviliza_animal' },
-  { name: 'Movilización de productos', value: 'Prob_Fac_Riesgo_Moviliza_de_productos' },
-  { name: 'Cercanía a fronteras', value: 'Prob_Fac_Riesgo_Cerc_a_fronteras' },
-  { name: 'Cercanía a puertos, aeropuertos y otros', value: 'Prob_Fac_Riesgo_Cerc_a_puertos' },
-  { name: 'Cercanía y densidad de granjas', value: 'Prob_Fac_Riesgo_Cerc_y_densidadgranj' },
-  { name: 'Cercanía a vias', value: 'Prob_Fac_Riesgo_Cerc_a_vias' },
-  { name: 'Cercanía a basureros y rellenos sanitarios', value: 'Prob_Fac_Riesgo_Cerc_a_basureros' },
-  { name: 'Cercanía Centros poblados', value: 'Prob_Fac_Riesgo_Cerc_Centros_poblados' },
-  { name: 'Cercanía Ferias comerciales, exposiciones, subastas y remates', value: 'Prob_Fac_Riesgo_Cerc_Ferias_comerciales' },
-  { name: 'Cercanía Plantas de beneficio', value: 'Prob_Fac_Riesgo_Cerc_Plantas_de_beneficio' },
-  { name: 'Cercanía Procesadoras de productos cárnicos', value: 'Prob_Fac_Riesgo_Cerc_Procesadoras_de_productos_cárnicos' },
-  { name: 'Presencia de cerdos asilvestrados', value: 'Prob_Fac_Riesgo_Presen_Asilvestrados' },
-  { name: 'Orientación productiva de la granja', value: 'Prob_Fac_Riesgo_Orien_Producti' },
-  { name: 'Tipo de granja porcina e intensificación de la producción', value: 'Prob_Fac_Riesgo_Tipo_Granj' },
-  { name: 'Ingreso de porcinos y productos cárnicos', value: 'Prob_Fac_Riesgo_Ingr_Porci' },
-  { name: 'Movimiento internacional de personas', value: 'Prob_Fac_Riesgo_Mov_Internacional_pers' }
-];
+import { COLCOORDS, DISEASES, RISK, RISKCAT, RISKCOMP, RiskSelectValue, SelectValue, VISUALIZATIONTYPES } from 'src/app/shared/project-values.constants';
 
 @Component({
   selector: 'app-controls',
@@ -61,9 +22,20 @@ export class ControlsComponent implements OnInit {
   mapForm!: FormGroup;
   departments: Department[] | [] = [];
   filteredDeptOptions?: Observable<Department[]>;
-  diseases?: { name: string, value: string }[] | [] = [];
-  risks?: { name: string, value: string }[] | [] = [];
-  viewTypes?: { name: string, value: string }[] | [] = [];
+
+  // Select Values
+  diseases?: SelectValue[] | [] = [];
+  risk?: SelectValue[] | [] = [];
+  riskcomp: RiskSelectValue[] | [] = [];
+  riskcat: RiskSelectValue[] | [] = [];
+
+  // filter Variables
+  selectedRisk?: string;
+  selectedRiskCOMP?: string;
+  selectedRiskCAT?: string;
+  filteredRiskCOMP: RiskSelectValue[] | [] = [];
+  filteredRiskCAT: RiskSelectValue[] | [] = [];
+  viewTypes?: SelectValue[] | [] = [];
 
   allMunicipalities!: Municipality[];
   municipality: Municipality[] | [] = [];
@@ -76,10 +48,31 @@ export class ControlsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.diseases = DISEASES;
-    this.risks = RISKS;
     this.viewTypes = VISUALIZATIONTYPES;
+    this.diseases = DISEASES;
+    this.risk = RISK;
+    this.riskcomp = RISKCOMP;
+    this.riskcat = RISKCAT;
     this.initForm();
+    // this.initListeners();
+  }
+
+  initListeners() {
+    this.controlFormService.controlData.subscribe(res => {
+      console.log(res.control);
+      switch (res.control) {
+        case 'dptoFromMap':
+          this.resetDpto();
+          const currentDepartment = this.departments.find(x => x.code === res.value) || null;
+
+          this.mapForm.controls['department'].patchValue(currentDepartment);
+          this.goToDpto(res.value as string);
+          break;
+        default:
+          // void
+          break;
+      }
+    });
   }
 
   initForm() {
@@ -88,6 +81,8 @@ export class ControlsComponent implements OnInit {
       municipality: new FormControl('', null),
       disease: new FormControl('ppa', null),
       risk: new FormControl('', null),
+      riskComp: new FormControl({ value: '', disabled: true }, null),
+      riskCat: new FormControl({ value: '', disabled: true }, null),
       viewType: new FormControl('', null)
     })
 
@@ -105,7 +100,7 @@ export class ControlsComponent implements OnInit {
   initAutocompleteMun() {
     this.filteredMunOptions = this.mapForm.controls['municipality'].valueChanges.pipe(
       startWith(''),
-      map(value => this._filterMun(value || '')),
+      map(value => this._filterMun(value || ''))
     );
   }
 
@@ -169,15 +164,17 @@ export class ControlsComponent implements OnInit {
     return element ? element.code + ' - ' + element.name : '';
   }
 
-  goToDpto(event?: MatAutocompleteSelectedEvent) {
-    if (event) {
-      const currentDepartment: Department = event.option.value;
+  goToDpto(dptoCode?: string) {
+    console.log(dptoCode);
+
+    if (dptoCode) {
+      const currentDepartment: Department | null = this.departments.find(x => x.code === dptoCode) || null;
 
       console.log(currentDepartment);
       this.setControl('dpto', currentDepartment);
       // this.checkMapControls();
     } else {
-      this.municipality = this.allMunicipalities;      
+      this.municipality = this.allMunicipalities;
     }
     this.resetMuni();
   }
@@ -193,7 +190,22 @@ export class ControlsComponent implements OnInit {
 
   setRisk(event: MatSelectChange) {
     this.setControl('risk', event.value);
-    this.checkMapControls();
+    this.selectedRisk = event.value
+    this.filteredRiskCOMP = [];
+    this.filteredRiskCOMP = this.riskcomp.filter(x => x.risk === event.value);
+    if (this.filteredRiskCOMP.length > 0) {
+      this.mapForm.controls['riskComp'].enable();
+    } else {
+      this.mapForm.controls['riskComp'].disable();
+    }
+  }
+
+  setRiskComp(event: MatSelectChange) {
+    this.setControl('riskcomp', event.value);
+  }
+
+  setRiskCat(event: MatSelectChange) {
+    this.setControl('riskcat', event.value);
   }
 
   getDptoMap(currentDepartment: any) {
@@ -263,14 +275,14 @@ export class ControlsComponent implements OnInit {
     console.log(currentMuniSelected);
     console.log(currentDptoSelected);
     if (!!currentMuniSelected && currentMuniSelected !== null) {
-      console.log("entre a muni --> " ,  currentMuniSelected)
+      console.log("entre a muni --> ", currentMuniSelected)
       this.getMuniMap(JSON.parse(currentMuniSelected));
 
       return;
     }
 
     if (!!currentDptoSelected && currentDptoSelected !== null) {
-      console.log("entre a dpeto --> " ,  currentDptoSelected)
+      console.log("entre a dpeto --> ", currentDptoSelected)
       this.getDptoMap(JSON.parse(currentDptoSelected));
 
       return;

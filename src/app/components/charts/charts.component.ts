@@ -72,17 +72,21 @@ export class ChartsComponent implements OnInit {
   }
 
   updateData(event: ControlEvent) {
+    console.log("entre al updatedata de charts");
+    console.log(event.control + ' y valor -->', event.value);
     switch (event.control) {
       case 'dpto':
         this.currentDpto = event.value;
         break;
       case 'municipality':
-        const municData = event.value as Municipality
+        if (event.value !== 'null' && event.value !== null) {
+          const municData = event.value as Municipality
 
-        this.jsonService.getDptoDataGeoJson(municData?.departmentCode)
-          .subscribe(res => {
-            if (!!res) this.setMunicData(res, municData);
-          });
+          this.jsonService.getDptoDataGeoJson(municData?.departmentCode)
+            .subscribe(res => {
+              if (!!res) this.setMunicData(res, municData);
+            });
+        }
         break;
       case 'reset':
         this.resetCategories();

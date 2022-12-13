@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import L, { LatLngExpression, Map, GeoJSON } from 'leaflet';
 import { JsonListService } from '../services/Json-list.service'
+import { ControlFormService } from '../services/control-form.service';
 @Injectable({
   providedIn: 'root'
 })
@@ -27,7 +28,10 @@ export class MapControllerService {
     return this.map;
   }
 
-  constructor(private jsonService: JsonListService) { }
+  constructor(
+    private controlService: ControlFormService,
+    private jsonService: JsonListService
+  ) { }
 
   setMap(map: Map): void {
     this.map = map;
@@ -44,18 +48,17 @@ export class MapControllerService {
 
   public getColor(f: any, d?: any, dptoCode?: string) {
     let currentDataDisease;
-    
+
     if (!!dptoCode && dptoCode !== '') {
-      console.log(d);
       const currentMunic = this.mapDataPPA?.find((x: any) => x.divipola.toString() === f.properties.mpios) || null;
+
       currentDataDisease = !!currentMunic ? currentMunic[d] * 1000 : f;
-      console.log(currentMunic);
-      console.log(currentDataDisease);
     } else {
       const currentDepartment = this.mapDataPPA?.find((x: any) => x.code.toString() === f.properties.DPTO_CCDGO) || null;
+
       currentDataDisease = !!currentDepartment ? currentDepartment[d] * 1000 : f;
-    }    
-    
+    }
+
     console.log(currentDataDisease);
     if (typeof f === 'object' && d === '') return '#3388ff';
 
@@ -109,6 +112,10 @@ export class MapControllerService {
   private zoomToFeature(e: any) {
     console.log(e);
     this.map.fitBounds(e.target.getBounds());
+    this.controlService.setControlData({
+      control: 'dptoFromMap',
+      value: e.target.feature.properties.DPTO_CCDGO
+    });
   }
 
   public setlegend() {
@@ -155,7 +162,7 @@ export class MapControllerService {
     if (clearLayer) this.removeLayers();
     if (dptoCode) {
       this.mapDataPPA = null;
-      await this.getDptoDiseaseData(dptoCode);      
+      await this.getDptoDiseaseData(dptoCode);
     } else {
       if (!this.mapDataPPA) await this.getDiseaseData();
     }
@@ -191,7 +198,6 @@ export class MapControllerService {
   }
 
   public clearGeoJson() {
-    console.log("clear layers");
     this.isMapready && L.geoJSON().clearLayers()
   }
 
