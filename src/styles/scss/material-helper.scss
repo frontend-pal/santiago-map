@@ -308,3 +308,7 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
   .mat-form-field-label {
   color: #2bbdf3;
 }
+
+.overflow-auto {
+  overflow: auto;
+}

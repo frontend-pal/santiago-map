@@ -9,6 +9,11 @@ export interface RiskSelectValue extends SelectValue {
     risk: string;
 }
 
+export interface RiskSelectFacValue extends RiskSelectValue {
+    riskcat: string
+}
+
+
 export const COLCOORDS: LatLngExpression = {
     lng: -74.5472906,
     lat: 4.561896
@@ -40,75 +45,238 @@ export const RISK: SelectValue[] = [
 
 export const RISKCOMP: RiskSelectValue[] = [
     // Componente Amenaza
-    { name: 'Bioseguridad', value: '', risk: 'COA' },
-    { name: 'Manejo Sanitario', value: '', risk: 'COA' },
-    { name: 'Movilización', value: '', risk: 'COA' },
+    { name: 'Bioseguridad', value: 'BIO', risk: 'COA' },
+    { name: 'Manejo Sanitario', value: 'SAN', risk: 'COA' },
+    { name: 'Movilización', value: 'MOV', risk: 'COA' },
     // Componente Vulnerabilidad
-    { name: 'Entorno Biofísico Ambiental', value: '', risk: 'COV' },
-    { name: 'Entorno Socioeconómico', value: '', risk: 'COV' },
-    { name: 'Espacio Biofisico', value: '', risk: 'COV' },
-    { name: 'Manejo Sanitario', value: '', risk: 'COV' },
-    { name: 'Proceso Productivo', value: '', risk: 'COV' }
+    { name: 'Entorno Biofísico Ambiental', value: 'EBA', risk: 'COV' },
+    { name: 'Entorno Socioeconómico', value: 'ESO', risk: 'COV' },
+    { name: 'Espacio Biofisico', value: 'EBI', risk: 'COV' },
+    { name: 'Manejo Sanitario', value: 'SAN', risk: 'COV' },
+    { name: 'Proceso Productivo', value: 'PRO', risk: 'COV' }
 ];
 
-export const RISKCAT: RiskSelectValue[] = [
-    // Componente Amenaza
-    { name: 'Bioseguridad', value: '', risk: 'COA' },
-    { name: 'Manejo Sanitario', value: '', risk: 'COA' },
-    { name: 'Movilización', value: '', risk: 'COA' },
-    // Componente Vulnerabilidad
-    { name: 'Entorno Biofísico Ambiental', value: '', risk: 'COV' },
-    { name: 'Entorno Socioeconómico', value: '', risk: 'COV' },
-    { name: 'Espacio Biofisico', value: '', risk: 'COV' },
-    { name: 'Manejo Sanitario', value: '', risk: 'COV' },
-    { name: 'Proceso Productivo', value: '', risk: 'COV' }
-];
-
-// Contacto indirecto asociado con personas	Bioseguridad
-// Infraestructura y uso de instalaciones	Bioseguridad
-// Manejo de animales muertos	Bioseguridad
-// Manejo de cerdos reproductores	Bioseguridad
-// Presencia de otras especies en la granja	Bioseguridad
-// Tipo de alimentación	Bioseguridad
-// Condiciones biofísico ambientales	Entorno Biofísico Ambiental
-// Contacto con agua contaminada	Entorno Biofísico Ambiental
-// Presencia de cerdos asilvestrados	Entorno Biofísico Ambiental
-// "Susceptibilidad al contagio por proximidad a humedales, aves migratorias y granjas avícolas"	Entorno biofísico ambiental
-// Ingreso de porcinos, material genético, carne, derivados y productos cárnicos de cerdo	Entorno Socioeconómico
-// Movimiento Internacional de personas	Entorno Socioeconómico
-// Capacitación en salud y sanidad	Entorno Socioeconómico
-// Cultura frente al Diagnóstico	Entorno Socioeconómico
-// Zonas epidemiológicas	Entorno Socioeconómico
-// Densidad poblacional de la producción potencial en las granjas porcinas	Entorno Socioeconómico
-// Cercanía a basureros y rellenos sanitarios	Espacio Biofisico
-// Cercanía a centros urbanos	Espacio Biofisico
-// Cercanía a concentraciones	Espacio Biofisico
-// Cercanía a fronteras 	Espacio Biofisico
-// Cercanía a plantas de beneficio	Espacio Biofisico
-// Cercanía a puertos y/o aeropuertos	Espacio Biofisico
-// Cercanía a vías	Espacio Biofisico
-// Cercanía procesadoras de productos cárnicos	Espacio Biofisico
-// Densidad de granjas porcinas en el territorio	Espacio Biofisico
-// Acceso a servicios de diagnóstico	Manejo Sanitario
-// Acceso a Servicios Veterinarios	Manejo Sanitario
-// Existencia de la Enfermedad	Manejo Sanitario
-// Existencia de Vacunación	Manejo Sanitario
-// Movilizacion de concentracion a concentracion	Movilización
-// Movilizacion de concentracion a matadero	Movilización
-// Movilizacion de concentracion a predio	Movilización
-// Movilización de personas en el territorio nacional	Movilización
-// Movilizacion de predio a concentracion	Movilización
-// Movilizacion de predio a matadero	Movilización
-// Movilizacion de predio a predio	Movilización
-// Movilización de productos y subproductos de la cadena porcina	Movilización
-// Movilizacion matadero a concentracion	Movilización
-// Movilizacion matadero a matadero	Movilización
-// Movilizacion matadero a predio	Movilización
-// Densidad de animales en levante y ceba en granjas porcinas	Proceso Productivo
-// Densidad de granjas de producción comercial tecnificada vs granjas produccon porcina	Proceso Productivo
-// Densidad de granjas de producción de cria	Proceso Productivo
-// Densidad de granjas de producción de levante y ceba	Proceso Productivo
-// Densidad de granjas de producción Familiar vs granjas produccon porcina	Proceso Productivo
-// Densidad de hembras en cria en granjas porcinas	Proceso Productivo
-// Índice de granjas de levante/ceba vs producción de cria	Proceso Productivo
-// Índice de granjas de producción comercial tecnificada vs producción familiar	Proceso Productivo
+export const RISKFACT: RiskSelectFacValue[] = [
+    {
+        name: "Contacto indirecto asociado con personas",
+        value: "FacRiesgo_Contac_IndirecPerson",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Infraestructura y uso de instalaciones",
+        value: "FacRiesgo_infra_y_uso_intalaciones",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Manejo de animales muertos",
+        value: "FacRiesgo_Manejo_muertos",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Manejo de cerdos reproductores",
+        value: "FacRiesgo_Manejo_Reprod",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Presencia de otras especies en la granja",
+        value: "FacRiesgo_Presen_OtrasEspecie",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Tipo de alimentación",
+        value: "FacRiesgo_Tipo_de_alimentación",
+        riskcat: "BIO",
+        risk: "COA"
+    },
+    {
+        name: "Existencia de la Enfermedad",
+        value: "FacRiesgo_Existencia_de_la_Enfermedad",
+        riskcat: "SAN",
+        risk: "COA"
+    },
+    {
+        name: "Existencia de Vacunación",
+        value: "FacRiesgo_Existencia_de_Vacunación",
+        riskcat: "SAN",
+        risk: "COA"
+    },
+    {
+        name: "Movilización de personas en el territorio nacional",
+        value: "FacRiesgo_Movilización_de_personas_en_el_territorio_nacional",
+        riskcat: "MOV",
+        risk: "COA"
+    },
+    {
+        name: "Movilización de productos y subproductos de la cadena porcina",
+        value: "FacRiesgo_Moviliza_de_productos",
+        riskcat: "MOV",
+        risk: "COA"
+    },
+    {
+        name: "Movilización Animal",
+        value: "FacRiesgo_Movilizacion_animal",
+        riskcat: "MOV",
+        risk: "COA"
+    },
+    {
+        name: "Contacto con agua contaminada",
+        value: "FacRiesgo_Contacto_con_agua_contaminada",
+        riskcat: "EBA",
+        risk: "COV"
+    },
+    {
+        name: "Presencia de cerdos asilvestrados",
+        value: "FacRiesgo_Presen_Asilvestrados",
+        riskcat: "EBA",
+        risk: "COV"
+    },
+    {
+        name: "Susceptibilidad al contagio\npor proximidad\na humedales, aves migratorias y granjas avícolas",
+        value: "FacRiesgo_Susceptibilidad_al_contagio_por_proximidad_a_humedales,_aves_migratorias_y_granjas_avícolas",
+        riskcat: "EBA",
+        risk: "COV"
+    },
+    {
+        name: "Ingreso de porcinos, material genético, carne, derivados y productos cárnicos de cerdo",
+        value: "FacRiesgo_Ingr_Porci",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Movimiento Internacional de personas",
+        value: "FacRiesgo_Mov_Internacional_pers",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Capacitación en salud y sanidad",
+        value: "FacRiesgo_Capacitación_en_salud_y_sanidad",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Cultura frente al Diagnóstico",
+        value: "FacRiesgo_Cultura_frente_al_Diagnóstico",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Zonas epidemiológicas",
+        value: "FacRiesgo_Zonas_epidemiológicas",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Densidad poblacional de la producción potencial en las granjas porcinas",
+        value: "FacRiesgo_Densidad_poblacional_de_la_producción_potencial_en_las_granjas_porcinas",
+        riskcat: "ESO",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a basureros y rellenos sanitarios",
+        value: "FacRiesgo_Cerc_a_basureros",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a centros poblados",
+        value: "FacRiesgo_Cerc_Centros_poblados",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a ferias comerciales",
+        value: "FacRiesgo_Cerc_Ferias_comerciales",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a fronteras",
+        value: "FacRiesgo_Cerc_a_fronteras",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a plantas de beneficio",
+        value: "FacRiesgo_Cerc_Plantas_de_beneficio",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a puertos y\/o aeropuertos",
+        value: "FacRiesgo_Cerc_a_puertos",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía a vías",
+        value: "FacRiesgo_Cerc_a_vias",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Cercanía procesadoras de productos cárnicos",
+        value: "FacRiesgo_Cerc_Procesadoras_de_productos_cárnicos",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de granjas porcinas en el territorio",
+        value: "FacRiesgo_Densidad_de_granjas_porcinas_en_el_territorio",
+        riskcat: "EBI",
+        risk: "COV"
+    },
+    {
+        name: "Acceso a servicios de diagnóstico",
+        value: "FacRiesgo_Acceso_a_servicios_de_diagnóstico",
+        riskcat: "SAN",
+        risk: "COV"
+    },
+    {
+        name: "Acceso a Servicios Veterinarios",
+        value: "FacRiesgo_Acceso_a_Servicios_Veterinarios",
+        riskcat: "SAN",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de animales en levante y ceba en granjas porcinas",
+        value: "FacRiesgo_Densidad_de_animales_en_levante_y_ceba_en_granjas_porcinas",
+        riskcat: "pro",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de granjas de producción comercial tecnificada vs granjas produccon porcina",
+        value: "FacRiesgo_Densidad_de_granjas_de_producción_comercial_tecnificada_vs_granjas_produccon_porcina",
+        riskcat: "PRO",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de granjas de producción de cria",
+        value: "FacRiesgo_Densidad_de_granjas_de_producción_de_cria",
+        riskcat: "PRO",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de granjas de producción de levante y ceba",
+        value: "FacRiesgo_Densidad_de_granjas_de_producción_de_levante_y_ceba",
+        riskcat: "PRO",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de granjas de producción Familiar vs granjas produccon porcina",
+        value: "FacRiesgo_Densidad_de_granjas_de_producción_Familiar_vs_granjas_produccon_porcina",
+        riskcat: "PRO",
+        risk: "COV"
+    },
+    {
+        name: "Densidad de hembras en cria en granjas porcinas",
+        value: "FacRiesgo_Densidad_de_hembras_de_cría_en_granjas_porcinas",
+        riskcat: "PRO",
+        risk: "COV"
+    }
+] 

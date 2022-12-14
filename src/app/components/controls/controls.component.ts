@@ -10,7 +10,7 @@ import { Municipality } from 'src/app/models/municipality';
 import { ControlFormService } from 'src/app/services/control-form.service';
 import { JsonListService } from 'src/app/services/Json-list.service';
 import { MapControllerService } from 'src/app/services/map-controller.service';
-import { COLCOORDS, DISEASES, RISK, RISKCAT, RISKCOMP, RiskSelectValue, SelectValue, VISUALIZATIONTYPES } from 'src/app/shared/project-values.constants';
+import { COLCOORDS, DISEASES, RISK, RISKFACT, RISKCOMP, RiskSelectValue, SelectValue, VISUALIZATIONTYPES, RiskSelectFacValue } from 'src/app/shared/project-values.constants';
 
 @Component({
   selector: 'app-controls',
@@ -28,13 +28,16 @@ export class ControlsComponent implements OnInit {
   risk?: SelectValue[] | [] = [];
   riskcomp: RiskSelectValue[] | [] = [];
   riskcat: RiskSelectValue[] | [] = [];
+  riskFact: RiskSelectFacValue[] | [] = [];
 
   // filter Variables
   selectedRisk?: string;
   selectedRiskCOMP?: string;
   selectedRiskCAT?: string;
+  selectedRiskFACT?: string;
   filteredRiskCOMP: RiskSelectValue[] | [] = [];
   filteredRiskCAT: RiskSelectValue[] | [] = [];
+  filteredRiskFACT: RiskSelectFacValue[] | [] = [];
   viewTypes?: SelectValue[] | [] = [];
 
   allMunicipalities!: Municipality[];
@@ -52,7 +55,7 @@ export class ControlsComponent implements OnInit {
     this.diseases = DISEASES;
     this.risk = RISK;
     this.riskcomp = RISKCOMP;
-    this.riskcat = RISKCAT;
+    this.riskFact  = RISKFACT;
     this.initForm();
     // this.initListeners();
   }
@@ -201,12 +204,23 @@ export class ControlsComponent implements OnInit {
   }
 
   setRiskComp(event: MatSelectChange) {
-    this.setControl('riskcomp', event.value);
+    console.log(event);
+    this.setControl('riskcat', event.value);
+    this.selectedRiskCAT = event.value;
+    this.filteredRiskFACT = [];
+    this.filteredRiskFACT = this.riskFact.filter(x => x.riskcat === event.value);
+    console.log(this.filteredRiskFACT);
+    console.log(this.selectedRiskCAT);
+    if (this.filteredRiskFACT.length > 0) {
+      this.mapForm.controls['riskCat'].enable();
+    } else {
+      this.mapForm.controls['riskCat'].disable();
+    }
   }
 
-  setRiskCat(event: MatSelectChange) {
-    this.setControl('riskcat', event.value);
-  }
+  setRiskFact(event: MatSelectChange) {
+    this.setControl('riskfact', event.value);
+  }  
 
   getDptoMap(currentDepartment: any) {
     console.log(currentDepartment);

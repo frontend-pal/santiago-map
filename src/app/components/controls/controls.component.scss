@@ -12,6 +12,10 @@
   &.closed {
     height: 98px;
   }
+
+  .controls {
+    max-height: calc(100vh - 98px);
+  }
 }
 
 .banner {

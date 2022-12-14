@@ -17,7 +17,7 @@
       <button mat-flat-button color="secondary" (click)="resetMap()">Center Map</button>
     </div>
   </div> -->
-  <div class="container controls">
+  <div class="container controls overflow-auto">
     <div class="row py-1">
       <div class="col-12">
         <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
@@ -100,13 +100,14 @@
             </mat-form-field>
           </div>
 
-          
+
           <div class="form-container mt-2">
             <h5 class="text-uppercase">Categorías del componente</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
-              <mat-select formControlName="riskComp" (selectionChange)="setRiskCat($event)">
-                <mat-option *ngFor="let comp of filteredRiskCOMP" [value]="comp.value">
+              <mat-select formControlName="riskComp" (selectionChange)="setRiskComp($event)">
+                <mat-option *ngFor="let comp of filteredRiskCOMP" [value]="comp.value" matTooltipPosition="right"
+                  [matTooltip]="comp.name">
                   {{ comp.name }}
                 </mat-option>
                 <mat-option *ngIf="filteredRiskCOMP.length === 0" value="">
@@ -120,9 +121,10 @@
             <h5 class="text-uppercase">Riesgo de la categoría</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
-              <mat-select formControlName="riskCat" (selectionChange)="setRisk($event)">
-                <mat-option *ngFor="let risk of filteredRiskCAT" [value]="risk.value">
-                  {{ risk.name }}
+              <mat-select formControlName="riskCat" (selectionChange)="setRiskFact($event)">
+                <mat-option *ngFor="let fact of filteredRiskFACT" [value]="fact.value"  matTooltipPosition="right"
+                [matTooltip]="fact.name">
+                  {{ fact.name }}
                 </mat-option>
                 <mat-option value="">
                   Seleccione una categoría
