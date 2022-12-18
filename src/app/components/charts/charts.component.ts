@@ -40,6 +40,9 @@ export class ChartsComponent implements OnInit {
     this.controlFormService.controlData.subscribe(res => {
       console.log(res.control);
       switch (res.control) {
+        case 'disease':
+          this.updateData(res);
+          break;
         case 'dpto':
           this.updateData(res);
           break;
@@ -75,6 +78,17 @@ export class ChartsComponent implements OnInit {
     console.log("entre al updatedata de charts");
     console.log(event.control + ' y valor -->', event.value);
     switch (event.control) {
+      case 'disease':
+        if (event.value !== 'null' && event.value !== null) {
+          this.jsonService.getDiseases().subscribe((res: any) => {
+            if (!!res) {
+              const currentDisease = res.find((x: any) => x.code === event.value);
+
+              if (currentDisease) this.setGlobalData(currentDisease);
+            }
+          });
+        }
+        break;
       case 'dpto':
         this.currentDpto = event.value;
         break;
@@ -101,16 +115,28 @@ export class ChartsComponent implements OnInit {
     this.currentData = data.find((x: any) => x.divipola === munic.code);
 
     if (!!this.currentData) {
-      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_productivo'];
-      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_BioFisico'];
-      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_BioFisico_Ambiental'];
-      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'];
-      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'];
-      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_sociEco'];
-      this.catManejoSanitario = 0; // Aún no esta
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
+      this.catEntornoBiosifico =this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilización'] || 0;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico'] || 0;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
     } else {
       this.resetCategories();
     }
+  }
+
+  setGlobalData(data: any) {
+    this.currentData = data;
+    this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
+    this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
+    this.catEntornoBiosifico =this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
+    this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
+    this.catMovilizacion = this.currentData['Prob_Cat_Movilización'] || 0;
+    this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico'] || 0;
+    this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
+    this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || 0;
   }
 
   public setRiskData(data: ControlEvent) {

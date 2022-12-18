@@ -37,6 +37,34 @@ export class JsonListService {
     return this.http.get('../../assets/json/Colombia_departamentos_poblacion.geojson');
   }
 
+  public getViewTypeGeoJson(name: string) {
+    return this.http.get(`../../assets/json/viewtypes/${name}.json`);
+  }
+
+  public getDiseases() {
+    const diseasesGlobalData = sessionStorage.getItem('diseasesGlobalData');
+    let subscribeRequest: any;
+
+    const diseaseObs = new Observable(obs => {
+      if (diseasesGlobalData === null) {
+        return this.http.get(`../../assets/json/diseases/valores_globales_por_enfermedad.json`).subscribe(res => {
+          sessionStorage.setItem('diseasesGlobalData', JSON.stringify(res));
+          subscribeRequest = JSON.parse(sessionStorage.getItem('diseasesGlobalData') || '');
+
+          obs.next(subscribeRequest);
+          obs.complete();
+        });
+      } else {
+        subscribeRequest = JSON.parse(sessionStorage.getItem('diseasesGlobalData') || '');
+
+        obs.next(subscribeRequest);
+        obs.complete();
+      }
+    });
+
+    return diseaseObs;
+  }
+
   public getMunicGeoJson() {
     return this.http.get('../../assets/json/municipios/MGN_ANM_MPIOS.geojson');
   }

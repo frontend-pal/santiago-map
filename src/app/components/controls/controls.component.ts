@@ -222,6 +222,21 @@ export class ControlsComponent implements OnInit {
     this.setControl('riskfact', event.value);
   }  
 
+  setViewType(event: MatSelectChange) {
+    this.setControl('viewtype', event.value);
+    this.jsonService.getViewTypeGeoJson(event.value).subscribe(res => {
+      this.mapService.setViewTypeMap(res);
+
+    });
+  }
+
+  setDisease(event: MatSelectChange) {
+    this.setControl('disease', event.value);
+    this.jsonService.getDiseases().subscribe(res => {
+      console.log(res);
+    });
+  }
+
   getDptoMap(currentDepartment: any) {
     console.log(currentDepartment);
     this.getMunicipalityByCode(currentDepartment.code);

@@ -26,13 +26,13 @@ export const DISEASES: SelectValue[] = [
     { name: 'Influenza Porcina', value: 'IIP' },
     { name: 'Microplasmosis Porcina', value: 'CRP' },
     { name: 'Parvovirosis Porcina', value: 'PVP' },
-    { name: 'Peste Porcina Africana', value: 'PPA' },
+    // { name: 'Peste Porcina Africana', value: 'PPA' },
     { name: 'Pleuropneumonia Porcina', value: 'APP' },
     { name: 'PRRS - Síndrome Reproductivo y Respiratorio Porcino', value: 'PRRS' }
 ];
 
 export const VISUALIZATIONTYPES: SelectValue[] = [
-    { name: 'En las áreas de producción porcina nacional', value: 'PNAC' },
+    { name: 'En las áreas de producción porcina nacional', value: 'PRONAC' },
     { name: 'En frontera agrícola nacional', value: 'FRONAC' },
     { name: 'En áreas de aptitud para la producción porcina  tecnificada', value: 'ARTECN' }
 ];

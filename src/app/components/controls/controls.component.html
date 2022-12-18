@@ -27,7 +27,7 @@
             <h5 class="text-uppercase">Tipo de visualización</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione tipo de visualización</mat-label>
-              <mat-select formControlName="viewType">
+              <mat-select formControlName="viewType" (selectionChange)="setViewType($event)">
                 <mat-option *ngFor="let view of viewTypes" [value]="view.value" [matTooltip]="view.name"
                   matTooltipPosition="right">
                   {{ view.name }}
@@ -41,7 +41,7 @@
             <h5 class="text-uppercase">Seleccion una enfermedad</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>BUSCAR ENFERMEDAD</mat-label>
-              <mat-select formControlName="disease">
+              <mat-select formControlName="disease" (selectionChange)="setDisease($event)">
                 <mat-option *ngFor="let disease of diseases" [value]="disease.value">
                   {{ disease.name }}
                 </mat-option>
