@@ -76,6 +76,7 @@ export class ChartsComponent implements OnInit {
     this.viewESO = true;
     this.viewEBI = true;
     this.viewPRO = true;
+    this.riskWithData = [];
   }
 
   initListeners() {
@@ -92,10 +93,10 @@ export class ChartsComponent implements OnInit {
           this.updateData(res);
           break;
         case 'risk':
-          this.setRiskData(res);
+          if (res.value !== null && res.value !== 'null') this.setRiskData(res);
           break;
         case 'riskcat':
-          this.setRiskCatData(res);
+          if (res.value !== null && res.value !== 'null') this.setRiskCatData(res);
           break;
         case 'reset':
           this.resetCategories();
@@ -122,8 +123,6 @@ export class ChartsComponent implements OnInit {
   }
 
   updateData(event: ControlEvent) {
-    console.log("entre al updatedata de charts");
-    console.log(event.control + ' y valor -->', event.value);
     switch (event.control) {
       case 'disease':
         this.currentDisease = event.value;
@@ -140,11 +139,8 @@ export class ChartsComponent implements OnInit {
       case 'dpto':
         this.currentDpto = event.value;
 
-        console.log(this.currentDpto);
         if (!!this.currentDpto && !!this.currentDisease && this.currentDpto !== null && this.currentDpto !== 'null') {
           this.currentDpto = JSON.parse(this.currentDpto);
-          console.log(this.currentDpto.code);
-          console.log(this.currentDisease);
           this.jsonService.getDptoDiseaseData(this.currentDpto.code, this.currentDisease).subscribe(res => {
             this.jsonService.currentDiseaseData = res;
             this.dptoData = res;
@@ -156,7 +152,6 @@ export class ChartsComponent implements OnInit {
         if (event.value !== 'null' && event.value !== null && event.value !== 'null') {
           const municData = JSON.parse(event?.value as string);
 
-          console.log(municData.code);
           this.setMuniData(municData.code);
         }
         break;
@@ -216,7 +211,6 @@ export class ChartsComponent implements OnInit {
   setMuniData(muniCode: string) {
     this.currentData = this.dptoData.find((x: any) => x.DPTOMPIO === muniCode);
 
-    console.log(this.currentData);
     if (!!this.currentData) {
       this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
       this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
@@ -232,7 +226,6 @@ export class ChartsComponent implements OnInit {
   }
 
   public setRiskData(data: ControlEvent) {
-    console.log(data);
     this.resetViewCategories();
     switch (data.value) {
       case 'RES':
@@ -298,8 +291,6 @@ export class ChartsComponent implements OnInit {
     const muniSelected = sessionStorage.getItem('municipality') !== null ? JSON.parse(sessionStorage.getItem('municipality') as string) : false;
     this.filteredRiskCat = this.riskCat.filter(x => x.riskcat === cat);
     this.riskWithData = [];
-    console.log(this.riskCat, this.filteredRiskCat);
-    console.log(this.jsonService.currentDiseaseData);
 
     if (muniSelected) {
       const muniCode = muniSelected.code;
@@ -311,7 +302,6 @@ export class ChartsComponent implements OnInit {
           categorieValue: (!!currentData[idx] && currentData[idx]) > 0 ? currentData[idx] : 0
         }
       });
-      console.log(this.riskWithData);
     } else {
       this.riskWithData = this.filteredRiskCat.map(riskCat => {
         const idx = `Prob_${riskCat.value}_medianDEP`;

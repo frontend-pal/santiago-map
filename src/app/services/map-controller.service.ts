@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import L, { LatLngExpression, Map, GeoJSON } from 'leaflet';
+import L, { LatLngExpression, Map, GeoJSON, Layer } from 'leaflet';
 import { JsonListService } from '../services/Json-list.service'
 import { ControlFormService } from '../services/control-form.service';
 
@@ -16,6 +16,7 @@ export class MapControllerService {
   public mapLayers: MapLayers[] | any[] = [];
   public mapDataPPA: any;
   private _toggleMenu!: boolean;
+  private riskFact = false;
 
   get toggleMenu(): boolean {
     return this._toggleMenu;
@@ -63,32 +64,30 @@ export class MapControllerService {
   }
 
   public getColor(f: any, d?: any, dptoCode?: string, color?: string) {
-    console.log(f, d, dptoCode);
-    console.log(this.mapDataPPA);
+    let currentDataValue;
+
     if (color) return color;
-    let currentDataDisease;
 
     if (!!dptoCode && dptoCode !== '') {
       const currentMunic = this.mapDataPPA?.find((x: any) => x.DPTOMPIO.toString() === f.properties.mpios) || null;
+      const idxValue = this.riskFact ? this.getCatIdx(d, true) : this.getCatIdx(d);
 
-      console.log(currentMunic);
-      currentDataDisease = !!currentMunic ? currentMunic['Prob_Riesgo_especifico'] * 100 : f;
-      console.log(currentDataDisease);
+      currentDataValue = !!currentMunic ? currentMunic[idxValue] * 100 : f;
     } else if (!!f && !!d) {
       const currentDepartment = this.mapDataPPA?.find((x: any) => x.code.toString() === f.properties.DPTO_CCDGO) || null;
 
-      currentDataDisease = !!currentDepartment ? currentDepartment[d] * 100 : f;
+      currentDataValue = !!currentDepartment ? currentDepartment[d] * 100 : f;
     }
 
     if (typeof f === 'object' && d === '') return '#C7E9C0';
 
-    return currentDataDisease === 100 ? '#800026' :
-      currentDataDisease >  90 ? '#BD0026' :
-        currentDataDisease > 80 ? '#E31A1C' :
-          currentDataDisease > 60 ? '#FC4E2A' :
-            currentDataDisease > 40 ? '#FD8D3C' :
-              currentDataDisease > 20 ? '#FEB24C' :
-                currentDataDisease > 0 ? '#FED976' :
+    return currentDataValue === 100 ? '#800026' :
+      currentDataValue > 90 ? '#BD0026' :
+        currentDataValue > 80 ? '#E31A1C' :
+          currentDataValue > 60 ? '#FC4E2A' :
+            currentDataValue > 40 ? '#FD8D3C' :
+              currentDataValue > 20 ? '#FEB24C' :
+                currentDataValue > 0 ? '#FED976' :
                   '#FFEDA0';
   }
 
@@ -164,6 +163,18 @@ export class MapControllerService {
     });
   }
 
+  public zoomToFeatureMap(muniCode: string) {
+    const currentlayer = this.mapLayers.find(x => x.name.substring(0, 4) === 'dpto')?.layer;
+
+    if (currentlayer) {
+      const arrrayLayers = Object.entries(currentlayer._layers).map(x => { return x[1]});
+      const currentMuniLayer: any = arrrayLayers.find((x: any) => x.feature.properties.mpios === muniCode);
+
+      this.map.fitBounds(currentMuniLayer.getBounds(), { maxZoom: 11 })
+    }
+
+  }
+
   public setlegend() {
     const legend = new L.Control({ position: 'bottomright' });
 
@@ -175,7 +186,6 @@ export class MapControllerService {
 
       // loop through our density intervals and generate a label with a colored square for each interval
       for (var i = 0; i < grades.length - 1; i++) {
-        console.log(i);
         div.innerHTML +=
           '<i style="background:' + this.getLegendColor(grades[i] + 1) + '"></i> '
           + grades[i] + (grades[i + 1] ? ' &ndash; ' + grades[i + 1] + '<br>' : '');
@@ -188,6 +198,7 @@ export class MapControllerService {
   }
 
   public setInfo() {
+    if (this.info) this.info.remove();
     this.info = new L.Control();
     this.info.onAdd = function () {
       this._div = L.DomUtil.create("div", "info");
@@ -196,9 +207,8 @@ export class MapControllerService {
     };
 
     this.info.update = function (props: any) {
-      console.log(props)
       this._div.innerHTML =
-        "<h4>Nombre del Departamento</h4>" +
+        "<h4>Nombre del Municipio</h4>" +
         (props ? "<b>" + props.nombre_mpi + "</b><br />" : "");
     };
 
@@ -245,36 +255,21 @@ export class MapControllerService {
   //   }
   // }
 
-  public async setGeoJson(res: any, layerName: string, dptoCode?: any, disease = '', clearLayer = true) {
-    // if (clearLayer) this.removeLayers();
+  public async setGeoJson(res: any, layerName: string, dptoCode?: any, disease = '', clearLayer = '') {
+    if (clearLayer !== '') this.removeLayers(clearLayer);
     if (dptoCode) {
-      this.mapDataPPA = null;     
+      this.mapDataPPA = null;
       this.mapDataPPA = this.jsonService.currentDiseaseData;
+      this.setInfo();
     } else {
       if (!this.mapDataPPA) this.mapDataPPA = this.jsonService.currentDiseaseData;
     }
 
     if (this.isMapready) {
-      let stateLayer = L.geoJSON(res, {
-        style: (feature) => ({
-          fillColor: this.getColor(feature, disease, dptoCode),
-          weight: 2,
-          opacity: 1,
-          color: 'white',
-          dashArray: '3',
-          fillOpacity: 0.7
-        }),
-        onEachFeature: (_, layer) => (
-          layer.on({
-            mouseover: (e) => (this.highlightFeature(e)),
-            mouseout: (e) => (this.resetFeature(e)),
-            click: (e) => (this.zoomToFeature(e))
-          })
-        )
-      });
+      let stateLayer;
 
-      switch (layerName) {
-        case 'viewType':
+      switch (layerName.substring(0, 4)) {
+        case 'view':
           stateLayer = L.geoJSON(res, {
             style: (feature) => ({
               fillColor: this.getColor(null, null, undefined, '#C7E9C0'),
@@ -284,24 +279,44 @@ export class MapControllerService {
               fillOpacity: 0.7
             })
           });
+
+          this.mapLayers.push({
+            name: layerName,
+            layer: stateLayer
+          });
+
+          this.map.addLayer(stateLayer);
+          stateLayer.bringToBack();
+
           break;
+        case 'dpto':
+          stateLayer = L.geoJSON(res, {
+            style: (feature) => ({
+              fillColor: this.getColor(feature, disease, dptoCode),
+              weight: 2,
+              opacity: 1,
+              color: 'white',
+              dashArray: '3',
+              fillOpacity: 0.7
+            }),
+            onEachFeature: (_, layer) => (
+              layer.on({
+                mouseover: (e) => (this.highlightFeature(e)),
+                mouseout: (e) => (this.resetFeature(e)),
+                click: (e) => (this.zoomToFeature(e))
+              })
+            )
+          });
 
-        default:
+          this.mapLayers.push({
+            name: layerName,
+            layer: stateLayer
+          });
 
+          this.map.addLayer(stateLayer);
+          stateLayer.bringToFront();
           break;
       }
-
-
-      this.mapLayers.push({
-        name: layerName,
-        layer: stateLayer
-      });
-
-      this.map.addLayer(stateLayer);
-      stateLayer.bringToFront();
-
-      console.log(this.mapLayers);
-      this.setInfo();
     }
   }
 
@@ -309,12 +324,40 @@ export class MapControllerService {
     this.isMapready && L.geoJSON().clearLayers()
   }
 
-  public removeLayers() {
-    this.mapLayers.forEach((mapLayer) => {
-      this.map.removeLayer(mapLayer.layer);
-      this.map.removeLayer(this.info);
-    });
-    this.mapLayers = [];
+  public removeLayers(layerName: string) {
+
+    switch (layerName) {
+      case 'all':
+        this.mapLayers.forEach((mapLayer) => {
+          this.map.removeLayer(mapLayer.layer);
+          this.map.removeLayer(this.info);
+        });
+        this.mapLayers = [];
+        break;
+      case 'viewType':
+        this.mapLayers.forEach((mapLayer) => {
+          if (mapLayer.name === ('viewType')) {
+            this.map.removeLayer(mapLayer.layer);
+            this.map.removeLayer(this.info);
+          }
+        });
+        this.mapLayers = this.mapLayers.filter(x => x.name.name !== ('viewType'));
+        break;
+      case 'dpto':
+        console.log("entre a dpto");
+        console.log(this.mapLayers);
+        this.mapLayers.forEach((mapLayer) => {
+          if (mapLayer.name.substring(0, 4) === ('dpto')) {
+            this.map.removeLayer(mapLayer.layer);
+            this.map.removeLayer(this.info);
+          }
+        });
+        this.mapLayers = this.mapLayers.filter(x => x.name.substring(0, 4) !== ('dpto'));
+        break;
+      default:
+        break;
+    }
+
   }
 
   public getDiseaseData() {
@@ -362,18 +405,68 @@ export class MapControllerService {
 
   public setViewTypeMap(json: any, typeName: string = '') {
     this.mapDataPPA = null;
-    this.setGeoJson(json, 'viewType', null);
+    this.setGeoJson(json, 'viewType', null, '', 'viewType');
   }
 
   public setDepartmentMap(json: any, dptoCode: string) {
-    const currentRisk = sessionStorage.getItem('risk') || '';
+    console.log("entre al set department");
+    let currentRisk = '';
+    this.riskFact = false;
+    if (sessionStorage.getItem('riskfact') !== null && sessionStorage.getItem('riskfact') !== '') {
+      currentRisk = sessionStorage.getItem('riskfact') || '';
+      this.riskFact = true;
+    } else if (sessionStorage.getItem('riskcat') !== null && sessionStorage.getItem('riskcat') !== '') {
+      currentRisk = sessionStorage.getItem('riskcat') || '';
+    } else if (sessionStorage.getItem('risk') !== null && sessionStorage.getItem('risk') !== '') {
+      currentRisk = sessionStorage.getItem('risk') || '';
+    }
 
-    this.setGeoJson(json, `dpto_${dptoCode}`, dptoCode, currentRisk);
+    this.setGeoJson(json, `dpto_${dptoCode}`, dptoCode, currentRisk, 'dpto');
   }
 
-  public seMuniMap(json: any, dptoCode: string) {
-    const currentRisk = sessionStorage.getItem('risk') || '';
+  getCatIdx(riskName: string, riskfact = false) {
+    let idxValue = ''
 
-    this.setGeoJson(json, `,muni_${dptoCode}`, dptoCode, currentRisk);
+    switch (riskName) {
+      // CATEGORIAS
+      case 'RES':
+        idxValue = 'Prob_Riesgo_especifico';
+        break;
+      case 'COA':
+        idxValue = 'Prob_Cat_AMENAZA';
+        break;
+      case 'COV':
+        idxValue = 'Prob_Cat_VULNERABILIDAD';
+        break;
+
+      // COMPONENTES
+      case 'BIO':
+        idxValue = 'Prob_Cat_Bioseguridad';
+        break;
+      case 'SAN':
+        idxValue = 'Prob_Cat_Manejo_Sanitario';
+        break;
+      case 'MOV':
+        idxValue = 'Prob_Cat_Movilización';
+        break;
+      case 'EBA':
+        idxValue = 'Prob_Cat_Entorno_Biofísico_Ambiental';
+        break;
+      case 'ESO':
+        idxValue = 'Prob_Cat_Entorno_Socioeconómico';
+        break;
+      case 'EBI':
+        idxValue = 'Prob_Cat_Espacio_Biofisico';
+        break;
+      case 'PRO':
+        idxValue = 'Prob_Cat_Proceso_Productivo';
+        break;
+    }
+
+    if (riskfact) {
+      idxValue = 'Prob_' + riskName;
+    }
+
+    return idxValue;
   }
 }
