@@ -3,6 +3,7 @@ import { Municipality } from 'src/app/models/municipality';
 import { ControlEvent, ControlFormService } from 'src/app/services/control-form.service';
 import { JsonListService } from 'src/app/services/Json-list.service';
 import { MapControllerService } from 'src/app/services/map-controller.service';
+import { RISKFACT, RiskSelectFacValue } from 'src/app/shared/project-values.constants';
 
 @Component({
   selector: 'app-charts',
@@ -11,6 +12,9 @@ import { MapControllerService } from 'src/app/services/map-controller.service';
 })
 export class ChartsComponent implements OnInit {
   toggleMenu = false;
+  riskCat = RISKFACT;
+  filteredRiskCat: RiskSelectFacValue[] | any[] = [];
+  riskWithData: any[] = [];
 
   // Categorias
   catProcesoProductivo: number = 0;
@@ -44,6 +48,15 @@ export class ChartsComponent implements OnInit {
   threatView = true;
   vulnerabilityView = true;
 
+  // categorias
+  viewBIO = true;
+  viewSAN = true;
+  viewMOV = true;
+  viewEBA = true;
+  viewESO = true;
+  viewEBI = true;
+  viewPRO = true;
+
   constructor(
     private controlFormService: ControlFormService,
     private jsonService: JsonListService,
@@ -52,6 +65,17 @@ export class ChartsComponent implements OnInit {
 
   ngOnInit(): void {
     this.initListeners();
+    this.resetViewCategories();
+  }
+
+  resetViewCategories() {
+    this.viewBIO = true;
+    this.viewSAN = true;
+    this.viewMOV = true;
+    this.viewEBA = true;
+    this.viewESO = true;
+    this.viewEBI = true;
+    this.viewPRO = true;
   }
 
   initListeners() {
@@ -69,6 +93,9 @@ export class ChartsComponent implements OnInit {
           break;
         case 'risk':
           this.setRiskData(res);
+          break;
+        case 'riskcat':
+          this.setRiskCatData(res);
           break;
         case 'reset':
           this.resetCategories();
@@ -206,7 +233,7 @@ export class ChartsComponent implements OnInit {
 
   public setRiskData(data: ControlEvent) {
     console.log(data);
-
+    this.resetViewCategories();
     switch (data.value) {
       case 'RES':
         this.threatView = true;
@@ -224,6 +251,76 @@ export class ChartsComponent implements OnInit {
         this.threatView = true;
         this.vulnerabilityView = true;
         break;
+    }
+  }
+
+  public setRiskCatData(data: ControlEvent) {
+    this.viewBIO = false;
+    this.viewSAN = false;
+    this.viewMOV = false;
+    this.viewEBA = false;
+    this.viewESO = false;
+    this.viewEBI = false;
+    this.viewPRO = false;
+
+    switch (data.value) {
+      case 'BIO':
+        this.viewBIO = true;
+        break;
+      case 'SAN':
+        this.viewSAN = true;
+        break;
+      case 'MOV':
+        this.viewMOV = true;
+        break;
+      case 'EBA':
+        this.viewEBA = true;
+        break;
+      case 'ESO':
+        this.viewESO = true;
+        break;
+      case 'EBI':
+        this.viewEBI = true;
+        break;
+      case 'PRO':
+        this.viewPRO = true;
+        break;
+      default:
+        this.resetCategories();
+        break;
+    }
+
+    this.getCurrentRiskCat(data.value as string);
+
+  }
+
+  getCurrentRiskCat(cat?: string) {
+    const muniSelected = sessionStorage.getItem('municipality') !== null ? JSON.parse(sessionStorage.getItem('municipality') as string) : false;
+    this.filteredRiskCat = this.riskCat.filter(x => x.riskcat === cat);
+    this.riskWithData = [];
+    console.log(this.riskCat, this.filteredRiskCat);
+    console.log(this.jsonService.currentDiseaseData);
+
+    if (muniSelected) {
+      const muniCode = muniSelected.code;
+      this.riskWithData = this.filteredRiskCat.map(riskCat => {
+        const idx = `Prob_${riskCat.value}`;
+        const currentData = this.jsonService.currentDiseaseData.find((x: any) => x.DPTOMPIO === muniCode);
+        return {
+          ...riskCat,
+          categorieValue: (!!currentData[idx] && currentData[idx]) > 0 ? currentData[idx] : 0
+        }
+      });
+      console.log(this.riskWithData);
+    } else {
+      this.riskWithData = this.filteredRiskCat.map(riskCat => {
+        const idx = `Prob_${riskCat.value}_medianDEP`;
+        const currentData = this.jsonService.currentDiseaseData[0];
+        return {
+          ...riskCat,
+          categorieValue: (!!currentData[idx] && currentData[idx]) > 0 ? currentData[idx] : 0
+        }
+      });
     }
   }
 

@@ -312,3 +312,7 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
 .overflow-auto {
   overflow: auto;
 }
+
+.leaflet-right .leaflet-control {
+  color: #2b2b2b;
+}

@@ -11,7 +11,7 @@
                 <div class="col-12 mb-2">
                     <h2 class="big-title">Riesgo Específico</h2>
                     <ng-container *ngIf="!!currentRisk && currentRisk !== -1">
-                        <h1 class="big-title-number">{{ currentRisk | number:'1.1-1' }}%</h1>
+                        <h1 class="big-title-number">{{ currentRisk * 100 | number:'1.1-1' }}%</h1>
                     </ng-container>
                     <ng-container *ngIf="!!currentRisk && currentRisk === -1">
                         <h1 class="big-title-number">N/A</h1>
@@ -22,7 +22,7 @@
                 </div>
 
                 <ng-container *ngIf="threatView">
-                    <div class="col-12 text-center mb-2">
+                    <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Amenaza</h4>
                         <h3 class="mid-title-number" *ngIf="!!threat && threat !== -1">
                             {{ threat * 100 | number:'1.1-1' }}%
@@ -35,7 +35,7 @@
                         </h3>
                     </div>
 
-                    <div class="col-12 mt-2 px-0 categoria proc-bioseguridad">
+                    <div class="col-12 mt-2 px-0 categoria proc-bioseguridad" *ngIf="viewBIO">
                         <div class="col-4 number">{{ catBioseguridad * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-4.svg" alt="Bioseguridad">
@@ -48,7 +48,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 mt-2 px-0 categoria proc-manejo-san">
+                    <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
                         <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
@@ -62,7 +62,7 @@
                     </div>
 
 
-                    <div class="col-12 mt-2 px-0 categoria proc-movilizacion">
+                    <div class="col-12 mt-2 px-0 categoria proc-movilizacion" *ngIf="viewMOV">
                         <div class="col-4 number">{{ catMovilizacion * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-5.svg" alt="Movilización">
@@ -78,7 +78,7 @@
                 </ng-container>
 
                 <ng-container *ngIf="vulnerabilityView">
-                    <div class="col-12 text-center mt-4 mb-2">
+                    <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Vulnerabilidad</h4>
                         <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability !== -1">
                             {{ vulnerability * 100 | number:'1.1-1' }}%
@@ -90,7 +90,7 @@
                             N/A
                         </h3>
                     </div>
-                    <div class="col-12 mt-2 px-0 categoria proc-productivo">
+                    <div class="col-12 mt-2 px-0 categoria proc-productivo" *ngIf="viewPRO">
                         <div class="col-4 number">{{ catProcesoProductivo * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-1.svg" alt="Proceso Productivo">
@@ -102,7 +102,7 @@
                             </h4>
                         </div>
                     </div>
-                    <div class="col-12 mt-2 px-0 categoria proc-biofisico">
+                    <div class="col-12 mt-2 px-0 categoria proc-biofisico" *ngIf="viewEBI">
                         <div class="col-4 number">{{ catEspacioBiofisico * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-2.svg" alt="Espacio Biofísico">
@@ -114,7 +114,7 @@
                             </h4>
                         </div>
                     </div>
-                    <div class="col-12 mt-2 px-0 categoria proc-biofisico-amb">
+                    <div class="col-12 mt-2 px-0 categoria proc-biofisico-amb" *ngIf="viewEBA">
                         <div class="col-4 number">{{ catEntornoBiosifico * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-3.svg" alt="Entorno Biofísico-Ambiental">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 mt-2 px-0 categoria proc-socio-ec">
+                    <div class="col-12 mt-2 px-0 categoria proc-socio-ec" *ngIf="viewESO">
                         <div class="col-4 number">{{ catSocioEconomico * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-6.svg" alt="Entorno Socio-Económico">
@@ -139,7 +139,7 @@
                             </h4>
                         </div>
                     </div>
-                    <div class="col-12 mt-2 px-0 categoria proc-manejo-san">
+                    <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
                         <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.1-1' }}%</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
@@ -152,7 +152,16 @@
                         </div>
                     </div>
                 </ng-container>
-
+                <ng-container *ngIf="riskWithData.length > 0">
+                    <div class="risk-data-container">
+                        <ul class="ul-risk-data">
+                            <li *ngFor="let riskData of riskWithData">
+                                <h4 class="name">{{ riskData.name }}</h4>
+                                <span class="value">{{ riskData.categorieValue * 100 | number:'1.1-1' }}%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </ng-container>
             </div>
 
             <!-- <div class="row py-4">

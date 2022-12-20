@@ -196,9 +196,10 @@ export class MapControllerService {
     };
 
     this.info.update = function (props: any) {
+      console.log(props)
       this._div.innerHTML =
         "<h4>Nombre del Departamento</h4>" +
-        (props ? "<b>" + props.DPTO_CNMBR + "</b><br />" : "");
+        (props ? "<b>" + props.nombre_mpi + "</b><br />" : "");
     };
 
     this.info.addTo(this.map);
@@ -300,6 +301,7 @@ export class MapControllerService {
       stateLayer.bringToFront();
 
       console.log(this.mapLayers);
+      this.setInfo();
     }
   }
 

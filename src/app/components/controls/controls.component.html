@@ -104,7 +104,7 @@
           <div class="form-container mt-2">
             <h5 class="text-uppercase">Categorías del componente</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-label>Seleccione un componente</mat-label>
               <mat-select formControlName="riskComp" (selectionChange)="setRiskComp($event)">
                 <mat-option *ngFor="let comp of filteredRiskCOMP" [value]="comp.value" matTooltipPosition="right"
                   [matTooltip]="comp.name">
@@ -120,7 +120,7 @@
           <div class="form-container mt-2">
             <h5 class="text-uppercase">Riesgo de la categoría</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
-              <mat-label>Seleccione analisis de riesgo</mat-label>
+              <mat-label>Seleccione categoría</mat-label>
               <mat-select formControlName="riskCat" (selectionChange)="setRiskFact($event)">
                 <mat-option *ngFor="let fact of filteredRiskFACT" [value]="fact.value"  matTooltipPosition="right"
                 [matTooltip]="fact.name">
