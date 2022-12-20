@@ -27,7 +27,7 @@
             <h5 class="text-uppercase">Tipo de visualización</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione tipo de visualización</mat-label>
-              <mat-select formControlName="viewType" (selectionChange)="setViewType($event)">
+              <mat-select formControlName="viewType" (selectionChange)="setViewType($event.value)">
                 <mat-option *ngFor="let view of viewTypes" [value]="view.value" [matTooltip]="view.name"
                   matTooltipPosition="right">
                   {{ view.name }}
@@ -38,7 +38,7 @@
 
 
           <div class="form-container mt-2">
-            <h5 class="text-uppercase">Seleccion una enfermedad</h5>
+            <h5 class="text-uppercase">Seleccione una enfermedad</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>BUSCAR ENFERMEDAD</mat-label>
               <mat-select formControlName="disease" (selectionChange)="setDisease($event)">
@@ -51,7 +51,7 @@
 
 
           <div class="form-container mt-2">
-            <h5 class="text-uppercase">Seleccion un departamento:</h5>
+            <h5 class="text-uppercase">Seleccione un departamento:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput formControlName="department"
@@ -70,7 +70,7 @@
           </div>
 
           <div class="form-container mt-2">
-            <h5 class="text-uppercase">Seleccion un Municipio:</h5>
+            <h5 class="text-uppercase">Seleccione un Municipio:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar Municipio</mat-label>
               <input type="text" placeholder="código o nombre" aria-label="Number" matInput
@@ -92,7 +92,7 @@
             <h5 class="text-uppercase">Análisis de riesgo específico</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
-              <mat-select formControlName="risk" (selectionChange)="setRisk($event)">
+              <mat-select formControlName="risk" (selectionChange)="setRisk($event.value)">
                 <mat-option *ngFor="let risk of risk" [value]="risk.value">
                   {{ risk.name }}
                 </mat-option>

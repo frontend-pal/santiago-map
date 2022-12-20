@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85001",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "YOPAL",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85010",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "AGUAZUL",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85015",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "CHÁMEZA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85125",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "HATO COROZAL",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85136",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "LA SALINA",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85139",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "MANÍ",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85162",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "MONTERREY",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85225",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "NUNCHÍA",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85230",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "OROCUÉ",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85250",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "PAZ DE ARIPORO",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85263",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "PORE",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85279",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "RECETOR",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85300",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "SABANALARGA",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85315",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "SÁCAMA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85325",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "SAN LUIS DE PALENQUE",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85400",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "TÁMARA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85410",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "TAURAMENA",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85430",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "TRINIDAD",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 85,
+  "DPTOCODE": 85,
   "divipola": "85440",
   "Nombre Departamento": "CASANARE",
   "Nombre Municipio": "VILLANUEVA",

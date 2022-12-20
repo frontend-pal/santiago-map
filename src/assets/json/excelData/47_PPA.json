@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47001",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SANTA MARTA",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47030",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "ALGARROBO",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47053",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "ARACATACA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47058",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "ARIGUANÍ",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47161",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "CERRO DE SAN ANTONIO",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47170",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "CHIVOLO",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47189",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "CIÉNAGA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47205",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "CONCORDIA",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47245",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "EL BANCO",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47258",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "EL PIÑÓN",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47268",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "EL RETÉN",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47288",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "FUNDACIÓN",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47318",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "GUAMAL",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47460",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "NUEVA GRANADA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47541",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "PEDRAZA",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47545",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "PIJIÑO DEL CARMEN",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47551",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "PIVIJAY",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47555",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "PLATO",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47570",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "PUEBLOVIEJO",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47605",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "REMOLINO",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47660",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SABANAS DE SAN ÁNGEL",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47675",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SALAMINA",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47692",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SAN SEBASTIÁN DE BUENAVISTA",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47703",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SAN ZENÓN",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47707",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SANTA ANA",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47720",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SANTA BÁRBARA DE PINTO",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47745",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "SITIONUEVO",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47798",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "TENERIFE",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47960",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "ZAPAYÁN",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 47,
+  "DPTOCODE": 47,
   "divipola": "47980",
   "Nombre Departamento": "MAGDALENA",
   "Nombre Municipio": "ZONA BANANERA",

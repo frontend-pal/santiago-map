@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63001",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "ARMENIA",
@@ -197,7 +197,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63111",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "BUENAVISTA",
@@ -393,7 +393,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63130",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "CALARCÁ",
@@ -589,7 +589,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63190",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "CIRCASIA",
@@ -785,7 +785,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63212",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "CÓRDOBA",
@@ -981,7 +981,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63272",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "FILANDIA",
@@ -1177,7 +1177,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63302",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "GÉNOVA",
@@ -1373,7 +1373,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63401",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "LA TEBAIDA",
@@ -1569,7 +1569,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63470",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "MONTENEGRO",
@@ -1765,7 +1765,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63548",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "PIJAO",
@@ -1961,7 +1961,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63594",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "QUIMBAYA",
@@ -2157,7 +2157,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 63,
+  "DPTOCODE": 63,
   "DPTOMPIO": "63690",
   "Nombre Departamento": "QUINDIO",
   "Nombre Municipio": "SALENTO",

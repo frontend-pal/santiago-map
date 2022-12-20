@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23001",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "MONTERÍA",
@@ -194,7 +194,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23068",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "AYAPEL",
@@ -387,7 +387,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23079",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "BUENAVISTA",
@@ -580,7 +580,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23090",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "CANALETE",
@@ -773,7 +773,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23162",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "CERETÉ",
@@ -966,7 +966,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23168",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "CHIMÁ",
@@ -1159,7 +1159,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23182",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "CHINÚ",
@@ -1352,7 +1352,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23189",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "CIÉNAGA DE ORO",
@@ -1545,7 +1545,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23300",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "COTORRA",
@@ -1738,7 +1738,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23350",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "LA APARTADA",
@@ -1931,7 +1931,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23417",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "LORICA",
@@ -2124,7 +2124,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23419",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "LOS CÓRDOBAS",
@@ -2317,7 +2317,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23464",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "MOMIL",
@@ -2510,7 +2510,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23466",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "MONTELÍBANO",
@@ -2703,7 +2703,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23500",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "MOÑITOS",
@@ -2896,7 +2896,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23555",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "PLANETA RICA",
@@ -3089,7 +3089,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23570",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "PUEBLO NUEVO",
@@ -3282,7 +3282,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23574",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "PUERTO ESCONDIDO",
@@ -3475,7 +3475,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23580",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "PUERTO LIBERTADOR",
@@ -3668,7 +3668,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23586",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "PURÍSIMA DE LA CONCEPCIÓN",
@@ -3861,7 +3861,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23660",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAHAGÚN",
@@ -4054,7 +4054,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23670",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN ANDRÉS DE SOTAVENTO",
@@ -4247,7 +4247,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23672",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN ANTERO",
@@ -4440,7 +4440,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23675",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN BERNARDO DEL VIENTO",
@@ -4633,7 +4633,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23678",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN CARLOS",
@@ -4826,7 +4826,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23682",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN JOSÉ DE URÉ",
@@ -5019,7 +5019,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23686",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "SAN PELAYO",
@@ -5212,7 +5212,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23807",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "TIERRALTA",
@@ -5405,7 +5405,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23815",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "TUCHÍN",
@@ -5598,7 +5598,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 23,
+  "DPTOCODE": 23,
   "DPTOMPIO": "23855",
   "Nombre Departamento": "CÓRDOBA",
   "Nombre Municipio": "VALENCIA",

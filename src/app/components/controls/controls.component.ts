@@ -55,14 +55,13 @@ export class ControlsComponent implements OnInit {
     this.diseases = DISEASES;
     this.risk = RISK;
     this.riskcomp = RISKCOMP;
-    this.riskFact  = RISKFACT;
+    this.riskFact = RISKFACT;
     this.initForm();
     // this.initListeners();
   }
 
   initListeners() {
     this.controlFormService.controlData.subscribe(res => {
-      console.log(res.control);
       switch (res.control) {
         case 'dptoFromMap':
           this.resetDpto();
@@ -82,14 +81,16 @@ export class ControlsComponent implements OnInit {
     this.mapForm = new FormGroup({
       department: new FormControl('', null),
       municipality: new FormControl('', null),
-      disease: new FormControl('ppa', null),
-      risk: new FormControl('', null),
+      disease: new FormControl('', null),
+      risk: new FormControl('RES', null),
       riskComp: new FormControl({ value: '', disabled: true }, null),
       riskCat: new FormControl({ value: '', disabled: true }, null),
-      viewType: new FormControl('', null)
+      viewType: new FormControl('FRONAC', null)
     })
 
     // this.mapForm.controls['risk'].disable();
+    this.setRisk('RES');
+    this.setViewType('FRONAC');
     this.getData();
   }
 
@@ -168,12 +169,9 @@ export class ControlsComponent implements OnInit {
   }
 
   goToDpto(dptoCode?: string) {
-    console.log(dptoCode);
-
     if (dptoCode) {
       const currentDepartment: Department | null = this.departments.find(x => x.code === dptoCode) || null;
 
-      console.log(currentDepartment);
       this.setControl('dpto', currentDepartment);
       // this.checkMapControls();
     } else {
@@ -191,11 +189,11 @@ export class ControlsComponent implements OnInit {
     }
   }
 
-  setRisk(event: MatSelectChange) {
-    this.setControl('risk', event.value);
-    this.selectedRisk = event.value
+  setRisk(value: string) {
+    this.setControl('risk', value);
+    this.selectedRisk = value
     this.filteredRiskCOMP = [];
-    this.filteredRiskCOMP = this.riskcomp.filter(x => x.risk === event.value);
+    this.filteredRiskCOMP = this.riskcomp.filter(x => x.risk === value);
     if (this.filteredRiskCOMP.length > 0) {
       this.mapForm.controls['riskComp'].enable();
     } else {
@@ -204,13 +202,10 @@ export class ControlsComponent implements OnInit {
   }
 
   setRiskComp(event: MatSelectChange) {
-    console.log(event);
     this.setControl('riskcat', event.value);
     this.selectedRiskCAT = event.value;
     this.filteredRiskFACT = [];
     this.filteredRiskFACT = this.riskFact.filter(x => x.riskcat === event.value);
-    console.log(this.filteredRiskFACT);
-    console.log(this.selectedRiskCAT);
     if (this.filteredRiskFACT.length > 0) {
       this.mapForm.controls['riskCat'].enable();
     } else {
@@ -220,11 +215,11 @@ export class ControlsComponent implements OnInit {
 
   setRiskFact(event: MatSelectChange) {
     this.setControl('riskfact', event.value);
-  }  
+  }
 
-  setViewType(event: MatSelectChange) {
-    this.setControl('viewtype', event.value);
-    this.jsonService.getViewTypeGeoJson(event.value).subscribe(res => {
+  setViewType(value: string) {
+    this.setControl('viewtype', value);
+    this.jsonService.getViewTypeGeoJson(value).subscribe(res => {
       this.mapService.setViewTypeMap(res);
 
     });
@@ -238,10 +233,8 @@ export class ControlsComponent implements OnInit {
   }
 
   getDptoMap(currentDepartment: any) {
-    console.log(currentDepartment);
     this.getMunicipalityByCode(currentDepartment.code);
     this.jsonService.getDptoGeoJson(currentDepartment.code).subscribe(res => {
-      console.log(res);
       this.mapService.setDepartmentMap(res, currentDepartment.code);
     });
     this.goToLocation({
@@ -258,13 +251,11 @@ export class ControlsComponent implements OnInit {
     }
 
     this.jsonService.getMuniDataGeoJson(currentMun).subscribe(res => {
-      console.log(res);
       if (!!res) this.mapService.seMuniMap(res, res.properties.dpto);
     });
   }
 
   setControl(controlName: string, value: Municipality | Department | string | null) {
-    console.log(value);
     this.controlFormService.setControlData({
       control: controlName,
       value: value
@@ -301,22 +292,18 @@ export class ControlsComponent implements OnInit {
     const currentDptoSelected = sessionStorage.getItem('dpto');
     const currentRiskSelected = sessionStorage.getItem('risk');
 
-    console.log(currentMuniSelected);
-    console.log(currentDptoSelected);
     if (!!currentMuniSelected && currentMuniSelected !== null) {
-      console.log("entre a muni --> ", currentMuniSelected)
       this.getMuniMap(JSON.parse(currentMuniSelected));
 
       return;
     }
 
     if (!!currentDptoSelected && currentDptoSelected !== null) {
-      console.log("entre a dpeto --> ", currentDptoSelected)
       this.getDptoMap(JSON.parse(currentDptoSelected));
 
       return;
     }
 
-    this.mapService.getColombiaMap(currentRiskSelected || '')
+    // this.mapService.getColombiaMap(currentRiskSelected || '')
   }
 }

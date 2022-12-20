@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25001",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "AGUA DE DIOS",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25019",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ALBÁN",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25035",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ANAPOIMA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25040",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ANOLAIMA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25053",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ARBELÁEZ",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25086",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "BELTRÁN",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25095",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "BITUIMA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25099",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "BOJACÁ",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25120",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CABRERA",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25123",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CACHIPAY",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25126",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CAJICÁ",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25148",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CAPARRAPÍ",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25151",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CÁQUEZA",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25154",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CARMEN DE CARUPA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25168",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CHAGUANÍ",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25175",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CHÍA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25178",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CHIPAQUE",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25181",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CHOACHÍ",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25183",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CHOCONTÁ",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25200",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "COGUA",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25214",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "COTA",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25224",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "CUCUNUBÁ",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25245",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "EL COLEGIO",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25258",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "EL PEÑÓN",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25260",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "EL ROSAL",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25269",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FACATATIVÁ",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25279",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FÓMEQUE",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25281",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FOSCA",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25286",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FUNZA",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25288",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FÚQUENE",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25290",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "FUSAGASUGÁ",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25293",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GACHALÁ",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25295",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GACHANCIPÁ",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25297",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GACHETÁ",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25299",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GAMA",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25307",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GIRARDOT",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25312",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GRANADA",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25317",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUACHETÁ",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25320",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUADUAS",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25322",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUASCA",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25324",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUATAQUÍ",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25326",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUATAVITA",
@@ -2899,7 +2899,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25328",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUAYABAL DE SÍQUIMA",
@@ -2968,7 +2968,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25335",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUAYABETAL",
@@ -3037,7 +3037,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25339",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "GUTIÉRREZ",
@@ -3106,7 +3106,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25368",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "JERUSALÉN",
@@ -3175,7 +3175,7 @@
  },
  {
   "Column1": 46,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25372",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "JUNÍN",
@@ -3244,7 +3244,7 @@
  },
  {
   "Column1": 47,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25377",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LA CALERA",
@@ -3313,7 +3313,7 @@
  },
  {
   "Column1": 48,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25386",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LA MESA",
@@ -3382,7 +3382,7 @@
  },
  {
   "Column1": 49,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25394",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LA PALMA",
@@ -3451,7 +3451,7 @@
  },
  {
   "Column1": 50,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25398",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LA PEÑA",
@@ -3520,7 +3520,7 @@
  },
  {
   "Column1": 51,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25402",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LA VEGA",
@@ -3589,7 +3589,7 @@
  },
  {
   "Column1": 52,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25407",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "LENGUAZAQUE",
@@ -3658,7 +3658,7 @@
  },
  {
   "Column1": 53,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25426",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "MACHETÁ",
@@ -3727,7 +3727,7 @@
  },
  {
   "Column1": 54,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25430",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "MADRID",
@@ -3796,7 +3796,7 @@
  },
  {
   "Column1": 55,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25436",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "MANTA",
@@ -3865,7 +3865,7 @@
  },
  {
   "Column1": 56,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25438",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "MEDINA",
@@ -3934,7 +3934,7 @@
  },
  {
   "Column1": 57,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25473",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "MOSQUERA",
@@ -4003,7 +4003,7 @@
  },
  {
   "Column1": 58,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25486",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "NEMOCÓN",
@@ -4072,7 +4072,7 @@
  },
  {
   "Column1": 59,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25488",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "NILO",
@@ -4141,7 +4141,7 @@
  },
  {
   "Column1": 60,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25489",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "NIMAIMA",
@@ -4210,7 +4210,7 @@
  },
  {
   "Column1": 61,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25491",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "NOCAIMA",
@@ -4279,7 +4279,7 @@
  },
  {
   "Column1": 62,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25506",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VENECIA",
@@ -4348,7 +4348,7 @@
  },
  {
   "Column1": 63,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25513",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PACHO",
@@ -4417,7 +4417,7 @@
  },
  {
   "Column1": 64,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25518",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PAIME",
@@ -4486,7 +4486,7 @@
  },
  {
   "Column1": 65,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25524",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PANDI",
@@ -4555,7 +4555,7 @@
  },
  {
   "Column1": 66,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25530",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PARATEBUENO",
@@ -4624,7 +4624,7 @@
  },
  {
   "Column1": 67,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25535",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PASCA",
@@ -4693,7 +4693,7 @@
  },
  {
   "Column1": 68,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25572",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PUERTO SALGAR",
@@ -4762,7 +4762,7 @@
  },
  {
   "Column1": 69,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25580",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "PULÍ",
@@ -4831,7 +4831,7 @@
  },
  {
   "Column1": 70,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25592",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "QUEBRADANEGRA",
@@ -4900,7 +4900,7 @@
  },
  {
   "Column1": 71,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25594",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "QUETAME",
@@ -4969,7 +4969,7 @@
  },
  {
   "Column1": 72,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25596",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "QUIPILE",
@@ -5038,7 +5038,7 @@
  },
  {
   "Column1": 73,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25599",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "APULO",
@@ -5107,7 +5107,7 @@
  },
  {
   "Column1": 74,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25612",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "RICAURTE",
@@ -5176,7 +5176,7 @@
  },
  {
   "Column1": 75,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25645",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SAN ANTONIO DEL TEQUENDAMA",
@@ -5245,7 +5245,7 @@
  },
  {
   "Column1": 76,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25649",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SAN BERNARDO",
@@ -5314,7 +5314,7 @@
  },
  {
   "Column1": 77,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25653",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SAN CAYETANO",
@@ -5383,7 +5383,7 @@
  },
  {
   "Column1": 78,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25658",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SAN FRANCISCO",
@@ -5452,7 +5452,7 @@
  },
  {
   "Column1": 79,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25662",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SAN JUAN DE RIOSECO",
@@ -5521,7 +5521,7 @@
  },
  {
   "Column1": 80,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25718",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SASAIMA",
@@ -5590,7 +5590,7 @@
  },
  {
   "Column1": 81,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25736",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SESQUILÉ",
@@ -5659,7 +5659,7 @@
  },
  {
   "Column1": 82,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25740",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SIBATÉ",
@@ -5728,7 +5728,7 @@
  },
  {
   "Column1": 83,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25743",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SILVANIA",
@@ -5797,7 +5797,7 @@
  },
  {
   "Column1": 84,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25745",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SIMIJACA",
@@ -5866,7 +5866,7 @@
  },
  {
   "Column1": 85,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25754",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SOACHA",
@@ -5935,7 +5935,7 @@
  },
  {
   "Column1": 86,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25758",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SOPÓ",
@@ -6004,7 +6004,7 @@
  },
  {
   "Column1": 87,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25769",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SUBACHOQUE",
@@ -6073,7 +6073,7 @@
  },
  {
   "Column1": 88,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25772",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SUESCA",
@@ -6142,7 +6142,7 @@
  },
  {
   "Column1": 89,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25777",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SUPATÁ",
@@ -6211,7 +6211,7 @@
  },
  {
   "Column1": 90,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25779",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SUSA",
@@ -6280,7 +6280,7 @@
  },
  {
   "Column1": 91,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25781",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "SUTATAUSA",
@@ -6349,7 +6349,7 @@
  },
  {
   "Column1": 92,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25785",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TABIO",
@@ -6418,7 +6418,7 @@
  },
  {
   "Column1": 93,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25793",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TAUSA",
@@ -6487,7 +6487,7 @@
  },
  {
   "Column1": 94,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25797",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TENA",
@@ -6556,7 +6556,7 @@
  },
  {
   "Column1": 95,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25799",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TENJO",
@@ -6625,7 +6625,7 @@
  },
  {
   "Column1": 96,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25805",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TIBACUY",
@@ -6694,7 +6694,7 @@
  },
  {
   "Column1": 97,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25807",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TIBIRITA",
@@ -6763,7 +6763,7 @@
  },
  {
   "Column1": 98,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25815",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TOCAIMA",
@@ -6832,7 +6832,7 @@
  },
  {
   "Column1": 99,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25817",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TOCANCIPÁ",
@@ -6901,7 +6901,7 @@
  },
  {
   "Column1": 100,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25823",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "TOPAIPÍ",
@@ -6970,7 +6970,7 @@
  },
  {
   "Column1": 101,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25839",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "UBALÁ",
@@ -7039,7 +7039,7 @@
  },
  {
   "Column1": 102,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25841",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "UBAQUE",
@@ -7108,7 +7108,7 @@
  },
  {
   "Column1": 103,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25843",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VILLA DE SAN DIEGO DE UBATÉ",
@@ -7177,7 +7177,7 @@
  },
  {
   "Column1": 104,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25845",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "UNE",
@@ -7246,7 +7246,7 @@
  },
  {
   "Column1": 105,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25851",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ÚTICA",
@@ -7315,7 +7315,7 @@
  },
  {
   "Column1": 106,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25862",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VERGARA",
@@ -7384,7 +7384,7 @@
  },
  {
   "Column1": 107,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25867",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VIANÍ",
@@ -7453,7 +7453,7 @@
  },
  {
   "Column1": 108,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25871",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VILLAGÓMEZ",
@@ -7522,7 +7522,7 @@
  },
  {
   "Column1": 109,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25873",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VILLAPINZÓN",
@@ -7591,7 +7591,7 @@
  },
  {
   "Column1": 110,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25875",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VILLETA",
@@ -7660,7 +7660,7 @@
  },
  {
   "Column1": 111,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25878",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "VIOTÁ",
@@ -7729,7 +7729,7 @@
  },
  {
   "Column1": 112,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25885",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "YACOPÍ",
@@ -7798,7 +7798,7 @@
  },
  {
   "Column1": 113,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25898",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ZIPACÓN",
@@ -7867,7 +7867,7 @@
  },
  {
   "Column1": 114,
-  "Código Departamento": 25,
+  "DPTOCODE": 25,
   "divipola": "25899",
   "Nombre Departamento": "CUNDINAMARCA",
   "Nombre Municipio": "ZIPAQUIRÁ",

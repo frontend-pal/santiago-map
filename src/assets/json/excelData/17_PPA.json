@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17001",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "MANIZALES",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17013",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "AGUADAS",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17042",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "ANSERMA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17050",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "ARANZAZU",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17088",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "BELALCÁZAR",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17174",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "CHINCHINÁ",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17272",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "FILADELFIA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17380",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "LA DORADA",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17388",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "LA MERCED",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17433",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "MANZANARES",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17442",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "MARMATO",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17444",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "MARQUETALIA",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17446",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "MARULANDA",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17486",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "NEIRA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17495",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "NORCASIA",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17513",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "PÁCORA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17524",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "PALESTINA",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17541",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "PENSILVANIA",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17614",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "RIOSUCIO",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17616",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "RISARALDA",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17653",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "SALAMINA",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17662",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "SAMANÁ",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17665",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "SAN JOSÉ",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17777",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "SUPÍA",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17867",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "VICTORIA",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17873",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "VILLAMARÍA",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 17,
+  "DPTOCODE": 17,
   "divipola": "17877",
   "Nombre Departamento": "CALDAS",
   "Nombre Municipio": "VITERBO",

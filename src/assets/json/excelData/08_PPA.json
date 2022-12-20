@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08001",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "BARRANQUILLA",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08078",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "BARANOA",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08137",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "CAMPO DE LA CRUZ",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08141",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "CANDELARIA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08296",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "GALAPA",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08372",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "JUAN DE ACOSTA",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08421",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "LURUACO",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08433",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "MALAMBO",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08436",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "MANATÍ",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08520",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "PALMAR DE VARELA",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08549",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "PIOJÓ",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08558",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "POLONUEVO",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08560",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "PONEDERA",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08573",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "PUERTO COLOMBIA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08606",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "REPELÓN",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08634",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SABANAGRANDE",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08638",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SABANALARGA",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08675",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SANTA LUCÍA",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08685",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SANTO TOMÁS",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08758",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SOLEDAD",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08770",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "SUAN",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08832",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "TUBARÁ",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 8,
+  "DPTOCODE": 8,
   "divipola": "08849",
   "Nombre Departamento": "ATLÁNTICO",
   "Nombre Municipio": "USIACURÍ",

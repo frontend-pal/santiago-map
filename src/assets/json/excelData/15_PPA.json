@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15001",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TUNJA",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15022",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "ALMEIDA",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15047",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "AQUITANIA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15051",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "ARCABUCO",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15087",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BELÉN",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15090",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BERBEO",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15092",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BETÉITIVA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15097",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BOAVITA",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15104",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BOYACÁ",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15106",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BRICEÑO",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15109",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BUENAVISTA",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15114",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "BUSBANZÁ",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15131",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CALDAS",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15135",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CAMPOHERMOSO",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15162",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CERINZA",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15172",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHINAVITA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15176",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHIQUINQUIRÁ",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15180",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHISCAS",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15183",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHITA",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15185",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHITARAQUE",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15187",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHIVATÁ",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15189",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CIÉNEGA",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15204",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CÓMBITA",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15212",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "COPER",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15215",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CORRALES",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15218",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "COVARACHÍA",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15223",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CUBARÁ",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15224",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CUCAITA",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15226",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CUÍTIVA",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15232",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHÍQUIZA",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15236",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "CHIVOR",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15238",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "DUITAMA",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15244",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "EL COCUY",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15248",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "EL ESPINO",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15272",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "FIRAVITOBA",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15276",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "FLORESTA",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15293",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GACHANTIVÁ",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15296",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GÁMEZA",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15299",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GARAGOA",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15317",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GUACAMAYAS",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15322",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GUATEQUE",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15325",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GUAYATÁ",
@@ -2899,7 +2899,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15332",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "GÜICÁN",
@@ -2968,7 +2968,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15362",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "IZA",
@@ -3037,7 +3037,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15367",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "JENESANO",
@@ -3106,7 +3106,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15368",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "JERICÓ",
@@ -3175,7 +3175,7 @@
  },
  {
   "Column1": 46,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15377",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "LABRANZAGRANDE",
@@ -3244,7 +3244,7 @@
  },
  {
   "Column1": 47,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15380",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "LA CAPILLA",
@@ -3313,7 +3313,7 @@
  },
  {
   "Column1": 48,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15401",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "LA VICTORIA",
@@ -3382,7 +3382,7 @@
  },
  {
   "Column1": 49,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15403",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "LA UVITA",
@@ -3451,7 +3451,7 @@
  },
  {
   "Column1": 50,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15407",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "VILLA DE LEYVA",
@@ -3520,7 +3520,7 @@
  },
  {
   "Column1": 51,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15425",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MACANAL",
@@ -3589,7 +3589,7 @@
  },
  {
   "Column1": 52,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15442",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MARIPÍ",
@@ -3658,7 +3658,7 @@
  },
  {
   "Column1": 53,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15455",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MIRAFLORES",
@@ -3727,7 +3727,7 @@
  },
  {
   "Column1": 54,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15464",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MONGUA",
@@ -3796,7 +3796,7 @@
  },
  {
   "Column1": 55,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15466",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MONGUÍ",
@@ -3865,7 +3865,7 @@
  },
  {
   "Column1": 56,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15469",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MONIQUIRÁ",
@@ -3934,7 +3934,7 @@
  },
  {
   "Column1": 57,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15476",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MOTAVITA",
@@ -4003,7 +4003,7 @@
  },
  {
   "Column1": 58,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15480",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "MUZO",
@@ -4072,7 +4072,7 @@
  },
  {
   "Column1": 59,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15491",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "NOBSA",
@@ -4141,7 +4141,7 @@
  },
  {
   "Column1": 60,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15494",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "NUEVO COLÓN",
@@ -4210,7 +4210,7 @@
  },
  {
   "Column1": 61,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15500",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "OICATÁ",
@@ -4279,7 +4279,7 @@
  },
  {
   "Column1": 62,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15507",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "OTANCHE",
@@ -4348,7 +4348,7 @@
  },
  {
   "Column1": 63,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15511",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PACHAVITA",
@@ -4417,7 +4417,7 @@
  },
  {
   "Column1": 64,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15514",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PÁEZ",
@@ -4486,7 +4486,7 @@
  },
  {
   "Column1": 65,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15516",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PAIPA",
@@ -4555,7 +4555,7 @@
  },
  {
   "Column1": 66,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15518",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PAJARITO",
@@ -4624,7 +4624,7 @@
  },
  {
   "Column1": 67,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15522",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PANQUEBA",
@@ -4693,7 +4693,7 @@
  },
  {
   "Column1": 68,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15533",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PAYA",
@@ -4762,7 +4762,7 @@
  },
  {
   "Column1": 69,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15537",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PAZ DE RÍO",
@@ -4831,7 +4831,7 @@
  },
  {
   "Column1": 70,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15542",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PESCA",
@@ -4900,7 +4900,7 @@
  },
  {
   "Column1": 71,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15550",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PISBA",
@@ -4969,7 +4969,7 @@
  },
  {
   "Column1": 72,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15572",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "PUERTO BOYACÁ",
@@ -5038,7 +5038,7 @@
  },
  {
   "Column1": 73,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15580",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "QUÍPAMA",
@@ -5107,7 +5107,7 @@
  },
  {
   "Column1": 74,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15599",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "RAMIRIQUÍ",
@@ -5176,7 +5176,7 @@
  },
  {
   "Column1": 75,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15600",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "RÁQUIRA",
@@ -5245,7 +5245,7 @@
  },
  {
   "Column1": 76,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15621",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "RONDÓN",
@@ -5314,7 +5314,7 @@
  },
  {
   "Column1": 77,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15632",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SABOYÁ",
@@ -5383,7 +5383,7 @@
  },
  {
   "Column1": 78,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15638",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SÁCHICA",
@@ -5452,7 +5452,7 @@
  },
  {
   "Column1": 79,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15646",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAMACÁ",
@@ -5521,7 +5521,7 @@
  },
  {
   "Column1": 80,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15660",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN EDUARDO",
@@ -5590,7 +5590,7 @@
  },
  {
   "Column1": 81,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15664",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN JOSÉ DE PARE",
@@ -5659,7 +5659,7 @@
  },
  {
   "Column1": 82,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15667",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN LUIS DE GACENO",
@@ -5728,7 +5728,7 @@
  },
  {
   "Column1": 83,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15673",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN MATEO",
@@ -5797,7 +5797,7 @@
  },
  {
   "Column1": 84,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15676",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN MIGUEL DE SEMA",
@@ -5866,7 +5866,7 @@
  },
  {
   "Column1": 85,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15681",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SAN PABLO DE BORBUR",
@@ -5935,7 +5935,7 @@
  },
  {
   "Column1": 86,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15686",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SANTANA",
@@ -6004,7 +6004,7 @@
  },
  {
   "Column1": 87,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15690",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SANTA MARÍA",
@@ -6073,7 +6073,7 @@
  },
  {
   "Column1": 88,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15693",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SANTA ROSA DE VITERBO",
@@ -6142,7 +6142,7 @@
  },
  {
   "Column1": 89,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15696",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SANTA SOFÍA",
@@ -6211,7 +6211,7 @@
  },
  {
   "Column1": 90,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15720",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SATIVANORTE",
@@ -6280,7 +6280,7 @@
  },
  {
   "Column1": 91,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15723",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SATIVASUR",
@@ -6349,7 +6349,7 @@
  },
  {
   "Column1": 92,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15740",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SIACHOQUE",
@@ -6418,7 +6418,7 @@
  },
  {
   "Column1": 93,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15753",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOATÁ",
@@ -6487,7 +6487,7 @@
  },
  {
   "Column1": 94,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15755",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOCOTÁ",
@@ -6556,7 +6556,7 @@
  },
  {
   "Column1": 95,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15757",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOCHA",
@@ -6625,7 +6625,7 @@
  },
  {
   "Column1": 96,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15759",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOGAMOSO",
@@ -6694,7 +6694,7 @@
  },
  {
   "Column1": 97,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15761",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOMONDOCO",
@@ -6763,7 +6763,7 @@
  },
  {
   "Column1": 98,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15762",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SORA",
@@ -6832,7 +6832,7 @@
  },
  {
   "Column1": 99,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15763",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SOTAQUIRÁ",
@@ -6901,7 +6901,7 @@
  },
  {
   "Column1": 100,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15764",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SORACÁ",
@@ -6970,7 +6970,7 @@
  },
  {
   "Column1": 101,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15774",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SUSACÓN",
@@ -7039,7 +7039,7 @@
  },
  {
   "Column1": 102,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15776",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SUTAMARCHÁN",
@@ -7108,7 +7108,7 @@
  },
  {
   "Column1": 103,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15778",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "SUTATENZA",
@@ -7177,7 +7177,7 @@
  },
  {
   "Column1": 104,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15790",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TASCO",
@@ -7246,7 +7246,7 @@
  },
  {
   "Column1": 105,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15798",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TENZA",
@@ -7315,7 +7315,7 @@
  },
  {
   "Column1": 106,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15804",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TIBANÁ",
@@ -7384,7 +7384,7 @@
  },
  {
   "Column1": 107,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15806",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TIBASOSA",
@@ -7453,7 +7453,7 @@
  },
  {
   "Column1": 108,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15808",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TINJACÁ",
@@ -7522,7 +7522,7 @@
  },
  {
   "Column1": 109,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15810",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TIPACOQUE",
@@ -7591,7 +7591,7 @@
  },
  {
   "Column1": 110,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15814",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TOCA",
@@ -7660,7 +7660,7 @@
  },
  {
   "Column1": 111,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15816",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TOGÜÍ",
@@ -7729,7 +7729,7 @@
  },
  {
   "Column1": 112,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15820",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TÓPAGA",
@@ -7798,7 +7798,7 @@
  },
  {
   "Column1": 113,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15822",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TOTA",
@@ -7867,7 +7867,7 @@
  },
  {
   "Column1": 114,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15832",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TUNUNGUÁ",
@@ -7936,7 +7936,7 @@
  },
  {
   "Column1": 115,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15835",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TURMEQUÉ",
@@ -8005,7 +8005,7 @@
  },
  {
   "Column1": 116,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15837",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TUTA",
@@ -8074,7 +8074,7 @@
  },
  {
   "Column1": 117,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15839",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "TUTAZÁ",
@@ -8143,7 +8143,7 @@
  },
  {
   "Column1": 118,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15842",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "ÚMBITA",
@@ -8212,7 +8212,7 @@
  },
  {
   "Column1": 119,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15861",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "VENTAQUEMADA",
@@ -8281,7 +8281,7 @@
  },
  {
   "Column1": 120,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15879",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "VIRACACHÁ",
@@ -8350,7 +8350,7 @@
  },
  {
   "Column1": 121,
-  "Código Departamento": 15,
+  "DPTOCODE": 15,
   "divipola": "15897",
   "Nombre Departamento": "BOYACÁ",
   "Nombre Municipio": "ZETAQUIRA",

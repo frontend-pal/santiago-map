@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70001",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SINCELEJO",
@@ -193,7 +193,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70110",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "BUENAVISTA",
@@ -385,7 +385,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70124",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "CAIMITO",
@@ -577,7 +577,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70204",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "COLOSO",
@@ -769,7 +769,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70215",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "COROZAL",
@@ -961,7 +961,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70221",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "COVEÑAS",
@@ -1153,7 +1153,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70230",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "CHALÁN",
@@ -1345,7 +1345,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70233",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "EL ROBLE",
@@ -1537,7 +1537,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70235",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "GALERAS",
@@ -1729,7 +1729,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70265",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "GUARANDA",
@@ -1921,7 +1921,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70400",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "LA UNIÓN",
@@ -2113,7 +2113,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70418",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "LOS PALMITOS",
@@ -2305,7 +2305,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70429",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "MAJAGUAL",
@@ -2497,7 +2497,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70473",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "MORROA",
@@ -2689,7 +2689,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70508",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "OVEJAS",
@@ -2881,7 +2881,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70523",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "PALMITO",
@@ -3073,7 +3073,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70670",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAMPUÉS",
@@ -3265,7 +3265,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70678",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN BENITO ABAD",
@@ -3457,7 +3457,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70702",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN JUAN DE BETULIA",
@@ -3649,7 +3649,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70708",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN MARCOS",
@@ -3841,7 +3841,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70713",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN ONOFRE",
@@ -4033,7 +4033,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70717",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN PEDRO",
@@ -4225,7 +4225,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70742",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SAN LUIS DE SINCÉ",
@@ -4417,7 +4417,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70771",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SUCRE",
@@ -4609,7 +4609,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70820",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "SANTIAGO DE TOLÚ",
@@ -4801,7 +4801,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 70,
+  "DPTOCODE": 70,
   "DPTOMPIO": "70823",
   "Nombre Departamento": "SUCRE",
   "Nombre Municipio": "TOLÚ VIEJO",

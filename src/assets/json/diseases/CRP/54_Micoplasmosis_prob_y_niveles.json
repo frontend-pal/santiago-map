@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54001",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CÚCUTA",
@@ -198,7 +198,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54003",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "ÁBREGO",
@@ -395,7 +395,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54051",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "ARBOLEDAS",
@@ -592,7 +592,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54099",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "BOCHALEMA",
@@ -789,7 +789,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54109",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "BUCARASICA",
@@ -986,7 +986,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54125",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CÁCOTA",
@@ -1183,7 +1183,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54128",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CÁCHIRA",
@@ -1380,7 +1380,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54172",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CHINÁCOTA",
@@ -1577,7 +1577,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54174",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CHITAGÁ",
@@ -1774,7 +1774,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54206",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CONVENCIÓN",
@@ -1971,7 +1971,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54223",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "CUCUTILLA",
@@ -2168,7 +2168,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54239",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "DURANIA",
@@ -2365,7 +2365,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54245",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "EL CARMEN",
@@ -2562,7 +2562,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54250",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "EL TARRA",
@@ -2759,7 +2759,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54261",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "EL ZULIA",
@@ -2956,7 +2956,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54313",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "GRAMALOTE",
@@ -3153,7 +3153,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54344",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "HACARÍ",
@@ -3350,7 +3350,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54347",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "HERRÁN",
@@ -3547,7 +3547,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54377",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "LABATECA",
@@ -3744,7 +3744,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54385",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "LA ESPERANZA",
@@ -3941,7 +3941,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54398",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "LA PLAYA",
@@ -4138,7 +4138,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54405",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "LOS PATIOS",
@@ -4335,7 +4335,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54418",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "LOURDES",
@@ -4532,7 +4532,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54480",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "MUTISCUA",
@@ -4729,7 +4729,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54498",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "OCAÑA",
@@ -4926,7 +4926,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54518",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "PAMPLONA",
@@ -5123,7 +5123,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54520",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "PAMPLONITA",
@@ -5320,7 +5320,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54553",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "PUERTO SANTANDER",
@@ -5517,7 +5517,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54599",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "RAGONVALIA",
@@ -5714,7 +5714,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54660",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SALAZAR",
@@ -5911,7 +5911,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54670",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SAN CALIXTO",
@@ -6108,7 +6108,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54673",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SAN CAYETANO",
@@ -6305,7 +6305,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54680",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SANTIAGO",
@@ -6502,7 +6502,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54720",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SARDINATA",
@@ -6699,7 +6699,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54743",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "SILOS",
@@ -6896,7 +6896,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54800",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "TEORAMA",
@@ -7093,7 +7093,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54810",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "TIBÚ",
@@ -7290,7 +7290,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54820",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "TOLEDO",
@@ -7487,7 +7487,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54871",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "VILLA CARO",
@@ -7684,7 +7684,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 54,
+  "DPTOCODE": 54,
   "DPTOMPIO": "54874",
   "Nombre Departamento": "NORTE DE SANTANDER",
   "Nombre Municipio": "VILLA DEL ROSARIO",

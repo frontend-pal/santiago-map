@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94001",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "INÍRIDA",
@@ -174,7 +174,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94343",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "BARRANCOMINAS",
@@ -347,7 +347,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94883",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "SAN FELIPE",
@@ -520,7 +520,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94884",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "PUERTO COLOMBIA",
@@ -693,7 +693,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94885",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "LA GUADALUPE",
@@ -866,7 +866,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94886",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "CACAHUAL",
@@ -1039,7 +1039,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94887",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "PANA PANA",
@@ -1212,7 +1212,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 94,
+  "DPTOCODE": 94,
   "DPTOMPIO": "94888",
   "Nombre Departamento": "GUAINÍA",
   "Nombre Municipio": "MORICHAL",

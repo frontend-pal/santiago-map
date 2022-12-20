@@ -51,29 +51,44 @@ export class MapControllerService {
     )
   }
 
+  public getLegendColor(d: any) {
+    return d == 100 ? '#800026' :
+      d > 90 ? '#BD0026' :
+        d > 80 ? '#E31A1C' :
+          d > 60 ? '#FC4E2A' :
+            d > 40 ? '#FD8D3C' :
+              d > 20 ? '#FEB24C' :
+                d > 0 ? '#FED976' :
+                  '#FFEDA0';
+  }
+
   public getColor(f: any, d?: any, dptoCode?: string, color?: string) {
+    console.log(f, d, dptoCode);
+    console.log(this.mapDataPPA);
     if (color) return color;
     let currentDataDisease;
 
     if (!!dptoCode && dptoCode !== '') {
-      const currentMunic = this.mapDataPPA?.find((x: any) => x.divipola.toString() === f.properties.mpios) || null;
+      const currentMunic = this.mapDataPPA?.find((x: any) => x.DPTOMPIO.toString() === f.properties.mpios) || null;
 
-      currentDataDisease = !!currentMunic ? currentMunic[d] * 1000 : f;
+      console.log(currentMunic);
+      currentDataDisease = !!currentMunic ? currentMunic['Prob_Riesgo_especifico'] * 100 : f;
+      console.log(currentDataDisease);
     } else if (!!f && !!d) {
       const currentDepartment = this.mapDataPPA?.find((x: any) => x.code.toString() === f.properties.DPTO_CCDGO) || null;
 
-      currentDataDisease = !!currentDepartment ? currentDepartment[d] * 1000 : f;
+      currentDataDisease = !!currentDepartment ? currentDepartment[d] * 100 : f;
     }
 
     if (typeof f === 'object' && d === '') return '#C7E9C0';
 
-    return currentDataDisease > 1000 ? '#800026' :
-      currentDataDisease > 500 ? '#BD0026' :
-        currentDataDisease > 200 ? '#E31A1C' :
-          currentDataDisease > 100 ? '#FC4E2A' :
-            currentDataDisease > 50 ? '#FD8D3C' :
+    return currentDataDisease === 100 ? '#800026' :
+      currentDataDisease >  90 ? '#BD0026' :
+        currentDataDisease > 80 ? '#E31A1C' :
+          currentDataDisease > 60 ? '#FC4E2A' :
+            currentDataDisease > 40 ? '#FD8D3C' :
               currentDataDisease > 20 ? '#FEB24C' :
-                currentDataDisease > 10 ? '#FED976' :
+                currentDataDisease > 0 ? '#FED976' :
                   '#FFEDA0';
   }
 
@@ -142,7 +157,6 @@ export class MapControllerService {
   }
 
   private zoomToFeature(e: any, layerType?: string) {
-    console.log(e);
     this.map.fitBounds(e.target.getBounds());
     this.controlService.setControlData({
       control: 'dptoFromMap',
@@ -156,14 +170,15 @@ export class MapControllerService {
     legend.onAdd = (map) => {
 
       var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+        grades = [0, 20, 40, 60, 80, 90, 100],
         labels = [];
 
       // loop through our density intervals and generate a label with a colored square for each interval
-      for (var i = 0; i < grades.length; i++) {
+      for (var i = 0; i < grades.length - 1; i++) {
+        console.log(i);
         div.innerHTML +=
-          '<i style="background:' + this.getColor(grades[i] + 1) + '"></i> ' +
-          grades[i] + (grades[i + 1] ? ' &ndash; ' + grades[i + 1] + '<br>' : '+');
+          '<i style="background:' + this.getLegendColor(grades[i] + 1) + '"></i> '
+          + grades[i] + (grades[i + 1] ? ' &ndash; ' + grades[i + 1] + '<br>' : '');
       }
 
       return div;
@@ -230,12 +245,12 @@ export class MapControllerService {
   // }
 
   public async setGeoJson(res: any, layerName: string, dptoCode?: any, disease = '', clearLayer = true) {
-    if (clearLayer) this.removeLayers();
+    // if (clearLayer) this.removeLayers();
     if (dptoCode) {
-      this.mapDataPPA = null;
-      await this.getDptoDiseaseData(dptoCode);
+      this.mapDataPPA = null;     
+      this.mapDataPPA = this.jsonService.currentDiseaseData;
     } else {
-      if (!this.mapDataPPA) await this.getDiseaseData();
+      if (!this.mapDataPPA) this.mapDataPPA = this.jsonService.currentDiseaseData;
     }
 
     if (this.isMapready) {
@@ -266,14 +281,7 @@ export class MapControllerService {
               opacity: 1,
               color: 'white',
               fillOpacity: 0.7
-            }),
-            onEachFeature: (_, layer) => (
-              layer.on({
-                mouseover: (e) => (this.highlightFeature(e, 'viewType')),
-                mouseout: (e) => (this.resetFeature(e, 'viewType')),
-                click: (e) => (this.zoomToFeature(e, 'viewType'))
-              })
-            )
+            })
           });
           break;
 
@@ -289,7 +297,7 @@ export class MapControllerService {
       });
 
       this.map.addLayer(stateLayer);
-      stateLayer.bringToBack();
+      stateLayer.bringToFront();
 
       console.log(this.mapLayers);
     }
@@ -343,13 +351,12 @@ export class MapControllerService {
     return promise;
   }
 
-  public getColombiaMap(disease: any = '') {
-    console.log(disease);
-    this.mapDataPPA = null;
-    this.jsonService.getColombiaGeoJson().subscribe(res => {
-      this.setGeoJson(res, 'colombia', null, disease);
-    });
-  }
+  // public getColombiaMap(disease: any = '') {
+  //   this.mapDataPPA = null;
+  //   this.jsonService.getColombiaGeoJson().subscribe(res => {
+  //     this.setGeoJson(res, 'colombia', null, disease);
+  //   });
+  // }
 
   public setViewTypeMap(json: any, typeName: string = '') {
     this.mapDataPPA = null;
@@ -357,16 +364,14 @@ export class MapControllerService {
   }
 
   public setDepartmentMap(json: any, dptoCode: string) {
-    console.log(json, dptoCode);
     const currentRisk = sessionStorage.getItem('risk') || '';
-    console.log(currentRisk);
+
     this.setGeoJson(json, `dpto_${dptoCode}`, dptoCode, currentRisk);
   }
 
   public seMuniMap(json: any, dptoCode: string) {
-    console.log(json, dptoCode);
     const currentRisk = sessionStorage.getItem('risk') || '';
-    console.log(currentRisk);
+
     this.setGeoJson(json, `,muni_${dptoCode}`, dptoCode, currentRisk);
   }
 }

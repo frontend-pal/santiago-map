@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05001",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MEDELLÍN",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05002",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ABEJORRAL",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05004",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ABRIAQUÍ",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05021",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ALEJANDRÍA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05030",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "AMAGÁ",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05031",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "AMALFI",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05034",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ANDES",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05036",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ANGELÓPOLIS",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05038",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ANGOSTURA",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05040",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ANORÍ",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05042",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SANTA FÉ DE ANTIOQUIA",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05044",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ANZÁ",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05045",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "APARTADÓ",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05051",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ARBOLETES",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05055",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ARGELIA",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05059",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ARMENIA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05079",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BARBOSA",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05086",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BELMIRA",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05088",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BELLO",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05091",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BETANIA",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05093",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BETULIA",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05101",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CIUDAD BOLÍVAR",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05107",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BRICEÑO",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05113",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "BURITICÁ",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05120",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CÁCERES",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05125",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAICEDO",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05129",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CALDAS",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05134",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAMPAMENTO",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05138",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAÑASGORDAS",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05142",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CARACOLÍ",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05145",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CARAMANTA",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05147",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAREPA",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05148",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "EL CARMEN DE VIBORAL",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05150",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAROLINA",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05154",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CAUCASIA",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05172",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CHIGORODÓ",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05190",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CISNEROS",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05197",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "COCORNÁ",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05206",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CONCEPCIÓN",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05209",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "CONCORDIA",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05212",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "COPACABANA",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05234",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "DABEIBA",
@@ -2899,7 +2899,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05237",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "DONMATÍAS",
@@ -2968,7 +2968,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05240",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "EBÉJICO",
@@ -3037,7 +3037,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05250",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "EL BAGRE",
@@ -3106,7 +3106,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05264",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ENTRERRÍOS",
@@ -3175,7 +3175,7 @@
  },
  {
   "Column1": 46,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05266",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ENVIGADO",
@@ -3244,7 +3244,7 @@
  },
  {
   "Column1": 47,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05282",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "FREDONIA",
@@ -3313,7 +3313,7 @@
  },
  {
   "Column1": 48,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05284",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "FRONTINO",
@@ -3382,7 +3382,7 @@
  },
  {
   "Column1": 49,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05306",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GIRALDO",
@@ -3451,7 +3451,7 @@
  },
  {
   "Column1": 50,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05308",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GIRARDOTA",
@@ -3520,7 +3520,7 @@
  },
  {
   "Column1": 51,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05310",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GÓMEZ PLATA",
@@ -3589,7 +3589,7 @@
  },
  {
   "Column1": 52,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05313",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GRANADA",
@@ -3658,7 +3658,7 @@
  },
  {
   "Column1": 53,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05315",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GUADALUPE",
@@ -3727,7 +3727,7 @@
  },
  {
   "Column1": 54,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05318",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GUARNE",
@@ -3796,7 +3796,7 @@
  },
  {
   "Column1": 55,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05321",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "GUATAPÉ",
@@ -3865,7 +3865,7 @@
  },
  {
   "Column1": 56,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05347",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "HELICONIA",
@@ -3934,7 +3934,7 @@
  },
  {
   "Column1": 57,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05353",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "HISPANIA",
@@ -4003,7 +4003,7 @@
  },
  {
   "Column1": 58,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05360",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ITAGÜÍ",
@@ -4072,7 +4072,7 @@
  },
  {
   "Column1": 59,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05361",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ITUANGO",
@@ -4141,7 +4141,7 @@
  },
  {
   "Column1": 60,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05364",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "JARDÍN",
@@ -4210,7 +4210,7 @@
  },
  {
   "Column1": 61,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05368",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "JERICÓ",
@@ -4279,7 +4279,7 @@
  },
  {
   "Column1": 62,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05376",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "LA CEJA",
@@ -4348,7 +4348,7 @@
  },
  {
   "Column1": 63,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05380",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "LA ESTRELLA",
@@ -4417,7 +4417,7 @@
  },
  {
   "Column1": 64,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05390",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "LA PINTADA",
@@ -4486,7 +4486,7 @@
  },
  {
   "Column1": 65,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05400",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "LA UNIÓN",
@@ -4555,7 +4555,7 @@
  },
  {
   "Column1": 66,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05411",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "LIBORINA",
@@ -4624,7 +4624,7 @@
  },
  {
   "Column1": 67,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05425",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MACEO",
@@ -4693,7 +4693,7 @@
  },
  {
   "Column1": 68,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05440",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MARINILLA",
@@ -4762,7 +4762,7 @@
  },
  {
   "Column1": 69,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05467",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MONTEBELLO",
@@ -4831,7 +4831,7 @@
  },
  {
   "Column1": 70,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05475",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MURINDÓ",
@@ -4900,7 +4900,7 @@
  },
  {
   "Column1": 71,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05480",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "MUTATÁ",
@@ -4969,7 +4969,7 @@
  },
  {
   "Column1": 72,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05483",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "NARIÑO",
@@ -5038,7 +5038,7 @@
  },
  {
   "Column1": 73,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05490",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "NECOCLÍ",
@@ -5107,7 +5107,7 @@
  },
  {
   "Column1": 74,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05495",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "NECHÍ",
@@ -5176,7 +5176,7 @@
  },
  {
   "Column1": 75,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05501",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "OLAYA",
@@ -5245,7 +5245,7 @@
  },
  {
   "Column1": 76,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05541",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PEÑOL",
@@ -5314,7 +5314,7 @@
  },
  {
   "Column1": 77,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05543",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PEQUE",
@@ -5383,7 +5383,7 @@
  },
  {
   "Column1": 78,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05576",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PUEBLORRICO",
@@ -5452,7 +5452,7 @@
  },
  {
   "Column1": 79,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05579",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PUERTO BERRÍO",
@@ -5521,7 +5521,7 @@
  },
  {
   "Column1": 80,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05585",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PUERTO NARE",
@@ -5590,7 +5590,7 @@
  },
  {
   "Column1": 81,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05591",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "PUERTO TRIUNFO",
@@ -5659,7 +5659,7 @@
  },
  {
   "Column1": 82,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05604",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "REMEDIOS",
@@ -5728,7 +5728,7 @@
  },
  {
   "Column1": 83,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05607",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "RETIRO",
@@ -5797,7 +5797,7 @@
  },
  {
   "Column1": 84,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05615",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "RIONEGRO",
@@ -5866,7 +5866,7 @@
  },
  {
   "Column1": 85,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05628",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SABANALARGA",
@@ -5935,7 +5935,7 @@
  },
  {
   "Column1": 86,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05631",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SABANETA",
@@ -6004,7 +6004,7 @@
  },
  {
   "Column1": 87,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05642",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SALGAR",
@@ -6073,7 +6073,7 @@
  },
  {
   "Column1": 88,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05647",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN ANDRÉS DE CUERQUÍA",
@@ -6142,7 +6142,7 @@
  },
  {
   "Column1": 89,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05649",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN CARLOS",
@@ -6211,7 +6211,7 @@
  },
  {
   "Column1": 90,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05652",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN FRANCISCO",
@@ -6280,7 +6280,7 @@
  },
  {
   "Column1": 91,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05656",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN JERÓNIMO",
@@ -6349,7 +6349,7 @@
  },
  {
   "Column1": 92,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05658",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN JOSÉ DE LA MONTAÑA",
@@ -6418,7 +6418,7 @@
  },
  {
   "Column1": 93,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05659",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN JUAN DE URABÁ",
@@ -6487,7 +6487,7 @@
  },
  {
   "Column1": 94,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05660",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN LUIS",
@@ -6556,7 +6556,7 @@
  },
  {
   "Column1": 95,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05664",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN PEDRO DE LOS MILAGROS",
@@ -6625,7 +6625,7 @@
  },
  {
   "Column1": 96,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05665",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN PEDRO DE URABÁ",
@@ -6694,7 +6694,7 @@
  },
  {
   "Column1": 97,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05667",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN RAFAEL",
@@ -6763,7 +6763,7 @@
  },
  {
   "Column1": 98,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05670",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN ROQUE",
@@ -6832,7 +6832,7 @@
  },
  {
   "Column1": 99,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05674",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SAN VICENTE FERRER",
@@ -6901,7 +6901,7 @@
  },
  {
   "Column1": 100,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05679",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SANTA BÁRBARA",
@@ -6970,7 +6970,7 @@
  },
  {
   "Column1": 101,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05686",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SANTA ROSA DE OSOS",
@@ -7039,7 +7039,7 @@
  },
  {
   "Column1": 102,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05690",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SANTO DOMINGO",
@@ -7108,7 +7108,7 @@
  },
  {
   "Column1": 103,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05697",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "EL SANTUARIO",
@@ -7177,7 +7177,7 @@
  },
  {
   "Column1": 104,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05736",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SEGOVIA",
@@ -7246,7 +7246,7 @@
  },
  {
   "Column1": 105,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05756",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SONSÓN",
@@ -7315,7 +7315,7 @@
  },
  {
   "Column1": 106,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05761",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "SOPETRÁN",
@@ -7384,7 +7384,7 @@
  },
  {
   "Column1": 107,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05789",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TÁMESIS",
@@ -7453,7 +7453,7 @@
  },
  {
   "Column1": 108,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05790",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TARAZÁ",
@@ -7522,7 +7522,7 @@
  },
  {
   "Column1": 109,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05792",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TARSO",
@@ -7591,7 +7591,7 @@
  },
  {
   "Column1": 110,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05809",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TITIRIBÍ",
@@ -7660,7 +7660,7 @@
  },
  {
   "Column1": 111,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05819",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TOLEDO",
@@ -7729,7 +7729,7 @@
  },
  {
   "Column1": 112,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05837",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "TURBO",
@@ -7798,7 +7798,7 @@
  },
  {
   "Column1": 113,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05842",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "URAMITA",
@@ -7867,7 +7867,7 @@
  },
  {
   "Column1": 114,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05847",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "URRAO",
@@ -7936,7 +7936,7 @@
  },
  {
   "Column1": 115,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05854",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "VALDIVIA",
@@ -8005,7 +8005,7 @@
  },
  {
   "Column1": 116,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05856",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "VALPARAÍSO",
@@ -8074,7 +8074,7 @@
  },
  {
   "Column1": 117,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05858",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "VEGACHÍ",
@@ -8143,7 +8143,7 @@
  },
  {
   "Column1": 118,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05861",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "VENECIA",
@@ -8212,7 +8212,7 @@
  },
  {
   "Column1": 119,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05873",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "VIGÍA DEL FUERTE",
@@ -8281,7 +8281,7 @@
  },
  {
   "Column1": 120,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05885",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "YALÍ",
@@ -8350,7 +8350,7 @@
  },
  {
   "Column1": 121,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05887",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "YARUMAL",
@@ -8419,7 +8419,7 @@
  },
  {
   "Column1": 122,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05890",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "YOLOMBÓ",
@@ -8488,7 +8488,7 @@
  },
  {
   "Column1": 123,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05893",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "YONDÓ",
@@ -8557,7 +8557,7 @@
  },
  {
   "Column1": 124,
-  "Código Departamento": 5,
+  "DPTOCODE": 5,
   "divipola": "05895",
   "Nombre Departamento": "ANTIOQUIA",
   "Nombre Municipio": "ZARAGOZA",

@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 99,
+  "DPTOCODE": 99,
   "DPTOMPIO": "99001",
   "Nombre Departamento": "VICHADA",
   "Nombre Municipio": "PUERTO CARREÑO",
@@ -177,7 +177,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 99,
+  "DPTOCODE": 99,
   "DPTOMPIO": "99524",
   "Nombre Departamento": "VICHADA",
   "Nombre Municipio": "LA PRIMAVERA",
@@ -353,7 +353,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 99,
+  "DPTOCODE": 99,
   "DPTOMPIO": "99624",
   "Nombre Departamento": "VICHADA",
   "Nombre Municipio": "SANTA ROSALÍA",
@@ -529,7 +529,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 99,
+  "DPTOCODE": 99,
   "DPTOMPIO": "99773",
   "Nombre Departamento": "VICHADA",
   "Nombre Municipio": "CUMARIBO",

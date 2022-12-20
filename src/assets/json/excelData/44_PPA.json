@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44001",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "RIOHACHA",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44035",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "ALBANIA",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44078",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "BARRANCAS",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44090",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "DIBULLA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44098",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "DISTRACCIÓN",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44110",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "EL MOLINO",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44279",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "FONSECA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44378",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "HATONUEVO",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44420",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "LA JAGUA DEL PILAR",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44430",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "MAICAO",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44560",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "MANAURE",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44650",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "SAN JUAN DEL CESAR",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44847",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "URIBIA",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44855",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "URUMITA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 44,
+  "DPTOCODE": 44,
   "divipola": "44874",
   "Nombre Departamento": "LA GUAJIRA",
   "Nombre Municipio": "VILLANUEVA",

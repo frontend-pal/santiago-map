@@ -10,7 +10,7 @@ import { MapControllerService } from 'src/app/services/map-controller.service';
   styleUrls: ['./charts.component.scss']
 })
 export class ChartsComponent implements OnInit {
-  toggleMenu = true;
+  toggleMenu = false;
 
   // Categorias
   catProcesoProductivo: number = 0;
@@ -24,11 +24,25 @@ export class ChartsComponent implements OnInit {
   // Excel Data
   currentData?: any | null;
 
+  // Disease
+  currentDisease?: any | null;
+
   // Riesgo
   currentRisk?: number | null = null;
 
+  // amenaza
+  threat?: number | null = null;
+
+  // vulnerabilidad
+  vulnerability?: number | null = null;
+
   // departamento
   currentDpto?: any | null;
+  dptoData?: any | null;
+
+  // riesgos
+  threatView = true;
+  vulnerabilityView = true;
 
   constructor(
     private controlFormService: ControlFormService,
@@ -37,6 +51,10 @@ export class ChartsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.initListeners();
+  }
+
+  initListeners() {
     this.controlFormService.controlData.subscribe(res => {
       console.log(res.control);
       switch (res.control) {
@@ -71,6 +89,8 @@ export class ChartsComponent implements OnInit {
     this.catSocioEconomico = 0;
     this.catManejoSanitario = 0;
     this.currentRisk = null;
+    this.threat = null;
+    this.vulnerability = null;
     this.currentDpto = null;
   }
 
@@ -79,6 +99,7 @@ export class ChartsComponent implements OnInit {
     console.log(event.control + ' y valor -->', event.value);
     switch (event.control) {
       case 'disease':
+        this.currentDisease = event.value;
         if (event.value !== 'null' && event.value !== null) {
           this.jsonService.getDiseases().subscribe((res: any) => {
             if (!!res) {
@@ -91,15 +112,25 @@ export class ChartsComponent implements OnInit {
         break;
       case 'dpto':
         this.currentDpto = event.value;
+
+        console.log(this.currentDpto);
+        if (!!this.currentDpto && !!this.currentDisease && this.currentDpto !== null && this.currentDpto !== 'null') {
+          this.currentDpto = JSON.parse(this.currentDpto);
+          console.log(this.currentDpto.code);
+          console.log(this.currentDisease);
+          this.jsonService.getDptoDiseaseData(this.currentDpto.code, this.currentDisease).subscribe(res => {
+            this.jsonService.currentDiseaseData = res;
+            this.dptoData = res;
+            this.setDptoData();
+          });
+        }
         break;
       case 'municipality':
-        if (event.value !== 'null' && event.value !== null) {
-          const municData = event.value as Municipality
+        if (event.value !== 'null' && event.value !== null && event.value !== 'null') {
+          const municData = JSON.parse(event?.value as string);
 
-          this.jsonService.getDptoDataGeoJson(municData?.departmentCode)
-            .subscribe(res => {
-              if (!!res) this.setMunicData(res, municData);
-            });
+          console.log(municData.code);
+          this.setMuniData(municData.code);
         }
         break;
       case 'reset':
@@ -117,7 +148,7 @@ export class ChartsComponent implements OnInit {
     if (!!this.currentData) {
       this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
       this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
-      this.catEntornoBiosifico =this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
       this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
       this.catMovilizacion = this.currentData['Prob_Cat_Movilización'] || 0;
       this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico'] || 0;
@@ -131,19 +162,69 @@ export class ChartsComponent implements OnInit {
     this.currentData = data;
     this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
     this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
-    this.catEntornoBiosifico =this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
+    this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
     this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
     this.catMovilizacion = this.currentData['Prob_Cat_Movilización'] || 0;
     this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico'] || 0;
     this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
     this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || 0;
+    this.threat = this.currentData['Prob_Cat_AMENAZA'] || 0;
+    this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || 0;
+  }
+
+  setDptoData() {
+    this.currentData = this.dptoData[0];
+    this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo_medianDEP'] || 0;
+    this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico_medianDEP'] || 0;
+    this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental_medianDEP'] || 0;
+    this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad_medianDEP'] || 0;
+    this.catMovilizacion = this.currentData['Prob_Cat_Movilización_medianDEP'] || 0;
+    this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico_medianDEP'] || 0;
+    this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario_medianDEP'] || 0;
+    this.currentRisk = this.currentData['Prob_Riesgo_especifico_medianDEP'] || 0;
+    this.threat = this.currentData['Prob_Cat_AMENAZA_medianDEP'] || 0;
+    this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD_medianDEP'] || 0;
+  }
+
+  setMuniData(muniCode: string) {
+    this.currentData = this.dptoData.find((x: any) => x.DPTOMPIO === muniCode);
+
+    console.log(this.currentData);
+    if (!!this.currentData) {
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental'] || 0;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilización'] || 0;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico'] || 0;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
+      this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || 0;
+      this.threat = this.currentData['Prob_Cat_AMENAZA'] || 0;
+      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || 0;
+    }
   }
 
   public setRiskData(data: ControlEvent) {
-    console.log(this.currentDpto);
-    // this.currentRisk = this.currentData[data.value as string];
-    // if (!!this.currentRisk && this.currentRisk !== -1) this.currentRisk = this.currentRisk * 100;
-    // this.mapService.getColombiaMap(data?.value || '')
+    console.log(data);
+
+    switch (data.value) {
+      case 'RES':
+        this.threatView = true;
+        this.vulnerabilityView = true;
+        break;
+      case 'COA':
+        this.threatView = true;
+        this.vulnerabilityView = false;
+        break;
+      case 'COV':
+        this.threatView = false;
+        this.vulnerabilityView = true;
+        break;
+      default:
+        this.threatView = true;
+        this.vulnerabilityView = true;
+        break;
+    }
   }
 
   public toggleRightMenu() {

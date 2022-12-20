@@ -13,6 +13,7 @@ export class JsonListService {
   public municipios!: Municipality[];
   public jsonDocuments: any[] = [];
   public jsonPaises: any[] = [];
+  public currentDiseaseData: any;
 
   constructor(private http: HttpClient) { }
 
@@ -87,6 +88,12 @@ export class JsonListService {
     return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`);
   }
 
+  public getDptoDiseaseData(code: any, disease: string) {
+    console.log(code, disease);
+    const name = this.getDiseaseName(code, disease);
+    return this.http.get<GeoJsonData>(`../../assets/json/diseases/${disease}/${name}.json`);
+  }
+
   public getMuniDataGeoJson(data: Municipality): Observable<Feature | undefined> {
     const name = data.departmentCode;
     console.log(name);
@@ -99,5 +106,43 @@ export class JsonListService {
 
           return muniFeature;
         }));
+  }
+
+  getDiseaseName(code: string, disease: string) {
+    let name = '';
+
+    switch (disease) {
+      case 'PCV':
+        name = `${code}_Circovirosis_prob_y_niveles`;
+        break;
+      case 'PED':
+        name = `${code}_Diarrea epidémica_prob_y_niveles`;
+        break;
+      case 'EPP':
+        name = `${code}_Ileitis_prob_y_niveles`;
+        break;
+      case 'IIP':
+        name = `${code}_Influenza_prob_y_niveles`;
+        break;
+      case 'CRP':
+        name = `${code}_Micoplasmosis_prob_y_niveles`;
+        break;
+      case 'PVP':
+        name = `${code}_Parvovirosis_prob_y_niveles`;
+        break;
+      case 'PPA':
+        name = `${code}_PPA_prob_y_niveles`;
+        break;
+      case 'APP':
+        name = `${code}_Pleuroneumonía Contagiosa_prob_y_niveles`;
+        break;
+      case 'PRRS':
+        name = `${code}_PRRS_prob_y_niveles`;
+        break;
+      default:
+        name = '';
+        break;
+    }
+    return name;
   }
 }

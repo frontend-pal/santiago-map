@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50001",
   "Nombre Departamento": "META",
   "Nombre Municipio": "VILLAVICENCIO",
@@ -198,7 +198,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50006",
   "Nombre Departamento": "META",
   "Nombre Municipio": "ACACÍAS",
@@ -395,7 +395,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50110",
   "Nombre Departamento": "META",
   "Nombre Municipio": "BARRANCA DE UPÍA",
@@ -592,7 +592,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50124",
   "Nombre Departamento": "META",
   "Nombre Municipio": "CABUYARO",
@@ -789,7 +789,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50150",
   "Nombre Departamento": "META",
   "Nombre Municipio": "CASTILLA LA NUEVA",
@@ -986,7 +986,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50223",
   "Nombre Departamento": "META",
   "Nombre Municipio": "SAN LUIS DE CUBARRAL",
@@ -1183,7 +1183,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50226",
   "Nombre Departamento": "META",
   "Nombre Municipio": "CUMARAL",
@@ -1380,7 +1380,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50245",
   "Nombre Departamento": "META",
   "Nombre Municipio": "EL CALVARIO",
@@ -1577,7 +1577,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50251",
   "Nombre Departamento": "META",
   "Nombre Municipio": "EL CASTILLO",
@@ -1774,7 +1774,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50270",
   "Nombre Departamento": "META",
   "Nombre Municipio": "EL DORADO",
@@ -1971,7 +1971,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50287",
   "Nombre Departamento": "META",
   "Nombre Municipio": "FUENTE DE ORO",
@@ -2168,7 +2168,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50313",
   "Nombre Departamento": "META",
   "Nombre Municipio": "GRANADA",
@@ -2365,7 +2365,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50318",
   "Nombre Departamento": "META",
   "Nombre Municipio": "GUAMAL",
@@ -2562,7 +2562,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50325",
   "Nombre Departamento": "META",
   "Nombre Municipio": "MAPIRIPÁN",
@@ -2759,7 +2759,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50330",
   "Nombre Departamento": "META",
   "Nombre Municipio": "MESETAS",
@@ -2956,7 +2956,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50350",
   "Nombre Departamento": "META",
   "Nombre Municipio": "LA MACARENA",
@@ -3153,7 +3153,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50370",
   "Nombre Departamento": "META",
   "Nombre Municipio": "URIBE",
@@ -3350,7 +3350,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50400",
   "Nombre Departamento": "META",
   "Nombre Municipio": "LEJANÍAS",
@@ -3547,7 +3547,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50450",
   "Nombre Departamento": "META",
   "Nombre Municipio": "PUERTO CONCORDIA",
@@ -3744,7 +3744,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50568",
   "Nombre Departamento": "META",
   "Nombre Municipio": "PUERTO GAITÁN",
@@ -3941,7 +3941,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50573",
   "Nombre Departamento": "META",
   "Nombre Municipio": "PUERTO LÓPEZ",
@@ -4138,7 +4138,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50577",
   "Nombre Departamento": "META",
   "Nombre Municipio": "PUERTO LLERAS",
@@ -4335,7 +4335,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50590",
   "Nombre Departamento": "META",
   "Nombre Municipio": "PUERTO RICO",
@@ -4532,7 +4532,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50606",
   "Nombre Departamento": "META",
   "Nombre Municipio": "RESTREPO",
@@ -4729,7 +4729,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50680",
   "Nombre Departamento": "META",
   "Nombre Municipio": "SAN CARLOS DE GUAROA",
@@ -4926,7 +4926,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50683",
   "Nombre Departamento": "META",
   "Nombre Municipio": "SAN JUAN DE ARAMA",
@@ -5123,7 +5123,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50686",
   "Nombre Departamento": "META",
   "Nombre Municipio": "SAN JUANITO",
@@ -5320,7 +5320,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50689",
   "Nombre Departamento": "META",
   "Nombre Municipio": "SAN MARTÍN",
@@ -5517,7 +5517,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 50,
+  "DPTOCODE": 50,
   "DPTOMPIO": "50711",
   "Nombre Departamento": "META",
   "Nombre Municipio": "VISTAHERMOSA",

@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41001",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "NEIVA",
@@ -194,7 +194,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41006",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ACEVEDO",
@@ -387,7 +387,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41013",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "AGRADO",
@@ -580,7 +580,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41016",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "AIPE",
@@ -773,7 +773,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41020",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ALGECIRAS",
@@ -966,7 +966,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41026",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ALTAMIRA",
@@ -1159,7 +1159,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41078",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "BARAYA",
@@ -1352,7 +1352,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41132",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "CAMPOALEGRE",
@@ -1545,7 +1545,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41206",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "COLOMBIA",
@@ -1738,7 +1738,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41244",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ELÍAS",
@@ -1931,7 +1931,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41298",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "GARZÓN",
@@ -2124,7 +2124,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41306",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "GIGANTE",
@@ -2317,7 +2317,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41319",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "GUADALUPE",
@@ -2510,7 +2510,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41349",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "HOBO",
@@ -2703,7 +2703,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41357",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ÍQUIRA",
@@ -2896,7 +2896,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41359",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "ISNOS",
@@ -3089,7 +3089,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41378",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "LA ARGENTINA",
@@ -3282,7 +3282,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41396",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "LA PLATA",
@@ -3475,7 +3475,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41483",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "NÁTAGA",
@@ -3668,7 +3668,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41503",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "OPORAPA",
@@ -3861,7 +3861,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41518",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "PAICOL",
@@ -4054,7 +4054,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41524",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "PALERMO",
@@ -4247,7 +4247,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41530",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "PALESTINA",
@@ -4440,7 +4440,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41548",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "PITAL",
@@ -4633,7 +4633,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41551",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "PITALITO",
@@ -4826,7 +4826,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41615",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "RIVERA",
@@ -5019,7 +5019,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41660",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "SALADOBLANCO",
@@ -5212,7 +5212,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41668",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "SAN AGUSTÍN",
@@ -5405,7 +5405,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41676",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "SANTA MARÍA",
@@ -5598,7 +5598,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41770",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "SUAZA",
@@ -5791,7 +5791,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41791",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "TARQUI",
@@ -5984,7 +5984,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41797",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "TESALIA",
@@ -6177,7 +6177,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41799",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "TELLO",
@@ -6370,7 +6370,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41801",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "TERUEL",
@@ -6563,7 +6563,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41807",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "TIMANÁ",
@@ -6756,7 +6756,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41872",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "VILLAVIEJA",
@@ -6949,7 +6949,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 41,
+  "DPTOCODE": 41,
   "DPTOMPIO": "41885",
   "Nombre Departamento": "HUILA",
   "Nombre Municipio": "YAGUARÁ",

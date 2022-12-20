@@ -26,7 +26,7 @@ export const DISEASES: SelectValue[] = [
     { name: 'Influenza Porcina', value: 'IIP' },
     { name: 'Microplasmosis Porcina', value: 'CRP' },
     { name: 'Parvovirosis Porcina', value: 'PVP' },
-    // { name: 'Peste Porcina Africana', value: 'PPA' },
+    { name: 'Peste Porcina Africana', value: 'PPA' },
     { name: 'Pleuropneumonia Porcina', value: 'APP' },
     { name: 'PRRS - Síndrome Reproductivo y Respiratorio Porcino', value: 'PRRS' }
 ];

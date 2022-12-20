@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81001",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "ARAUCA",
@@ -193,7 +193,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81065",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "ARAUQUITA",
@@ -385,7 +385,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81220",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "CRAVO NORTE",
@@ -577,7 +577,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81300",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "FORTUL",
@@ -769,7 +769,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81591",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "PUERTO RONDÓN",
@@ -961,7 +961,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81736",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "SARAVENA",
@@ -1153,7 +1153,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 81,
+  "DPTOCODE": 81,
   "DPTOMPIO": "81794",
   "Nombre Departamento": "ARAUCA",
   "Nombre Municipio": "TAME",

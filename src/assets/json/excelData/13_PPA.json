@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13001",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CARTAGENA DE INDIAS",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13006",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ACHÍ",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13030",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ALTOS DEL ROSARIO",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13042",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ARENAL",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13052",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ARJONA",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13062",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ARROYOHONDO",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13074",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "BARRANCO DE LOBA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13140",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CALAMAR",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13160",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CANTAGALLO",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13188",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CICUCO",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13212",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CÓRDOBA",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13222",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "CLEMENCIA",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13244",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "EL CARMEN DE BOLÍVAR",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13248",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "EL GUAMO",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13268",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "EL PEÑÓN",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13300",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "HATILLO DE LOBA",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13430",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MAGANGUÉ",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13433",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MAHATES",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13440",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MARGARITA",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13442",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MARÍA LA BAJA",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13458",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MONTECRISTO",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13468",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MOMPÓS",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13473",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "MORALES",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13490",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "NOROSÍ",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13549",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "PINILLOS",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13580",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "REGIDOR",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13600",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "RÍO VIEJO",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13620",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN CRISTÓBAL",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13647",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN ESTANISLAO",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13650",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN FERNANDO",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13654",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN JACINTO",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13655",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN JACINTO DEL CAUCA",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13657",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN JUAN NEPOMUCENO",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13667",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN MARTÍN DE LOBA",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13670",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SAN PABLO",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13673",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SANTA CATALINA",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13683",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SANTA ROSA",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13688",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SANTA ROSA DEL SUR",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13744",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SIMITÍ",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13760",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "SOPLAVIENTO",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13780",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "TALAIGUA NUEVO",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13810",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "TIQUISIO",
@@ -2899,7 +2899,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13836",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "TURBACO",
@@ -2968,7 +2968,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13838",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "TURBANÁ",
@@ -3037,7 +3037,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13873",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "VILLANUEVA",
@@ -3106,7 +3106,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 13,
+  "DPTOCODE": 13,
   "divipola": "13894",
   "Nombre Departamento": "BOLÍVAR",
   "Nombre Municipio": "ZAMBRANO",

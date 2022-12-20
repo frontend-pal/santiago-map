@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86001",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "MOCOA",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86219",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "COLÓN",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86320",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "ORITO",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86568",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "PUERTO ASÍS",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86569",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "PUERTO CAICEDO",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86571",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "PUERTO GUZMÁN",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86573",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "PUERTO LEGUÍZAMO",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86749",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "SIBUNDOY",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86755",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "SAN FRANCISCO",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86757",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "SAN MIGUEL",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86760",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "SANTIAGO",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86865",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "VALLE DEL GUAMUEZ",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 86,
+  "DPTOCODE": 86,
   "divipola": "86885",
   "Nombre Departamento": "PUTUMAYO",
   "Nombre Municipio": "VILLAGARZÓN",

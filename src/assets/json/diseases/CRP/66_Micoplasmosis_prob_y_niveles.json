@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66001",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "PEREIRA",
@@ -198,7 +198,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66045",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "APÍA",
@@ -395,7 +395,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66075",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "BALBOA",
@@ -592,7 +592,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66088",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "BELÉN DE UMBRÍA",
@@ -789,7 +789,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66170",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "DOSQUEBRADAS",
@@ -986,7 +986,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66318",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "GUÁTICA",
@@ -1183,7 +1183,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66383",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "LA CELIA",
@@ -1380,7 +1380,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66400",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "LA VIRGINIA",
@@ -1577,7 +1577,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66440",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "MARSELLA",
@@ -1774,7 +1774,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66456",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "MISTRATÓ",
@@ -1971,7 +1971,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66572",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "PUEBLO RICO",
@@ -2168,7 +2168,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66594",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "QUINCHÍA",
@@ -2365,7 +2365,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66682",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "SANTA ROSA DE CABAL",
@@ -2562,7 +2562,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 66,
+  "DPTOCODE": 66,
   "DPTOMPIO": "66687",
   "Nombre Departamento": "RISARALDA",
   "Nombre Municipio": "SANTUARIO",

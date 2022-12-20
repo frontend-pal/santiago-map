@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19001",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "POPAYÁN",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19022",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "ALMAGUER",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19050",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "ARGELIA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19075",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "BALBOA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19100",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "BOLÍVAR",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19110",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "BUENOS AIRES",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19130",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "CAJIBÍO",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19137",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "CALDONO",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19142",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "CALOTO",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19212",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "CORINTO",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19256",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "EL TAMBO",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19290",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "FLORENCIA",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19300",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "GUACHENÉ",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19318",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "GUAPÍ",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19355",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "INZÁ",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19364",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "JAMBALÓ",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19392",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "LA SIERRA",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19397",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "LA VEGA",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19418",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "LÓPEZ DE MICAY",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19450",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "MERCADERES",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19455",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "MIRANDA",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19473",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "MORALES",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19513",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PADILLA",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19517",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PÁEZ",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19532",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PATÍA",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19533",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PIAMONTE",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19548",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PIENDAMÓ",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19573",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PUERTO TEJADA",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19585",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "PURACÉ",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19622",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "ROSAS",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19693",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SAN SEBASTIÁN",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19698",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SANTANDER DE QUILICHAO",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19701",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SANTA ROSA",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19743",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SILVIA",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19760",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SOTARA",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19780",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SUÁREZ",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19785",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "SUCRE",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19807",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "TIMBÍO",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19809",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "TIMBIQUÍ",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19821",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "TORIBÍO",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19824",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "TOTORÓ",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 19,
+  "DPTOCODE": 19,
   "divipola": "19845",
   "Nombre Departamento": "CAUCA",
   "Nombre Municipio": "VILLA RICA",

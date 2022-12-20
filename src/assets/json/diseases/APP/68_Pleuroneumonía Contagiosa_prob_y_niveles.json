@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68001",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BUCARAMANGA",
@@ -194,7 +194,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68013",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "AGUADA",
@@ -387,7 +387,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68020",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ALBANIA",
@@ -580,7 +580,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68051",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ARATOCA",
@@ -773,7 +773,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68077",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BARBOSA",
@@ -966,7 +966,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68079",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BARICHARA",
@@ -1159,7 +1159,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68081",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BARRANCABERMEJA",
@@ -1352,7 +1352,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68092",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BETULIA",
@@ -1545,7 +1545,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68101",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "BOLÍVAR",
@@ -1738,7 +1738,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68121",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CABRERA",
@@ -1931,7 +1931,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68132",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CALIFORNIA",
@@ -2124,7 +2124,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68147",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CAPITANEJO",
@@ -2317,7 +2317,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68152",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CARCASÍ",
@@ -2510,7 +2510,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68160",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CEPITÁ",
@@ -2703,7 +2703,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68162",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CERRITO",
@@ -2896,7 +2896,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68167",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CHARALÁ",
@@ -3089,7 +3089,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68169",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CHARTA",
@@ -3282,7 +3282,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68176",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CHIMA",
@@ -3475,7 +3475,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68179",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CHIPATÁ",
@@ -3668,7 +3668,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68190",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CIMITARRA",
@@ -3861,7 +3861,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68207",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CONCEPCIÓN",
@@ -4054,7 +4054,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68209",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CONFINES",
@@ -4247,7 +4247,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68211",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CONTRATACIÓN",
@@ -4440,7 +4440,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68217",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "COROMORO",
@@ -4633,7 +4633,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68229",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "CURITÍ",
@@ -4826,7 +4826,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68235",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "EL CARMEN DE CHUCURÍ",
@@ -5019,7 +5019,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68245",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "EL GUACAMAYO",
@@ -5212,7 +5212,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68250",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "EL PEÑÓN",
@@ -5405,7 +5405,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68255",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "EL PLAYÓN",
@@ -5598,7 +5598,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68264",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ENCINO",
@@ -5791,7 +5791,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68266",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ENCISO",
@@ -5984,7 +5984,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68271",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "FLORIÁN",
@@ -6177,7 +6177,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68276",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "FLORIDABLANCA",
@@ -6370,7 +6370,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68296",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GALÁN",
@@ -6563,7 +6563,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68298",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GÁMBITA",
@@ -6756,7 +6756,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68307",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GIRÓN",
@@ -6949,7 +6949,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68318",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GUACA",
@@ -7142,7 +7142,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68320",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GUADALUPE",
@@ -7335,7 +7335,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68322",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GUAPOTÁ",
@@ -7528,7 +7528,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68324",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GUAVATÁ",
@@ -7721,7 +7721,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68327",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "GÜEPSA",
@@ -7914,7 +7914,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68344",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "HATO",
@@ -8107,7 +8107,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68368",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "JESÚS MARÍA",
@@ -8300,7 +8300,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68370",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "JORDÁN",
@@ -8493,7 +8493,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68377",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "LA BELLEZA",
@@ -8686,7 +8686,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68385",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "LANDÁZURI",
@@ -8879,7 +8879,7 @@
  },
  {
   "Column1": 46,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68397",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "LA PAZ",
@@ -9072,7 +9072,7 @@
  },
  {
   "Column1": 47,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68406",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "LEBRIJA",
@@ -9265,7 +9265,7 @@
  },
  {
   "Column1": 48,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68418",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "LOS SANTOS",
@@ -9458,7 +9458,7 @@
  },
  {
   "Column1": 49,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68425",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "MACARAVITA",
@@ -9651,7 +9651,7 @@
  },
  {
   "Column1": 50,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68432",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "MÁLAGA",
@@ -9844,7 +9844,7 @@
  },
  {
   "Column1": 51,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68444",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "MATANZA",
@@ -10037,7 +10037,7 @@
  },
  {
   "Column1": 52,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68464",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "MOGOTES",
@@ -10230,7 +10230,7 @@
  },
  {
   "Column1": 53,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68468",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "MOLAGAVITA",
@@ -10423,7 +10423,7 @@
  },
  {
   "Column1": 54,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68498",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "OCAMONTE",
@@ -10616,7 +10616,7 @@
  },
  {
   "Column1": 55,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68500",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "OIBA",
@@ -10809,7 +10809,7 @@
  },
  {
   "Column1": 56,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68502",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ONZAGA",
@@ -11002,7 +11002,7 @@
  },
  {
   "Column1": 57,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68522",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PALMAR",
@@ -11195,7 +11195,7 @@
  },
  {
   "Column1": 58,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68524",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PALMAS DEL SOCORRO",
@@ -11388,7 +11388,7 @@
  },
  {
   "Column1": 59,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68533",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PÁRAMO",
@@ -11581,7 +11581,7 @@
  },
  {
   "Column1": 60,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68547",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PIEDECUESTA",
@@ -11774,7 +11774,7 @@
  },
  {
   "Column1": 61,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68549",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PINCHOTE",
@@ -11967,7 +11967,7 @@
  },
  {
   "Column1": 62,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68572",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PUENTE NACIONAL",
@@ -12160,7 +12160,7 @@
  },
  {
   "Column1": 63,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68573",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PUERTO PARRA",
@@ -12353,7 +12353,7 @@
  },
  {
   "Column1": 64,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68575",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "PUERTO WILCHES",
@@ -12546,7 +12546,7 @@
  },
  {
   "Column1": 65,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68615",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "RIONEGRO",
@@ -12739,7 +12739,7 @@
  },
  {
   "Column1": 66,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68655",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SABANA DE TORRES",
@@ -12932,7 +12932,7 @@
  },
  {
   "Column1": 67,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68669",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN ANDRÉS",
@@ -13125,7 +13125,7 @@
  },
  {
   "Column1": 68,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68673",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN BENITO",
@@ -13318,7 +13318,7 @@
  },
  {
   "Column1": 69,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68679",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN GIL",
@@ -13511,7 +13511,7 @@
  },
  {
   "Column1": 70,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68682",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN JOAQUÍN",
@@ -13704,7 +13704,7 @@
  },
  {
   "Column1": 71,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68684",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN JOSÉ DE MIRANDA",
@@ -13897,7 +13897,7 @@
  },
  {
   "Column1": 72,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68686",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN MIGUEL",
@@ -14090,7 +14090,7 @@
  },
  {
   "Column1": 73,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68689",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SAN VICENTE DE CHUCURÍ",
@@ -14283,7 +14283,7 @@
  },
  {
   "Column1": 74,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68705",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SANTA BÁRBARA",
@@ -14476,7 +14476,7 @@
  },
  {
   "Column1": 75,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68720",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SANTA HELENA DEL OPÓN",
@@ -14669,7 +14669,7 @@
  },
  {
   "Column1": 76,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68745",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SIMACOTA",
@@ -14862,7 +14862,7 @@
  },
  {
   "Column1": 77,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68755",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SOCORRO",
@@ -15055,7 +15055,7 @@
  },
  {
   "Column1": 78,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68770",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SUAITA",
@@ -15248,7 +15248,7 @@
  },
  {
   "Column1": 79,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68773",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SUCRE",
@@ -15441,7 +15441,7 @@
  },
  {
   "Column1": 80,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68780",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "SURATÁ",
@@ -15634,7 +15634,7 @@
  },
  {
   "Column1": 81,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68820",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "TONA",
@@ -15827,7 +15827,7 @@
  },
  {
   "Column1": 82,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68855",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "VALLE DE SAN JOSÉ",
@@ -16020,7 +16020,7 @@
  },
  {
   "Column1": 83,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68861",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "VÉLEZ",
@@ -16213,7 +16213,7 @@
  },
  {
   "Column1": 84,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68867",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "VETAS",
@@ -16406,7 +16406,7 @@
  },
  {
   "Column1": 85,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68872",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "VILLANUEVA",
@@ -16599,7 +16599,7 @@
  },
  {
   "Column1": 86,
-  "Código Departamento": 68,
+  "DPTOCODE": 68,
   "DPTOMPIO": "68895",
   "Nombre Departamento": "SANTANDER",
   "Nombre Municipio": "ZAPATOCA",

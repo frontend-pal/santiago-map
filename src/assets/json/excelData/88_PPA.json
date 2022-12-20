@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 88,
+  "DPTOCODE": 88,
   "divipola": "88001",
   "Nombre Departamento": "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA",
   "Nombre Municipio": "SAN ANDRÉS",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 88,
+  "DPTOCODE": 88,
   "divipola": "88564",
   "Nombre Departamento": "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA",
   "Nombre Municipio": "PROVIDENCIA",

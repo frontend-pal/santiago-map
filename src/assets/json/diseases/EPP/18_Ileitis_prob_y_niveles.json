@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18001",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "FLORENCIA",
@@ -193,7 +193,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18029",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "ALBANIA",
@@ -385,7 +385,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18094",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "BELÉN DE LOS ANDAQUÍES",
@@ -577,7 +577,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18150",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "CARTAGENA DEL CHAIRÁ",
@@ -769,7 +769,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18205",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "CURILLO",
@@ -961,7 +961,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18247",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "EL DONCELLO",
@@ -1153,7 +1153,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18256",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "EL PAUJÍL",
@@ -1345,7 +1345,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18410",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "LA MONTAÑITA",
@@ -1537,7 +1537,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18460",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "MILÁN",
@@ -1729,7 +1729,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18479",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "MORELIA",
@@ -1921,7 +1921,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18592",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "PUERTO RICO",
@@ -2113,7 +2113,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18610",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "SAN JOSÉ DEL FRAGUA",
@@ -2305,7 +2305,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18753",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "SAN VICENTE DEL CAGUÁN",
@@ -2497,7 +2497,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18756",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "SOLANO",
@@ -2689,7 +2689,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18785",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "SOLITA",
@@ -2881,7 +2881,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 18,
+  "DPTOCODE": 18,
   "DPTOMPIO": "18860",
   "Nombre Departamento": "CAQUETÁ",
   "Nombre Municipio": "VALPARAÍSO",

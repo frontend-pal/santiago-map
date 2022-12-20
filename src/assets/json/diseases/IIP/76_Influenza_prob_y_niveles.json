@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76001",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "CALI",
@@ -198,7 +198,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76020",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ALCALÁ",
@@ -395,7 +395,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76036",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ANDALUCÍA",
@@ -592,7 +592,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76041",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ANSERMANUEVO",
@@ -789,7 +789,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76054",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ARGELIA",
@@ -986,7 +986,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76100",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "BOLÍVAR",
@@ -1183,7 +1183,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76109",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "BUENAVENTURA",
@@ -1380,7 +1380,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76111",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "GUADALAJARA DE BUGA",
@@ -1577,7 +1577,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76113",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "BUGALAGRANDE",
@@ -1774,7 +1774,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76122",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "CAICEDONIA",
@@ -1971,7 +1971,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76126",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "CALIMA",
@@ -2168,7 +2168,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76130",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "CANDELARIA",
@@ -2365,7 +2365,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76147",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "CARTAGO",
@@ -2562,7 +2562,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76233",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "DAGUA",
@@ -2759,7 +2759,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76243",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "EL ÁGUILA",
@@ -2956,7 +2956,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76246",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "EL CAIRO",
@@ -3153,7 +3153,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76248",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "EL CERRITO",
@@ -3350,7 +3350,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76250",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "EL DOVIO",
@@ -3547,7 +3547,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76275",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "FLORIDA",
@@ -3744,7 +3744,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76306",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "GINEBRA",
@@ -3941,7 +3941,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76318",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "GUACARÍ",
@@ -4138,7 +4138,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76364",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "JAMUNDÍ",
@@ -4335,7 +4335,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76377",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "LA CUMBRE",
@@ -4532,7 +4532,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76400",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "LA UNIÓN",
@@ -4729,7 +4729,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76403",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "LA VICTORIA",
@@ -4926,7 +4926,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76497",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "OBANDO",
@@ -5123,7 +5123,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76520",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "PALMIRA",
@@ -5320,7 +5320,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76563",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "PRADERA",
@@ -5517,7 +5517,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76606",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "RESTREPO",
@@ -5714,7 +5714,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76616",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "RIOFRÍO",
@@ -5911,7 +5911,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76622",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ROLDANILLO",
@@ -6108,7 +6108,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76670",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "SAN PEDRO",
@@ -6305,7 +6305,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76736",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "SEVILLA",
@@ -6502,7 +6502,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76823",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "TORO",
@@ -6699,7 +6699,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76828",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "TRUJILLO",
@@ -6896,7 +6896,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76834",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "TULUÁ",
@@ -7093,7 +7093,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76845",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ULLOA",
@@ -7290,7 +7290,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76863",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "VERSALLES",
@@ -7487,7 +7487,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76869",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "VIJES",
@@ -7684,7 +7684,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76890",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "YOTOCO",
@@ -7881,7 +7881,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76892",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "YUMBO",
@@ -8078,7 +8078,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 76,
+  "DPTOCODE": 76,
   "DPTOMPIO": "76895",
   "Nombre Departamento": "VALLE DEL CAUCA",
   "Nombre Municipio": "ZARZAL",

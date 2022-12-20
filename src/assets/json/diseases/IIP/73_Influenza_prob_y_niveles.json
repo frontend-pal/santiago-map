@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73001",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "IBAGUÉ",
@@ -198,7 +198,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73024",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ALPUJARRA",
@@ -395,7 +395,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73026",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ALVARADO",
@@ -592,7 +592,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73030",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "AMBALEMA",
@@ -789,7 +789,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73043",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ANZOÁTEGUI",
@@ -986,7 +986,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73055",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ARMERO GUAYABAL",
@@ -1183,7 +1183,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73067",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ATACO",
@@ -1380,7 +1380,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73124",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "CAJAMARCA",
@@ -1577,7 +1577,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73148",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "CARMEN DE APICALÁ",
@@ -1774,7 +1774,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73152",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "CASABIANCA",
@@ -1971,7 +1971,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73168",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "CHAPARRAL",
@@ -2168,7 +2168,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73200",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "COELLO",
@@ -2365,7 +2365,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73217",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "COYAIMA",
@@ -2562,7 +2562,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73226",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "CUNDAY",
@@ -2759,7 +2759,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73236",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "DOLORES",
@@ -2956,7 +2956,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73268",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ESPINAL",
@@ -3153,7 +3153,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73270",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "FALAN",
@@ -3350,7 +3350,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73275",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "FLANDES",
@@ -3547,7 +3547,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73283",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "FRESNO",
@@ -3744,7 +3744,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73319",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "GUAMO",
@@ -3941,7 +3941,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73347",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "HERVEO",
@@ -4138,7 +4138,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73349",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "HONDA",
@@ -4335,7 +4335,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73352",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ICONONZO",
@@ -4532,7 +4532,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73408",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "LÉRIDA",
@@ -4729,7 +4729,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73411",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "LÍBANO",
@@ -4926,7 +4926,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73443",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "SAN SEBASTIÁN DE MARIQUITA",
@@ -5123,7 +5123,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73449",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "MELGAR",
@@ -5320,7 +5320,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73461",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "MURILLO",
@@ -5517,7 +5517,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73483",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "NATAGAIMA",
@@ -5714,7 +5714,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73504",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ORTEGA",
@@ -5911,7 +5911,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73520",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "PALOCABILDO",
@@ -6108,7 +6108,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73547",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "PIEDRAS",
@@ -6305,7 +6305,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73555",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "PLANADAS",
@@ -6502,7 +6502,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73563",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "PRADO",
@@ -6699,7 +6699,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73585",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "PURIFICACIÓN",
@@ -6896,7 +6896,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73616",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "RIOBLANCO",
@@ -7093,7 +7093,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73622",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "RONCESVALLES",
@@ -7290,7 +7290,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73624",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "ROVIRA",
@@ -7487,7 +7487,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73671",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "SALDAÑA",
@@ -7684,7 +7684,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73675",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "SAN ANTONIO",
@@ -7881,7 +7881,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73686",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "SANTA ISABEL",
@@ -8078,7 +8078,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73770",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "SUÁREZ",
@@ -8275,7 +8275,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73854",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "VALLE DE SAN JUAN",
@@ -8472,7 +8472,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73861",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "VENADILLO",
@@ -8669,7 +8669,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73870",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "VILLAHERMOSA",
@@ -8866,7 +8866,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 73,
+  "DPTOCODE": 73,
   "DPTOMPIO": "73873",
   "Nombre Departamento": "TOLIMA",
   "Nombre Municipio": "VILLARRICA",

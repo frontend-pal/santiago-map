@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97001",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "MITÚ",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97161",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "CARURÚ",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97511",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "PACOA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97666",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "TARAIRA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97777",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "PAPUNAHUA",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 97,
+  "DPTOCODE": 97,
   "divipola": "97889",
   "Nombre Departamento": "VAUPÉS",
   "Nombre Municipio": "YAVARATÉ",

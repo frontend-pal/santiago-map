@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 95,
+  "DPTOCODE": 95,
   "divipola": "95001",
   "Nombre Departamento": "GUAVIARE",
   "Nombre Municipio": "SAN JOSÉ DEL GUAVIARE",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 95,
+  "DPTOCODE": 95,
   "divipola": "95015",
   "Nombre Departamento": "GUAVIARE",
   "Nombre Municipio": "CALAMAR",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 95,
+  "DPTOCODE": 95,
   "divipola": "95025",
   "Nombre Departamento": "GUAVIARE",
   "Nombre Municipio": "EL RETORNO",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 95,
+  "DPTOCODE": 95,
   "divipola": "95200",
   "Nombre Departamento": "GUAVIARE",
   "Nombre Municipio": "MIRAFLORES",

@@ -59,6 +59,6 @@ export class MapViewComponent implements AfterViewInit {
     this.mapService.setMap(this.map);
     this.mapService.setlegend();
     this.mapService.setInfo();
-    this.mapService.getColombiaMap();
+    // this.mapService.getColombiaMap();
   }
 }

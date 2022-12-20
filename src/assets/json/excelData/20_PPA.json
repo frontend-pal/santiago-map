@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20001",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "VALLEDUPAR",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20011",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "AGUACHICA",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20013",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "AGUSTÍN CODAZZI",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20032",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "ASTREA",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20045",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "BECERRIL",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20060",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "BOSCONIA",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20175",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "CHIMICHAGUA",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20178",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "CHIRIGUANÁ",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20228",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "CURUMANÍ",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20238",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "EL COPEY",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20250",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "EL PASO",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20295",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "GAMARRA",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20310",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "GONZÁLEZ",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20383",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "LA GLORIA",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20400",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "LA JAGUA DE IBIRICO",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20443",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "MANAURE BALCÓN DEL CESAR",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20517",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "PAILITAS",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20550",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "PELAYA",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20570",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "PUEBLO BELLO",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20614",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "RÍO DE ORO",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20621",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "LA PAZ",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20710",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "SAN ALBERTO",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20750",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "SAN DIEGO",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20770",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "SAN MARTÍN",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 20,
+  "DPTOCODE": 20,
   "divipola": "20787",
   "Nombre Departamento": "CESAR",
   "Nombre Municipio": "TAMALAMEQUE",

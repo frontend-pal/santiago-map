@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91001",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "LETICIA",
@@ -170,7 +170,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91263",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "EL ENCANTO",
@@ -339,7 +339,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91405",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "LA CHORRERA",
@@ -508,7 +508,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91407",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "LA PEDRERA",
@@ -677,7 +677,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91430",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "LA VICTORIA",
@@ -846,7 +846,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91460",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "MIRITÍ - PARANÁ",
@@ -1015,7 +1015,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91530",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "PUERTO ALEGRÍA",
@@ -1184,7 +1184,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91536",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "PUERTO ARICA",
@@ -1353,7 +1353,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91540",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "PUERTO NARIÑO",
@@ -1522,7 +1522,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91669",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "PUERTO SANTANDER",
@@ -1691,7 +1691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 91,
+  "DPTOCODE": 91,
   "DPTOMPIO": "91798",
   "Nombre Departamento": "AMAZONAS",
   "Nombre Municipio": "TARAPACÁ",

@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52001",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "PASTO",
@@ -70,7 +70,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52019",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ALBÁN",
@@ -139,7 +139,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52022",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ALDANA",
@@ -208,7 +208,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52036",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ANCUYÁ",
@@ -277,7 +277,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52051",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ARBOLEDA",
@@ -346,7 +346,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52079",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "BARBACOAS",
@@ -415,7 +415,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52083",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "BELÉN",
@@ -484,7 +484,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52110",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "BUESACO",
@@ -553,7 +553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52203",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "COLÓN",
@@ -622,7 +622,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52207",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CONSACÁ",
@@ -691,7 +691,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52210",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CONTADERO",
@@ -760,7 +760,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52215",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CÓRDOBA",
@@ -829,7 +829,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52224",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CUASPÚD",
@@ -898,7 +898,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52227",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CUMBAL",
@@ -967,7 +967,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52233",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CUMBITARA",
@@ -1036,7 +1036,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52240",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "CHACHAGÜÍ",
@@ -1105,7 +1105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52250",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "EL CHARCO",
@@ -1174,7 +1174,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52254",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "EL PEÑOL",
@@ -1243,7 +1243,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52256",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "EL ROSARIO",
@@ -1312,7 +1312,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52258",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "EL TABLÓN DE GÓMEZ",
@@ -1381,7 +1381,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52260",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "EL TAMBO",
@@ -1450,7 +1450,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52287",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "FUNES",
@@ -1519,7 +1519,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52317",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "GUACHUCAL",
@@ -1588,7 +1588,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52320",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "GUAITARILLA",
@@ -1657,7 +1657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52323",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "GUALMATÁN",
@@ -1726,7 +1726,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52352",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ILES",
@@ -1795,7 +1795,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52354",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "IMUÉS",
@@ -1864,7 +1864,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52356",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "IPIALES",
@@ -1933,7 +1933,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52378",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LA CRUZ",
@@ -2002,7 +2002,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52381",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LA FLORIDA",
@@ -2071,7 +2071,7 @@
  },
  {
   "Column1": 30,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52385",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LA LLANADA",
@@ -2140,7 +2140,7 @@
  },
  {
   "Column1": 31,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52390",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LA TOLA",
@@ -2209,7 +2209,7 @@
  },
  {
   "Column1": 32,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52399",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LA UNIÓN",
@@ -2278,7 +2278,7 @@
  },
  {
   "Column1": 33,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52405",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LEIVA",
@@ -2347,7 +2347,7 @@
  },
  {
   "Column1": 34,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52411",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LINARES",
@@ -2416,7 +2416,7 @@
  },
  {
   "Column1": 35,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52418",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "LOS ANDES",
@@ -2485,7 +2485,7 @@
  },
  {
   "Column1": 36,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52427",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "MAGÜÍ",
@@ -2554,7 +2554,7 @@
  },
  {
   "Column1": 37,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52435",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "MALLAMA",
@@ -2623,7 +2623,7 @@
  },
  {
   "Column1": 38,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52473",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "MOSQUERA",
@@ -2692,7 +2692,7 @@
  },
  {
   "Column1": 39,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52480",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "NARIÑO",
@@ -2761,7 +2761,7 @@
  },
  {
   "Column1": 40,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52490",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "OLAYA HERRERA",
@@ -2830,7 +2830,7 @@
  },
  {
   "Column1": 41,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52506",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "OSPINA",
@@ -2899,7 +2899,7 @@
  },
  {
   "Column1": 42,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52520",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "FRANCISCO PIZARRO",
@@ -2968,7 +2968,7 @@
  },
  {
   "Column1": 43,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52540",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "POLICARPA",
@@ -3037,7 +3037,7 @@
  },
  {
   "Column1": 44,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52560",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "POTOSÍ",
@@ -3106,7 +3106,7 @@
  },
  {
   "Column1": 45,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52565",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "PROVIDENCIA",
@@ -3175,7 +3175,7 @@
  },
  {
   "Column1": 46,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52573",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "PUERRES",
@@ -3244,7 +3244,7 @@
  },
  {
   "Column1": 47,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52585",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "PUPIALES",
@@ -3313,7 +3313,7 @@
  },
  {
   "Column1": 48,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52612",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "RICAURTE",
@@ -3382,7 +3382,7 @@
  },
  {
   "Column1": 49,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52621",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "ROBERTO PAYÁN",
@@ -3451,7 +3451,7 @@
  },
  {
   "Column1": 50,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52678",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAMANIEGO",
@@ -3520,7 +3520,7 @@
  },
  {
   "Column1": 51,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52683",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SANDONÁ",
@@ -3589,7 +3589,7 @@
  },
  {
   "Column1": 52,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52685",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAN BERNARDO",
@@ -3658,7 +3658,7 @@
  },
  {
   "Column1": 53,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52687",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAN LORENZO",
@@ -3727,7 +3727,7 @@
  },
  {
   "Column1": 54,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52693",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAN PABLO",
@@ -3796,7 +3796,7 @@
  },
  {
   "Column1": 55,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52694",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAN PEDRO DE CARTAGO",
@@ -3865,7 +3865,7 @@
  },
  {
   "Column1": 56,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52696",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SANTA BÁRBARA",
@@ -3934,7 +3934,7 @@
  },
  {
   "Column1": 57,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52699",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SANTACRUZ",
@@ -4003,7 +4003,7 @@
  },
  {
   "Column1": 58,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52720",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAPUYES",
@@ -4072,7 +4072,7 @@
  },
  {
   "Column1": 59,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52786",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "TAMINANGO",
@@ -4141,7 +4141,7 @@
  },
  {
   "Column1": 60,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52788",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "TANGUA",
@@ -4210,7 +4210,7 @@
  },
  {
   "Column1": 61,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52835",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "SAN ANDRÉS DE TUMACO",
@@ -4279,7 +4279,7 @@
  },
  {
   "Column1": 62,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52838",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "TÚQUERRES",
@@ -4348,7 +4348,7 @@
  },
  {
   "Column1": 63,
-  "Código Departamento": 52,
+  "DPTOCODE": 52,
   "divipola": "52885",
   "Nombre Departamento": "NARIÑO",
   "Nombre Municipio": "YACUANQUER",

@@ -1,7 +1,7 @@
 [
  {
   "Column1": 0,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27001",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "QUIBDÓ",
@@ -195,7 +195,7 @@
  },
  {
   "Column1": 1,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27006",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "ACANDÍ",
@@ -389,7 +389,7 @@
  },
  {
   "Column1": 2,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27025",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "ALTO BAUDÓ",
@@ -583,7 +583,7 @@
  },
  {
   "Column1": 3,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27050",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "ATRATO",
@@ -777,7 +777,7 @@
  },
  {
   "Column1": 4,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27073",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "BAGADÓ",
@@ -971,7 +971,7 @@
  },
  {
   "Column1": 5,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27075",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "BAHÍA SOLANO",
@@ -1165,7 +1165,7 @@
  },
  {
   "Column1": 6,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27077",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "BAJO BAUDÓ",
@@ -1359,7 +1359,7 @@
  },
  {
   "Column1": 7,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27099",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "BOJAYÁ",
@@ -1553,7 +1553,7 @@
  },
  {
   "Column1": 8,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27135",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "EL CANTÓN DEL SAN PABLO",
@@ -1747,7 +1747,7 @@
  },
  {
   "Column1": 9,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27150",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "CARMEN DEL DARIÉN",
@@ -1941,7 +1941,7 @@
  },
  {
   "Column1": 10,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27160",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "CÉRTEGUI",
@@ -2135,7 +2135,7 @@
  },
  {
   "Column1": 11,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27205",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "CONDOTO",
@@ -2329,7 +2329,7 @@
  },
  {
   "Column1": 12,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27245",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "EL CARMEN DE ATRATO",
@@ -2523,7 +2523,7 @@
  },
  {
   "Column1": 13,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27250",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "EL LITORAL DEL SAN JUAN",
@@ -2717,7 +2717,7 @@
  },
  {
   "Column1": 14,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27361",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "ISTMINA",
@@ -2911,7 +2911,7 @@
  },
  {
   "Column1": 15,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27372",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "JURADÓ",
@@ -3105,7 +3105,7 @@
  },
  {
   "Column1": 16,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27413",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "LLORÓ",
@@ -3299,7 +3299,7 @@
  },
  {
   "Column1": 17,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27425",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "MEDIO ATRATO",
@@ -3493,7 +3493,7 @@
  },
  {
   "Column1": 18,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27430",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "MEDIO BAUDÓ",
@@ -3687,7 +3687,7 @@
  },
  {
   "Column1": 19,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27450",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "MEDIO SAN JUAN",
@@ -3881,7 +3881,7 @@
  },
  {
   "Column1": 20,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27491",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "NÓVITA",
@@ -4075,7 +4075,7 @@
  },
  {
   "Column1": 21,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27495",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "NUQUÍ",
@@ -4269,7 +4269,7 @@
  },
  {
   "Column1": 22,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27580",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "RÍO IRÓ",
@@ -4463,7 +4463,7 @@
  },
  {
   "Column1": 23,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27600",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "RÍO QUITO",
@@ -4657,7 +4657,7 @@
  },
  {
   "Column1": 24,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27615",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "RIOSUCIO",
@@ -4851,7 +4851,7 @@
  },
  {
   "Column1": 25,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27660",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "SAN JOSÉ DEL PALMAR",
@@ -5045,7 +5045,7 @@
  },
  {
   "Column1": 26,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27745",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "SIPÍ",
@@ -5239,7 +5239,7 @@
  },
  {
   "Column1": 27,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27787",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "TADÓ",
@@ -5433,7 +5433,7 @@
  },
  {
   "Column1": 28,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27800",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "UNGUÍA",
@@ -5627,7 +5627,7 @@
  },
  {
   "Column1": 29,
-  "Código Departamento": 27,
+  "DPTOCODE": 27,
   "DPTOMPIO": "27810",
   "Nombre Departamento": "CHOCÓ",
   "Nombre Municipio": "UNIÓN PANAMERICANA",
