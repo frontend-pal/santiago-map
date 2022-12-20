@@ -31,7 +31,6 @@ export class ControlsComponent implements OnInit {
   riskFact: RiskSelectFacValue[] | [] = [];
 
   // filter Variables
-  selectedDpto = '';
   selectedRisk?: string;
   selectedRiskCOMP?: string;
   selectedRiskCAT?: string;
@@ -173,15 +172,11 @@ export class ControlsComponent implements OnInit {
     if (dptoCode) {
       const currentDepartment: Department | null = this.departments.find(x => x.code === dptoCode) || null;
 
-      this.selectedDpto = currentDepartment?.code || '';
       this.setControl('dpto', currentDepartment);
+      console.log("llamada desde el dpto");
       this.checkMapControls();
     } else {
       this.municipality = this.allMunicipalities;
-    }
-
-    if (this.selectedRisk !== '') {
-      this.setRisk(this.selectedRisk as string);
     }
     this.mapForm.controls['municipality'].patchValue('');
     this.setControl('municipality', null);
@@ -200,19 +195,17 @@ export class ControlsComponent implements OnInit {
   setRisk(value: string) {
     // resetea la categoria del componente
     this.mapForm.controls['riskComp'].patchValue('');
-    this.mapForm.controls['riskComp'].disable();
     this.setControl('riskcat', null);
 
     // resetea el riesgo de la catetgoria
     this.mapForm.controls['riskCat'].patchValue('');
-    this.mapForm.controls['riskCat'].disable();
     this.setControl('riskfact', null);
 
     this.setControl('risk', value);
     this.selectedRisk = value
     this.filteredRiskCOMP = [];
     this.filteredRiskCOMP = this.riskcomp.filter(x => x.risk === value);
-    if (this.filteredRiskCOMP.length > 0 && this.selectedDpto !== '') {
+    if (this.filteredRiskCOMP.length > 0) {
       this.mapForm.controls['riskComp'].enable();
     } else {
       this.mapForm.controls['riskComp'].disable();
@@ -221,7 +214,6 @@ export class ControlsComponent implements OnInit {
   }
 
   setRiskComp(event: MatSelectChange) {
-    console.log(event);
     // resetea el riesgo de la catetgoria
     this.mapForm.controls['riskCat'].patchValue('');
     this.setControl('riskfact', null);
@@ -246,36 +238,13 @@ export class ControlsComponent implements OnInit {
   setViewType(value: string) {
     this.setControl('viewtype', value);
     this.jsonService.getViewTypeGeoJson(value).subscribe(res => {
+      console.log(res);
       this.mapService.setViewTypeMap(res);
-
     });
   }
 
-  setDisease(value: string) {
-    this.selectedDpto = '';
-    this.setControl('riskfact', null);
-    this.setControl('municipality', null);
-    this.setControl('dpto', null);
-
-    // resetea el municipio
-    this.mapForm.controls['municipality'].patchValue('');
-    this.mapForm.controls['department'].patchValue('');
-
-    // resetea el riesgo especifico
-    this.setRisk('RES');
-
-    // resetea la categoria del componente
-    this.mapForm.controls['riskComp'].patchValue('');
-    this.mapForm.controls['riskComp'].disable();
-    this.setControl('riskcat', null);
-
-    // resetea el riesgo de la catetgoria
-    this.mapForm.controls['riskCat'].patchValue('');
-    this.mapForm.controls['riskCat'].disable();
-
-    this.mapService.removeLayers('dpto');
-
-    this.setControl('disease', value);
+  setDisease(event: MatSelectChange) {
+    this.setControl('disease', event.value);
     this.jsonService.getDiseases().subscribe(res => {
       console.log(res);
     });
@@ -323,30 +292,11 @@ export class ControlsComponent implements OnInit {
   }
 
   resetDpto() {
-    this.selectedDpto = '';
-    this.setControl('riskfact', null);
-    this.setControl('municipality', null);
-    this.setControl('dpto', null);
-
-    // resetea el municipio
     this.mapForm.controls['municipality'].patchValue('');
     this.mapForm.controls['department'].patchValue('');
-
-    // resetea el riesgo especifico
-    this.setRisk('RES');
-
-    // resetea la categoria del componente
-    this.mapForm.controls['riskComp'].patchValue('');
-    this.mapForm.controls['riskComp'].disable();
-    this.setControl('riskcat', null);
-
-    // resetea el riesgo de la catetgoria
-    this.mapForm.controls['riskCat'].patchValue('');
-    this.mapForm.controls['riskCat'].disable();
-
-    this.mapService.removeLayers('dpto');
-    const currentDisease = sessionStorage.getItem('disease') || '';
-    this.setDisease(currentDisease)
+    this.setControl('municipality', null);
+    this.setControl('dpto', null);
+    this.checkMapControls();
   }
 
   resetMuni() {
@@ -361,19 +311,18 @@ export class ControlsComponent implements OnInit {
     const currentDptoSelected = sessionStorage.getItem('dpto');
     const currentRiskSelected = sessionStorage.getItem('risk');
 
-    console.log(currentDptoSelected);
-    if (!!currentMuniSelected && currentMuniSelected !== null && currentMuniSelected !== 'null') {
+    if (!!currentMuniSelected && currentMuniSelected !== null) {
       this.getMuniMap(JSON.parse(currentMuniSelected));
 
       return;
     }
 
-    if (!!currentDptoSelected && currentDptoSelected !== null && currentDptoSelected !== 'null') {
-      console.log("entre al departamento cuando hay");
-      console.log(currentDptoSelected);
+    if (!!currentDptoSelected && currentDptoSelected !== null) {
       this.getDptoMap(JSON.parse(currentDptoSelected));
 
       return;
     }
+
+    this.mapService.removeLayers('dpto');
   }
 }

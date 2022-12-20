@@ -330,7 +330,7 @@ export class MapControllerService {
       case 'all':
         this.mapLayers.forEach((mapLayer) => {
           this.map.removeLayer(mapLayer.layer);
-          this.map.removeLayer(this.info);
+          if (this.info) this.map.removeLayer(this.info);
         });
         this.mapLayers = [];
         break;
@@ -338,7 +338,7 @@ export class MapControllerService {
         this.mapLayers.forEach((mapLayer) => {
           if (mapLayer.name === ('viewType')) {
             this.map.removeLayer(mapLayer.layer);
-            this.map.removeLayer(this.info);
+            if (this.info) this.map.removeLayer(this.info);
           }
         });
         this.mapLayers = this.mapLayers.filter(x => x.name.name !== ('viewType'));
@@ -349,7 +349,7 @@ export class MapControllerService {
         this.mapLayers.forEach((mapLayer) => {
           if (mapLayer.name.substring(0, 4) === ('dpto')) {
             this.map.removeLayer(mapLayer.layer);
-            this.map.removeLayer(this.info);
+            if (this.info) this.map.removeLayer(this.info);
           }
         });
         this.mapLayers = this.mapLayers.filter(x => x.name.substring(0, 4) !== ('dpto'));

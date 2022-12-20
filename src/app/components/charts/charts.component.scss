@@ -9,6 +9,11 @@ $duration: 0.5s;
   background-color: #404040;
 }
 
+.chart-container {
+  margin-left: 24px;
+  transition: all ease-in-out $duration;
+}
+
 .main-chart-container {
   width: calc(33.33vw + 24px);
   max-width: calc(340px + 24px);
@@ -19,11 +24,11 @@ $duration: 0.5s;
 
   &.closed {
     max-width: 24px;
-  }
-}
 
-.chart-container {
-  margin-left: 24px;
+    .chart-container {
+      opacity: 0;
+    }
+  }
 }
 
 .map-card {
