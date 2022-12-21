@@ -90,6 +90,7 @@ export class ChartsComponent implements OnInit {
           this.updateData(res);
           break;
         case 'municipality':
+          console.log("muni");
           this.updateData(res);
           break;
         case 'risk':
@@ -149,10 +150,13 @@ export class ChartsComponent implements OnInit {
         }
         break;
       case 'municipality':
-        if (event.value !== 'null' && event.value !== null && event.value !== 'null') {
+        if (event.value !== 'null' && event.value !== null) {
           const municData = JSON.parse(event?.value as string);
 
           this.setMuniData(municData.code);
+        } else {
+          console.log("entre al reset del munic");
+          this.setDptoData();
         }
         break;
       case 'reset':
@@ -195,17 +199,19 @@ export class ChartsComponent implements OnInit {
   }
 
   setDptoData() {
-    this.currentData = this.dptoData[0];
-    this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo_medianDEP'] || 0;
-    this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico_medianDEP'] || 0;
-    this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental_medianDEP'] || 0;
-    this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad_medianDEP'] || 0;
-    this.catMovilizacion = this.currentData['Prob_Cat_Movilización_medianDEP'] || 0;
-    this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico_medianDEP'] || 0;
-    this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario_medianDEP'] || 0;
-    this.currentRisk = this.currentData['Prob_Riesgo_especifico_medianDEP'] || 0;
-    this.threat = this.currentData['Prob_Cat_AMENAZA_medianDEP'] || 0;
-    this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD_medianDEP'] || 0;
+    this.currentData = (!!this.dptoData && this.dptoData.length > 0) ? this.dptoData[0] : null;
+    if (this.currentData) {
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo_medianDEP'] || 0;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico_medianDEP'] || 0;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofísico_Ambiental_medianDEP'] || 0;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad_medianDEP'] || 0;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilización_medianDEP'] || 0;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconómico_medianDEP'] || 0;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario_medianDEP'] || 0;
+      this.currentRisk = this.currentData['Prob_Riesgo_especifico_medianDEP'] || 0;
+      this.threat = this.currentData['Prob_Cat_AMENAZA_medianDEP'] || 0;
+      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD_medianDEP'] || 0;
+    }
   }
 
   setMuniData(muniCode: string) {

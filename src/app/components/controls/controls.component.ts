@@ -333,6 +333,7 @@ export class ControlsComponent implements OnInit {
     this.mapForm.controls['department'].patchValue('');
 
     // resetea el riesgo especifico
+    this.mapForm.controls['risk'].patchValue('RES');
     this.setRisk('RES');
 
     // resetea la categoria del componente
