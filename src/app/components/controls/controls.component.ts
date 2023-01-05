@@ -44,6 +44,7 @@ export class ControlsComponent implements OnInit {
   allMunicipalities!: Municipality[];
   municipality: Municipality[] | [] = [];
   filteredMunOptions?: Observable<Municipality[]>;
+  firstTimeDptoZoom: boolean = false;
 
   constructor(
     private controlFormService: ControlFormService,
@@ -170,6 +171,7 @@ export class ControlsComponent implements OnInit {
   }
 
   goToDpto(dptoCode?: string) {
+    this.firstTimeDptoZoom = true;
     if (dptoCode) {
       const currentDepartment: Department | null = this.departments.find(x => x.code === dptoCode) || null;
 
@@ -191,9 +193,9 @@ export class ControlsComponent implements OnInit {
     if (!!event) {
       const currentMun: Municipality = event.option.value;
 
-      this.setControl('municipality', currentMun);
       console.log("llamada desde el muni");
-      this.checkMapControls();
+      this.setControl('municipality', currentMun);
+      this.getMuniMap(event.option.value);
     }
   }
 
@@ -286,10 +288,14 @@ export class ControlsComponent implements OnInit {
     this.jsonService.getDptoGeoJson(currentDepartment.code).subscribe(res => {
       this.mapService.setDepartmentMap(res, currentDepartment.code);
     });
-    this.goToLocation({
-      lng: currentDepartment.long,
-      lat: currentDepartment.lat
-    }, 6)
+    if (this.firstTimeDptoZoom) {
+      this.goToLocation({
+        lng: currentDepartment.long,
+        lat: currentDepartment.lat
+      }, 7)
+      this.firstTimeDptoZoom = false;
+    }
+
   }
 
   getMuniMap(currentMun: Municipality) {
@@ -347,27 +353,22 @@ export class ControlsComponent implements OnInit {
 
     this.mapService.removeLayers('dpto');
     const currentDisease = sessionStorage.getItem('disease') || '';
-    this.setDisease(currentDisease)
+    this.setDisease(currentDisease);
+    this.firstTimeDptoZoom = true;
+    this.mapService.zoomOut();
   }
 
   resetMuni() {
     this.mapForm.controls['municipality'].patchValue('');
 
     this.setControl('municipality', null);
+    this.firstTimeDptoZoom = true;
     this.checkMapControls();
   }
 
   checkMapControls() {
-    const currentMuniSelected = sessionStorage.getItem('municipality');
     const currentDptoSelected = sessionStorage.getItem('dpto');
     const currentRiskSelected = sessionStorage.getItem('risk');
-
-    console.log(currentDptoSelected);
-    if (!!currentMuniSelected && currentMuniSelected !== null && currentMuniSelected !== 'null') {
-      this.getMuniMap(JSON.parse(currentMuniSelected));
-
-      return;
-    }
 
     if (!!currentDptoSelected && currentDptoSelected !== null && currentDptoSelected !== 'null') {
       console.log("entre al departamento cuando hay");

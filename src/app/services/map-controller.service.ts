@@ -7,6 +7,10 @@ interface MapLayers {
   name: string;
   layer: GeoJSON | any | null;
 }
+
+export const DEFAULT_LAT = 4.561896;
+export const DEFAULT_LON = -74.5472906;
+
 @Injectable({
   providedIn: 'root'
 })
@@ -167,12 +171,20 @@ export class MapControllerService {
     const currentlayer = this.mapLayers.find(x => x.name.substring(0, 4) === 'dpto')?.layer;
 
     if (currentlayer) {
-      const arrrayLayers = Object.entries(currentlayer._layers).map(x => { return x[1]});
+      const arrrayLayers = Object.entries(currentlayer._layers).map(x => { return x[1] });
       const currentMuniLayer: any = arrrayLayers.find((x: any) => x.feature.properties.mpios === muniCode);
 
       this.map.fitBounds(currentMuniLayer.getBounds(), { maxZoom: 11 })
     }
+  }
 
+  public zoomOut() {
+    const latLng: LatLngExpression = {
+      lat: DEFAULT_LAT,
+      lng: DEFAULT_LON
+    };
+
+    this.flyTo(latLng, 5.5)
   }
 
   public setlegend() {

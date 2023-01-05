@@ -1,10 +1,9 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import L, { LatLngLiteral, Map } from 'leaflet';
 import { JsonListService } from 'src/app/services/Json-list.service';
-import { MapControllerService } from 'src/app/services/map-controller.service';
+import { DEFAULT_LAT, DEFAULT_LON, MapControllerService } from 'src/app/services/map-controller.service';
 
-export const DEFAULT_LAT = 4.561896;
-export const DEFAULT_LON = -74.5472906;
+
 @Component({
   selector: 'app-map-view',
   templateUrl: './map-view.component.html',
