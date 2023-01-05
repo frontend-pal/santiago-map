@@ -172,13 +172,13 @@ export class ChartsComponent implements OnInit {
     this.currentData = data.find((x: any) => x.divipola === munic.code);
 
     if (!!this.currentData) {
-      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
-      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
-      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || 0;
-      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
-      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || 0;
-      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || 0;
-      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || null;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || null;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || null;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || null;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || null;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || null;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || null;
     } else {
       this.resetCategories();
     }
@@ -186,31 +186,31 @@ export class ChartsComponent implements OnInit {
 
   setGlobalData(data: any) {
     this.currentData = data;
-    this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
-    this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
-    this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || 0;
-    this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
-    this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || 0;
-    this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || 0;
-    this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
-    this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || 0;
-    this.threat = this.currentData['Prob_Cat_AMENAZA'] || 0;
-    this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || 0;
+    this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || null;
+    this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || null;
+    this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || null;
+    this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || null;
+    this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || null;
+    this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || null;
+    this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || null;
+    this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || null;
+    this.threat = this.currentData['Prob_Cat_AMENAZA'] || null;
+    this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || null;
   }
 
   setDptoData() {
     this.currentData = (!!this.dptoData && this.dptoData.length > 0) ? this.dptoData[0] : null;
     if (this.currentData) {
-      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo_medianDEP'] || 0;
-      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico_medianDEP'] || 0;
-      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental_medianDEP'] || 0;
-      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad_medianDEP'] || 0;
-      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion_medianDEP'] || 0;
-      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico_medianDEP'] || 0;
-      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario_medianDEP'] || 0;
-      this.currentRisk = this.currentData['Prob_Riesgo_especifico_medianDEP'] || 0;
-      this.threat = this.currentData['Prob_Cat_AMENAZA_medianDEP'] || 0;
-      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD_medianDEP'] || 0;
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo_medianDEP'] || null;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico_medianDEP'] || null;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental_medianDEP'] || null;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad_medianDEP'] || null;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion_medianDEP'] || null;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico_medianDEP'] || null;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario_medianDEP'] || null;
+      this.currentRisk = this.currentData['Prob_Riesgo_especifico_medianDEP'] || null;
+      this.threat = this.currentData['Prob_Cat_AMENAZA_medianDEP'] || null;
+      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD_medianDEP'] || null;
     }
   }
 
@@ -218,16 +218,16 @@ export class ChartsComponent implements OnInit {
     this.currentData = this.dptoData.find((x: any) => x.DPTOMPIO === muniCode);
 
     if (!!this.currentData) {
-      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || 0;
-      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || 0;
-      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || 0;
-      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || 0;
-      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || 0;
-      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || 0;
-      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || 0;
-      this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || 0;
-      this.threat = this.currentData['Prob_Cat_AMENAZA'] || 0;
-      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || 0;
+      this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || null;
+      this.catEspacioBiofisico = this.currentData['Prob_Cat_Espacio_Biofisico'] || null;
+      this.catEntornoBiosifico = this.currentData['Prob_Cat_Entorno_Biofisico_Ambiental'] || null;
+      this.catBioseguridad = this.currentData['Prob_Cat_Bioseguridad'] || null;
+      this.catMovilizacion = this.currentData['Prob_Cat_Movilizacion'] || null;
+      this.catSocioEconomico = this.currentData['Prob_Cat_Entorno_Socioeconomico'] || null;
+      this.catManejoSanitario = this.currentData['Prob_Cat_Manejo_Sanitario'] || null;
+      this.currentRisk = this.currentData['Prob_Riesgo_especifico'] || null;
+      this.threat = this.currentData['Prob_Cat_AMENAZA'] || null;
+      this.vulnerability = this.currentData['Prob_Cat_VULNERABILIDAD'] || null;
     }
   }
 

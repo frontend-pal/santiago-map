@@ -24,10 +24,13 @@
                 <ng-container *ngIf="threatView">
                     <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Amenaza</h4>
-                        <h3 class="mid-title-number" *ngIf="!!threat && threat !== -1">
+                        <h3 class="mid-title-number" *ngIf="!!threat && threat > 0">
                             {{ threat * 100 | number:'1.1-1' }}%
                         </h3>
-                        <h3 class="mid-title-number" *ngIf="!!threat && threat === -1">
+                        <h3 class="mid-title-number" *ngIf="!!threat && threat === 0">
+                            0
+                        </h3>
+                        <h3 class="mid-title-number" *ngIf="!!threat && threat < 0">
                             N/A
                         </h3>
                         <h3 class="mid-title-number" *ngIf="threat === null">
