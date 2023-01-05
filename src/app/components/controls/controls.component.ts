@@ -87,12 +87,12 @@ export class ControlsComponent implements OnInit {
       risk: new FormControl('RES', null),
       riskComp: new FormControl({ value: '', disabled: true }, null),
       riskCat: new FormControl({ value: '', disabled: true }, null),
-      viewType: new FormControl('FRONAC', null)
+      viewType: new FormControl('PRONAC', null)
     })
 
     // this.mapForm.controls['risk'].disable();
     this.setRisk('RES');
-    this.setViewType('FRONAC');
+    this.setViewType('PRONAC');
     this.getData();
   }
 
