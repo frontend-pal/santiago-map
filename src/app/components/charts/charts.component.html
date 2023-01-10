@@ -10,10 +10,13 @@
             <div class="row py-4 m-0 text-center data-container">
                 <div class="col-12 mb-2">
                     <h2 class="big-title">Riesgo Específico</h2>
-                    <ng-container *ngIf="!!currentRisk && currentRisk !== -1">
+                    <ng-container *ngIf="!!currentRisk && currentRisk > 0">
                         <h1 class="big-title-number">{{ currentRisk * 100 | number:'1.1-1' }}%</h1>
                     </ng-container>
-                    <ng-container *ngIf="!!currentRisk && currentRisk === -1">
+                    <ng-container *ngIf="!!currentRisk && currentRisk === 0">
+                        <h1 class="big-title-number">0</h1>
+                    </ng-container>
+                    <ng-container *ngIf="!!currentRisk && currentRisk < 0">
                         <h1 class="big-title-number">N/A</h1>
                     </ng-container>
                     <ng-container *ngIf="currentRisk === null">
@@ -83,10 +86,13 @@
                 <ng-container *ngIf="vulnerabilityView">
                     <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Vulnerabilidad</h4>
-                        <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability !== -1">
+                        <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability > 0">
                             {{ vulnerability * 100 | number:'1.1-1' }}%
                         </h3>
-                        <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability === -1">
+                        <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability === 0">
+                            0
+                        </h3>
+                        <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability < 0">
                             N/A
                         </h3>
                         <h3 class="mid-title-number" *ngIf="vulnerability === null">
@@ -160,7 +166,9 @@
                         <ul class="ul-risk-data">
                             <li *ngFor="let riskData of riskWithData">
                                 <h4 class="name">{{ riskData.name }}</h4>
-                                <span class="value">{{ riskData.categorieValue * 100 | number:'1.1-1' }}%</span>
+                                <span class="value">
+                                    {{ isNumber(riskData.categorieValue) ? (riskData.categorieValue * 100 | number:'1.1-1') + '%' : riskData.categorieValue }}
+                                </span>
                             </li>
                         </ul>
                     </div>

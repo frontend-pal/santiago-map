@@ -298,6 +298,7 @@ export class ChartsComponent implements OnInit {
     this.filteredRiskCat = this.riskCat.filter(x => x.riskcat === cat);
     this.riskWithData = [];
 
+    console.log()
     if (muniSelected) {
       const muniCode = muniSelected.code;
       this.riskWithData = this.filteredRiskCat.map(riskCat => {
@@ -305,7 +306,7 @@ export class ChartsComponent implements OnInit {
         const currentData = this.jsonService.currentDiseaseData.find((x: any) => x.DPTOMPIO === muniCode);
         return {
           ...riskCat,
-          categorieValue: (!!currentData[idx] && currentData[idx]) > 0 ? currentData[idx] : 0
+          categorieValue: this.caculateRiskValue(currentData[idx])
         }
       });
     } else {
@@ -314,14 +315,30 @@ export class ChartsComponent implements OnInit {
         const currentData = this.jsonService.currentDiseaseData[0];
         return {
           ...riskCat,
-          categorieValue: (!!currentData[idx] && currentData[idx]) > 0 ? currentData[idx] : 0
+          categorieValue: this.caculateRiskValue(currentData[idx])
         }
       });
     }
+    console.log(this.riskWithData);
   }
 
   public toggleRightMenu() {
     this.toggleMenu = !this.toggleMenu;
     this.mapService.toggleMenu = this.toggleMenu;
+  }
+
+  private caculateRiskValue(dataValue: number | string | null): number | string {
+    let value;
+
+    if (!!dataValue && dataValue >= 0) {
+      value = dataValue;
+    } else {
+      value = 'N/A';
+    }
+    return value;
+  }
+
+  isNumber(val: any): boolean {
+    return typeof val === 'number';
   }
 }
