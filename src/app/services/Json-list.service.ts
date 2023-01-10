@@ -78,7 +78,7 @@ export class JsonListService {
     return this.municipios.length !== 0 && code !== undefined ? this.municipios.filter(x => x.departmentCode === code?.toString()) : [];
   }
 
-  public getDptoDataGeoJson(name: string, disease = 'ppa') {
+  public getDptoDataGeoJson(name: string, disease = 'ASF') {
     name = name.toUpperCase();
     disease = disease.toUpperCase();
     return this.http.get(`../../assets/json/excelData/${name}_${disease}.json`);
@@ -118,20 +118,20 @@ export class JsonListService {
       case 'PED':
         name = `${code}_Diarrea epidémica_prob_y_niveles`;
         break;
-      case 'EPP':
+      case 'PPE':
         name = `${code}_Ileitis_prob_y_niveles`;
         break;
-      case 'IIP':
+      case 'SIV':
         name = `${code}_Influenza_prob_y_niveles`;
         break;
-      case 'CRP':
+      case 'MH':
         name = `${code}_Micoplasmosis_prob_y_niveles`;
         break;
-      case 'PVP':
+      case 'PPV':
         name = `${code}_Parvovirosis_prob_y_niveles`;
         break;
-      case 'PPA':
-        name = `${code}_PPA_prob_y_niveles`;
+      case 'ASF':
+        name = `${code}_ASF_prob_y_niveles`;
         break;
       case 'APP':
         name = `${code}_Pleuroneumonía Contagiosa_prob_y_niveles`;

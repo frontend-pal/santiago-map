@@ -52,7 +52,7 @@
   },
   {
     "name": "Ileitis",
-    "code": "EPP",
+    "code": "PPE",
     "Prob_Cat_Bioseguridad": 0.4963154218,
     "Prob_Cat_Entorno_Biofisico_Ambiental": 0.6951915544,
     "Prob_Cat_Entorno_Socioeconomico": 0.4676653626,
@@ -256,7 +256,7 @@
   },
   {
     "name": "Influenza",
-    "code": "IIP",
+    "code": "SIV",
     "Prob_Cat_Bioseguridad": 0.4496197407,
     "Prob_Cat_Entorno_Biofisico_Ambiental": 0.5514476462,
     "Prob_Cat_Entorno_Socioeconomico": 0.4676653626,
@@ -307,7 +307,7 @@
   },
   {
     "name": "Parvovirosis",
-    "code": "PVP",
+    "code": "PPV",
     "Prob_Cat_Bioseguridad": 0.5333576,
     "Prob_Cat_Entorno_Biofisico_Ambiental": null,
     "Prob_Cat_Entorno_Socioeconomico": 0.4676653626,
@@ -358,7 +358,7 @@
   },
   {
     "name": "Micoplasmosis",
-    "code": "CRP",
+    "code": "MH",
     "Prob_Cat_Bioseguridad": 0.5231189631,
     "Prob_Cat_Entorno_Biofisico_Ambiental": 0.5736850676,
     "Prob_Cat_Entorno_Socioeconomico": 0.4676653626,

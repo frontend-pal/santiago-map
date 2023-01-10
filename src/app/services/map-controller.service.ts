@@ -18,7 +18,7 @@ export class MapControllerService {
   private map!: Map;
   public info!: any;
   public mapLayers: MapLayers[] | any[] = [];
-  public mapDataPPA: any;
+  public mapDataASF: any;
   private _toggleMenu!: boolean;
   private riskFact = false;
 
@@ -73,12 +73,12 @@ export class MapControllerService {
     if (color) return color;
 
     if (!!dptoCode && dptoCode !== '') {
-      const currentMunic = this.mapDataPPA?.find((x: any) => x.DPTOMPIO.toString() === f.properties.mpios) || null;
+      const currentMunic = this.mapDataASF?.find((x: any) => x.DPTOMPIO.toString() === f.properties.mpios) || null;
       const idxValue = this.riskFact ? this.getCatIdx(d, true) : this.getCatIdx(d);
 
       currentDataValue = !!currentMunic ? currentMunic[idxValue] * 100 : f;
     } else if (!!f && !!d) {
-      const currentDepartment = this.mapDataPPA?.find((x: any) => x.code.toString() === f.properties.DPTO_CCDGO) || null;
+      const currentDepartment = this.mapDataASF?.find((x: any) => x.code.toString() === f.properties.DPTO_CCDGO) || null;
 
       currentDataValue = !!currentDepartment ? currentDepartment[d] * 100 : f;
     }
@@ -231,13 +231,13 @@ export class MapControllerService {
   //   console.log(res);
   //   if (clearLayer) this.removeLayers();
   //   if (dptoCode) {
-  //     this.mapDataPPA = null;
+  //     this.mapDataASF = null;
   //     await this.getDptoDiseaseData(dptoCode);
   //   } else {
-  //     if (!this.mapDataPPA) await this.getDiseaseData();
+  //     if (!this.mapDataASF) await this.getDiseaseData();
   //   }
 
-  //   console.log(this.mapDataPPA);
+  //   console.log(this.mapDataASF);
 
   //   if (this.isMapready) {
   //     const stateLayer = L.geoJSON(res, {
@@ -270,11 +270,11 @@ export class MapControllerService {
   public async setGeoJson(res: any, layerName: string, dptoCode?: any, disease = '', clearLayer = '') {
     if (clearLayer !== '') this.removeLayers(clearLayer);
     if (dptoCode) {
-      this.mapDataPPA = null;
-      this.mapDataPPA = this.jsonService.currentDiseaseData;
+      this.mapDataASF = null;
+      this.mapDataASF = this.jsonService.currentDiseaseData;
       this.setInfo();
     } else {
-      if (!this.mapDataPPA) this.mapDataPPA = this.jsonService.currentDiseaseData;
+      if (!this.mapDataASF) this.mapDataASF = this.jsonService.currentDiseaseData;
     }
 
     if (this.isMapready) {
@@ -374,13 +374,13 @@ export class MapControllerService {
 
   public getDiseaseData() {
     let promise = new Promise((resolve, reject) => {
-      if (!!this.mapDataPPA) resolve(this.mapDataPPA);
+      if (!!this.mapDataASF) resolve(this.mapDataASF);
       this.jsonService.getDiseaseDptoJson()
         .toPromise()
         .then(
           (res: any) => {
-            this.mapDataPPA = res;
-            resolve(this.mapDataPPA);
+            this.mapDataASF = res;
+            resolve(this.mapDataASF);
           }
         ).catch(
           (err: any) => reject(err)
@@ -392,13 +392,13 @@ export class MapControllerService {
 
   public getDptoDiseaseData(dptoCode: string) {
     let promise = new Promise((resolve, reject) => {
-      if (!!this.mapDataPPA) resolve(this.mapDataPPA);
+      if (!!this.mapDataASF) resolve(this.mapDataASF);
       this.jsonService.getDptoDataGeoJson(dptoCode)
         .toPromise()
         .then(
           (res: any) => {
-            this.mapDataPPA = res;
-            resolve(this.mapDataPPA);
+            this.mapDataASF = res;
+            resolve(this.mapDataASF);
           }
         ).catch(
           (err: any) => reject(err)
@@ -409,14 +409,14 @@ export class MapControllerService {
   }
 
   // public getColombiaMap(disease: any = '') {
-  //   this.mapDataPPA = null;
+  //   this.mapDataASF = null;
   //   this.jsonService.getColombiaGeoJson().subscribe(res => {
   //     this.setGeoJson(res, 'colombia', null, disease);
   //   });
   // }
 
   public setViewTypeMap(json: any, typeName: string = '') {
-    this.mapDataPPA = null;
+    this.mapDataASF = null;
     this.setGeoJson(json, 'viewType', null, '', 'viewType');
   }
 
