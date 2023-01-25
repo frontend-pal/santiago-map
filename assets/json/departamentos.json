@@ -1,0 +1,200 @@
+[
+    {
+        "code": "05",
+        "name": "ANTIOQUIA",
+        "lat": 6.915828,
+        "long": -75.608387
+    },
+    {
+        "code": "08",
+        "name": "ATLANTICO",
+        "lat": 10.983333,
+        "long": -74.783333
+    },
+    {
+        "code": "11",
+        "name": "BOGOTA",
+        "lat": 4.60971,
+        "long": -74.08175
+    },
+    {
+        "code": "13",
+        "name": "BOLIVAR",
+        "lat": 10.4,
+        "long": -75.5
+    },
+    {
+        "code": "15",
+        "name": "BOYACA",
+        "lat": 5.533333,
+        "long": -73.366667
+    },
+    {
+        "code": "17",
+        "name": "CALDAS",
+        "lat": 5.1,
+        "long": -75.55
+    },
+    {
+        "code": "18",
+        "name": "CAQUETA",
+        "lat": 1.616667,
+        "long": -75.6
+    },
+    {
+        "code": "19",
+        "name": "CAUCA",
+        "lat": 2.45,
+        "long": -76.616667
+    },
+    {
+        "code": "20",
+        "name": "CESAR",
+        "lat": 10.483333,
+        "long": -73.25
+    },
+    {
+        "code": "23",
+        "name": "CORDOBA",
+        "lat": 8.75,
+        "long": -75.883333
+    },
+    {
+        "code": "25",
+        "name": "CUNDINAMARCA",
+        "lat": 5,
+        "long": -74.16667
+    },
+    {
+        "code": "27",
+        "name": "CHOCO",
+        "lat": 5.7,
+        "long": -76.666667
+    },
+    {
+        "code": "41",
+        "name": "HUILA",
+        "lat": 2.998611,
+        "long": -75.304444
+    },
+    {
+        "code": "44",
+        "name": "GUAJIRA",
+        "lat": 11.55,
+        "long": -72.9
+    },
+    {
+        "code": "47",
+        "name": "MAGDALENA",
+        "lat": 11.241944,
+        "long": -74.205278
+    },
+    {
+        "code": "50",
+        "name": "META",
+        "lat": 4.15,
+        "long": -73.633333
+    },
+    {
+        "code": "52",
+        "name": "NARIÑO",
+        "lat": 1.166667,
+        "long": -77.266667
+    },
+    {
+        "code": "54",
+        "name": "NORTESANTANDER",
+        "lat": 7.9,
+        "long": -72.5
+    },
+    {
+        "code": "63",
+        "name": "QUINDIO",
+        "lat": 4.533333,
+        "long": -75.7
+    },
+    {
+        "code": "66",
+        "name": "RISARALDA",
+        "lat": 4.816667,
+        "long": -75.7
+    },
+    {
+        "code": "68",
+        "name": "SANTANDER",
+        "lat": 7.133333,
+        "long": -73
+    },
+    {
+        "code": "70",
+        "name": "SUCRE",
+        "lat": 9.3,
+        "long": -75.4
+    },
+    {
+        "code": "73",
+        "name": "TOLIMA",
+        "lat": 4.433333,
+        "long": -75.233333
+    },
+    {
+        "code": "76",
+        "name": "VALLECAUCA",
+        "lat": 3.416667,
+        "long": -76.516667
+    },
+    {
+        "code": "81",
+        "name": "ARAUCA",
+        "lat": 7.083333,
+        "long": -70.75
+    },
+    {
+        "code": "85",
+        "name": "CASANARE",
+        "lat": 5.35,
+        "long": -72.41
+    },
+    {
+        "code": "86",
+        "name": "PUTUMAYO",
+        "lat": 1.15,
+        "long": -76.616667
+    },
+    {
+        "code": "88",
+        "name": "SAN ANDRES",
+        "lat": 12.55,
+        "long": -81.716667
+    },
+    {
+        "code": "91",
+        "name": "AMAZONAS",
+        "lat": -1.5,
+        "long": -71.5
+    },
+    {
+        "code": "94",
+        "name": "GUANIA",
+        "lat": 3.865278,
+        "long": -67.923889
+    },
+    {
+        "code": "95",
+        "name": "GUAVIARE",
+        "lat": 2.566667,
+        "long": -72.633333
+    },
+    {
+        "code": "97",
+        "name": "VAUPES",
+        "lat": 1.2,
+        "long": -70.166667
+    },
+    {
+        "code": "99",
+        "name": "VICHADA",
+        "lat": 5,
+        "long": -69.508333
+    }
+]
