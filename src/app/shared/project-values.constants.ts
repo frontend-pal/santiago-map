@@ -21,7 +21,7 @@ export const COLCOORDS: LatLngExpression = {
 
 export const DISEASES: SelectValue[] = [
     { name: 'PCV - Circovirosis Porcina', value: 'PCV' },
-    { name: 'PED - Diarrea Epidémica', value: 'PED' },
+    { name: 'PED - Diarrea Epidémica Porcina', value: 'PED' },
     { name: 'PPE - IleItis Porcina ', value: 'PPE' },
     { name: 'SIV - Influenza Porcina', value: 'SIV' },
     { name: 'MH - Micoplasmosis Porcina', value: 'MH' },
