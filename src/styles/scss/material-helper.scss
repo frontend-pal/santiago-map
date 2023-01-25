@@ -288,7 +288,7 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
 /* inputs */
 
 .mat-form-field {
-  height: 64px;
+  height: 54px;
 }
 
 .mat-form-field-appearance-fill .mat-form-field-flex {
@@ -297,7 +297,12 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
 }
 
 .mat-form-field-appearance-fill .mat-form-field-infix {
+  font-size: 10px;
   padding: 0.5rem 0 0.5rem 0;
+}
+
+.mat-form-field-wrapper {
+  padding-bottom: 16px;
 }
 
 .mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float

@@ -176,14 +176,15 @@ $duration: 0.5s;
 
 .big-title {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  margin: 0 0 .75rem;
 }
 
 .big-title-number {
   font-weight: 700;
-  font-size: 3.5rem;
-  margin-top: 1.75rem;
-  min-height: 2rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+  min-height: 1.5rem;
 }
 
 .mid-title {
@@ -193,8 +194,9 @@ $duration: 0.5s;
 
 .mid-title-number {
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .text-center {
@@ -212,8 +214,8 @@ $duration: 0.5s;
   .icon {
     border-radius: 4px;
     padding: 4px;
-    height: 52px;
-    width: 52px;
+    height: 42px;
+    width: 42px;
     margin-right: 8px;
   }
 
@@ -221,11 +223,11 @@ $duration: 0.5s;
     text-align: left;
 
     span {
-      font-size: 0.875rem;
+      font-size: 0.75rem;
     }
 
     .tiny-title {
-      font-size: 0.875rem;
+      font-size: 0.75rem;
       text-transform: uppercase;
       font-weight: 700;
       line-height: 1.25;

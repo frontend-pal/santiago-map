@@ -96,3 +96,33 @@ input[type="text"] {
   margin-right: 8px;
   opacity: 0.7;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #0096ca #404040;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #404040;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0096ca;
+  border-radius: 8px;
+  border: 2px solid #404040;
+}

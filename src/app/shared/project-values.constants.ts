@@ -22,13 +22,13 @@ export const COLCOORDS: LatLngExpression = {
 export const DISEASES: SelectValue[] = [
     { name: 'PCV - Circovirosis Porcina', value: 'PCV' },
     { name: 'PED - Diarrea Epidémica', value: 'PED' },
-    { name: 'PPE - Ileítis Porcina ', value: 'PPE' },
+    { name: 'PPE - IleItis Porcina ', value: 'PPE' },
     { name: 'SIV - Influenza Porcina', value: 'SIV' },
     { name: 'MH - Micoplasmosis Porcina', value: 'MH' },
     { name: 'PPV - Parvovirosis Porcina', value: 'PPV' },
     { name: 'ASF - Peste Porcina Africana', value: 'ASF' },
     { name: 'APP - Pleuropneumonia Porcina', value: 'APP' },
-    { name: 'PRR - Síndrome Reproductivo y Respiratorio Porcino', value: 'PRRS' }
+    { name: 'PRRS - Síndrome Reproductivo y Respiratorio Porcino', value: 'PRRS' }
 ];
 
 export const VISUALIZATIONTYPES: SelectValue[] = [

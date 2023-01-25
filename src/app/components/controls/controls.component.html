@@ -23,7 +23,7 @@
         <form [formGroup]="mapForm" (ngSubmit)="onSubmit()">
 
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Tipo de visualización</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione tipo de visualización</mat-label>
@@ -37,7 +37,7 @@
           </div>
 
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Seleccione una enfermedad</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>BUSCAR ENFERMEDAD</mat-label>
@@ -50,7 +50,7 @@
           </div>
 
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Seleccione un departamento:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar departamento</mat-label>
@@ -69,7 +69,7 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Seleccione un Municipio:</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Buscar Municipio</mat-label>
@@ -88,7 +88,7 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Análisis de riesgo específico</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione analisis de riesgo</mat-label>
@@ -101,7 +101,7 @@
           </div>
 
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Categorías del componente</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione un componente</mat-label>
@@ -117,7 +117,7 @@
             </mat-form-field>
           </div>
 
-          <div class="form-container mt-2">
+          <div class="form-container mt-1">
             <h5 class="text-uppercase">Riesgo de la categoría</h5>
             <mat-form-field class="full-width text-uppercase" appearance="fill">
               <mat-label>Seleccione categoría</mat-label>
@@ -125,8 +125,8 @@
                 <mat-option value="">
                   Seleccione una categoría
                 </mat-option>
-                <mat-option *ngFor="let fact of filteredRiskFACT" [value]="fact.value"  matTooltipPosition="right"
-                [matTooltip]="fact.name">
+                <mat-option *ngFor="let fact of filteredRiskFACT" [value]="fact.value" matTooltipPosition="right"
+                  [matTooltip]="fact.name">
                   {{ fact.name }}
                 </mat-option>
               </mat-select>
@@ -139,7 +139,25 @@
     </div>
     <div class="row py-1">
       <p class="tmp-footer">
-        <img class="footer-logo" src="assets/data-lab-logo.svg" alt="DataLab UNAL"> - Colombia 2023</p>
+        <img class="footer-logo" src="assets/data-lab-logo.svg" alt="DataLab UNAL"> - Colombia 2023 <br>
+        <span class="mt-1">
+          <a class="fake-link" (click)="openDialog(aboutModal)">Acerca de</a>
+        </span>
+      </p>
     </div>
   </div>
 </div>
+
+<ng-template #aboutModal>
+  <h1 mat-dialog-title class="text-center">Acerca de nosotros</h1>
+  <div mat-dialog-content class="text-right mt-3">
+    <span>Desarrollado para PorkColombia - FNP por:</span><br/>
+    <span>DataLab - Universidad Nacional de Colombia</span><br/>
+    <span>Agatec SAS</span><br/>
+    <span>Arwen Consulting SAS</span><br/>
+  </div>
+  <hr/>
+  <div mat-dialog-actions class="mt-2">
+    <button mat-button mat-dialog-close class="mx-auto">Aceptar</button>
+  </div>
+</ng-template>

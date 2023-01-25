@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MatSelectChange } from '@angular/material/select';
@@ -10,6 +10,7 @@ import { Municipality } from 'src/app/models/municipality';
 import { ControlFormService } from 'src/app/services/control-form.service';
 import { JsonListService } from 'src/app/services/Json-list.service';
 import { MapControllerService } from 'src/app/services/map-controller.service';
+import { MatDialog } from '@angular/material/dialog';
 import { COLCOORDS, DISEASES, RISK, RISKFACT, RISKCOMP, RiskSelectValue, SelectValue, VISUALIZATIONTYPES, RiskSelectFacValue } from 'src/app/shared/project-values.constants';
 
 @Component({
@@ -46,10 +47,14 @@ export class ControlsComponent implements OnInit {
   filteredMunOptions?: Observable<Municipality[]>;
   firstTimeDptoZoom: boolean = false;
 
+  @ViewChild('aboutModal')
+  aboutModal!: ElementRef;
+
   constructor(
     private controlFormService: ControlFormService,
     private jsonService: JsonListService,
-    private mapService: MapControllerService
+    private mapService: MapControllerService,
+    public dialog: MatDialog
   ) { }
 
   ngOnInit(): void {
@@ -377,5 +382,10 @@ export class ControlsComponent implements OnInit {
 
       return;
     }
+  }
+
+  openDialog(templateRef: any) {
+    console.log(templateRef);
+    this.dialog.open(templateRef);
   }
 }
