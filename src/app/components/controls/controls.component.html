@@ -135,6 +135,9 @@
 
 
         </form>
+        <div class="text-center">
+          <button class="mt-3" mat-flat-button color="primary" (click)="resetDpto();initForm()">Reiniciar campos</button>
+        </div>
       </div>
     </div>
     <div class="row py-1">
@@ -151,12 +154,12 @@
 <ng-template #aboutModal>
   <h1 mat-dialog-title class="text-center">Acerca de nosotros</h1>
   <div mat-dialog-content class="text-right mt-3">
-    <span>Desarrollado para PorkColombia - FNP por:</span><br/>
-    <span>DataLab - Universidad Nacional de Colombia</span><br/>
-    <span>Agatec SAS</span><br/>
-    <span>Arwen Consulting SAS</span><br/>
+    <span>Desarrollado para PorkColombia - FNP por:</span><br />
+    <span>DataLab - Universidad Nacional de Colombia</span><br />
+    <span>Agatec SAS</span><br />
+    <span>Arwen Consulting SAS</span><br />
   </div>
-  <hr/>
+  <hr />
   <div mat-dialog-actions class="mt-2">
     <button mat-button mat-dialog-close class="mx-auto">Aceptar</button>
   </div>

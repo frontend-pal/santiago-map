@@ -215,7 +215,7 @@ export class ChartsComponent implements OnInit {
   }
 
   setMuniData(muniCode: string) {
-    this.currentData = this.dptoData.find((x: any) => x.DPTOMPIO === muniCode);
+    if (this.dptoData) this.currentData = this.dptoData.find((x: any) => x.DPTOMPIO === muniCode);
 
     if (!!this.currentData) {
       this.catProcesoProductivo = this.currentData['Prob_Cat_Proceso_Productivo'] || null;

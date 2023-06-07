@@ -356,8 +356,6 @@ export class MapControllerService {
         this.mapLayers = this.mapLayers.filter(x => x.name.name !== ('viewType'));
         break;
       case 'dpto':
-        console.log("entre a dpto");
-        console.log(this.mapLayers);
         this.mapLayers.forEach((mapLayer) => {
           if (mapLayer.name.substring(0, 4) === ('dpto')) {
             this.map.removeLayer(mapLayer.layer);
@@ -421,7 +419,6 @@ export class MapControllerService {
   }
 
   public setDepartmentMap(json: any, dptoCode: string) {
-    console.log("entre al set department");
     let currentRisk = '';
     this.riskFact = false;
     if (sessionStorage.getItem('riskfact') !== null && sessionStorage.getItem('riskfact') !== '') {
