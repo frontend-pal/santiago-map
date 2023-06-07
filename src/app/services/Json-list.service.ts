@@ -89,7 +89,6 @@ export class JsonListService {
   }
 
   public getDptoDiseaseData(code: any, disease: string) {
-    console.log(code, disease);
     const name = this.getDiseaseName(code, disease);
     return this.http.get<GeoJsonData>(`../../assets/json/diseases/${disease}/${name}.json`);
   }

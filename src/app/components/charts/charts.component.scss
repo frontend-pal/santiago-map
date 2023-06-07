@@ -209,6 +209,8 @@ $duration: 0.5s;
 
   .number {
     font-size: 2rem;
+    text-align: right;
+    margin-right: 10px;
   }
 
   .icon {
@@ -307,7 +309,7 @@ $duration: 0.5s;
 }
 
 .risk-data-container {
-  max-height: 580px;
+  // max-height: 580px;
   overflow: auto;
 }
 

@@ -81,7 +81,6 @@ export class ChartsComponent implements OnInit {
 
   initListeners() {
     this.controlFormService.controlData.subscribe(res => {
-      console.log(res.control);
       switch (res.control) {
         case 'disease':
           this.updateData(res);
@@ -90,7 +89,6 @@ export class ChartsComponent implements OnInit {
           this.updateData(res);
           break;
         case 'municipality':
-          console.log("muni");
           this.updateData(res);
           break;
         case 'risk':
@@ -155,7 +153,6 @@ export class ChartsComponent implements OnInit {
 
           this.setMuniData(municData.code);
         } else {
-          console.log("entre al reset del munic");
           this.setDptoData();
         }
         break;
@@ -298,7 +295,6 @@ export class ChartsComponent implements OnInit {
     this.filteredRiskCat = this.riskCat.filter(x => x.riskcat === cat);
     this.riskWithData = [];
 
-    console.log()
     if (muniSelected) {
       const muniCode = muniSelected.code;
       this.riskWithData = this.filteredRiskCat.map(riskCat => {
@@ -319,7 +315,6 @@ export class ChartsComponent implements OnInit {
         }
       });
     }
-    console.log(this.riskWithData);
   }
 
   public toggleRightMenu() {

@@ -28,7 +28,7 @@
                     <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Amenaza</h4>
                         <h3 class="mid-title-number" *ngIf="!!threat && threat > 0">
-                            {{ threat * 100 | number:'1.1-1' }}%
+                            {{ threat * 100 | number:'1.0-0' }}
                         </h3>
                         <h3 class="mid-title-number" *ngIf="!!threat && threat === 0">
                             0
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="col-12 mt-1 px-0 categoria proc-bioseguridad" *ngIf="viewBIO">
-                        <div class="col-4 number">{{ catBioseguridad * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catBioseguridad * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-4.svg" alt="Bioseguridad">
                         </div>
@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
-                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
                         </div>
@@ -69,7 +69,7 @@
 
 
                     <div class="col-12 mt-2 px-0 categoria proc-movilizacion" *ngIf="viewMOV">
-                        <div class="col-4 number">{{ catMovilizacion * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catMovilizacion * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-5.svg" alt="Movilización">
                         </div>
@@ -87,7 +87,7 @@
                     <div class="col-12 text-center my-2">
                         <h4 class="mid-title">Vulnerabilidad</h4>
                         <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability > 0">
-                            {{ vulnerability * 100 | number:'1.1-1' }}%
+                            {{ vulnerability * 100 | number:'1.0-0' }}
                         </h3>
                         <h3 class="mid-title-number" *ngIf="!!vulnerability && vulnerability === 0">
                             0
@@ -100,7 +100,7 @@
                         </h3>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-productivo" *ngIf="viewPRO">
-                        <div class="col-4 number">{{ catProcesoProductivo * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catProcesoProductivo * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-1.svg" alt="Proceso Productivo">
                         </div>
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-biofisico" *ngIf="viewEBI">
-                        <div class="col-4 number">{{ catEspacioBiofisico * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catEspacioBiofisico * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-2.svg" alt="Espacio Biofísico">
                         </div>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-biofisico-amb" *ngIf="viewEBA">
-                        <div class="col-4 number">{{ catEntornoBiosifico * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catEntornoBiosifico * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-3.svg" alt="Entorno Biofísico-Ambiental">
                         </div>
@@ -137,7 +137,7 @@
                     </div>
 
                     <div class="col-12 mt-2 px-0 categoria proc-socio-ec" *ngIf="viewESO">
-                        <div class="col-4 number">{{ catSocioEconomico * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catSocioEconomico * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-6.svg" alt="Entorno Socio-Económico">
                         </div>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
-                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.1-1' }}%</div>
+                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.0-0' }}</div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
                         </div>

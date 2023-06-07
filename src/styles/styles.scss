@@ -126,3 +126,11 @@ input[type="text"] {
   border-radius: 8px;
   border: 2px solid #404040;
 }
+
+.leaflet-control-container {
+  .leaflet-bottom.leaflet-left {
+    left: calc(50vw + 41px) !important;
+    position: relative;
+    top: calc(100vh - 148px);
+  }
+}

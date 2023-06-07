@@ -64,7 +64,7 @@ export class ControlsComponent implements OnInit {
     this.riskcomp = RISKCOMP;
     this.riskFact = RISKFACT;
     this.initForm();
-    // this.initListeners();
+    this.initListeners();
   }
 
   initListeners() {
@@ -98,6 +98,7 @@ export class ControlsComponent implements OnInit {
     // this.mapForm.controls['risk'].disable();
     this.setRisk('RES');
     this.setViewType('PRONAC');
+    this.setControl('reset', null);
     this.getData();
   }
 
@@ -160,7 +161,7 @@ export class ControlsComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log("test de  lavaina");
+    // console.log("test de  lavaina");
   }
 
   displayDept(value?: any) {
@@ -198,7 +199,6 @@ export class ControlsComponent implements OnInit {
     if (!!event) {
       const currentMun: Municipality = event.option.value;
 
-      console.log("llamada desde el muni");
       this.setControl('municipality', currentMun);
       this.getMuniMap(event.option.value);
     }
@@ -228,7 +228,6 @@ export class ControlsComponent implements OnInit {
   }
 
   setRiskComp(event: MatSelectChange) {
-    console.log(event);
     // resetea el riesgo de la catetgoria
     this.mapForm.controls['riskCat'].patchValue('');
     this.setControl('riskfact', null);
@@ -283,9 +282,9 @@ export class ControlsComponent implements OnInit {
     this.mapService.removeLayers('dpto');
 
     this.setControl('disease', value);
-    this.jsonService.getDiseases().subscribe(res => {
-      console.log(res);
-    });
+    // this.jsonService.getDiseases().subscribe(res => {
+    //   console.log(res);
+    // });
   }
 
   getDptoMap(currentDepartment: any) {
@@ -376,8 +375,6 @@ export class ControlsComponent implements OnInit {
     const currentRiskSelected = sessionStorage.getItem('risk');
 
     if (!!currentDptoSelected && currentDptoSelected !== null && currentDptoSelected !== 'null') {
-      console.log("entre al departamento cuando hay");
-      console.log(currentDptoSelected);
       this.getDptoMap(JSON.parse(currentDptoSelected));
 
       return;

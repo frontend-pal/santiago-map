@@ -64,7 +64,7 @@ export class MapControllerService {
             d > 40 ? '#FD8D3C' :
               d > 20 ? '#FEB24C' :
                 d > 0 ? '#FED976' :
-                  '#FFEDA0';
+                  '#636363';
   }
 
   public getColor(f: any, d?: any, dptoCode?: string, color?: string) {
@@ -92,7 +92,7 @@ export class MapControllerService {
             currentDataValue > 40 ? '#FD8D3C' :
               currentDataValue > 20 ? '#FEB24C' :
                 currentDataValue > 0 ? '#FED976' :
-                  '#FFEDA0';
+                  '#636363';
   }
 
   public style(feature: any) {
@@ -188,7 +188,7 @@ export class MapControllerService {
   }
 
   public setlegend() {
-    const legend = new L.Control({ position: 'bottomright' });
+    const legend = new L.Control({ position: 'bottomleft' });
 
     legend.onAdd = (map) => {
 
@@ -197,6 +197,8 @@ export class MapControllerService {
         labels = [];
 
       // loop through our density intervals and generate a label with a colored square for each interval
+      div.innerHTML += 
+      '<i style="background: #636363"></i>0<br>';
       for (var i = 0; i < grades.length - 1; i++) {
         div.innerHTML +=
           '<i style="background:' + this.getLegendColor(grades[i] + 1) + '"></i> '
