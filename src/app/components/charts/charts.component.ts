@@ -325,6 +325,7 @@ export class ChartsComponent implements OnInit {
   private caculateRiskValue(dataValue: number | string | null): number | string {
     let value;
 
+    console.log(dataValue);
     if (!!dataValue && dataValue >= 0) {
       value = dataValue;
     } else {

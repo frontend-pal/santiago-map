@@ -42,7 +42,9 @@
                     </div>
 
                     <div class="col-12 mt-1 px-0 categoria proc-bioseguridad" *ngIf="viewBIO">
-                        <div class="col-4 number">{{ catBioseguridad * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catBioseguridad > 0 ? (catBioseguridad * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-4.svg" alt="Bioseguridad">
                         </div>
@@ -55,7 +57,9 @@
                     </div>
 
                     <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
-                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catManejoSanitario > 0 ? (catManejoSanitario * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
                         </div>
@@ -69,7 +73,9 @@
 
 
                     <div class="col-12 mt-2 px-0 categoria proc-movilizacion" *ngIf="viewMOV">
-                        <div class="col-4 number">{{ catMovilizacion * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catMovilizacion > 0 ? (catMovilizacion * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-5.svg" alt="Movilización">
                         </div>
@@ -100,7 +106,9 @@
                         </h3>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-productivo" *ngIf="viewPRO">
-                        <div class="col-4 number">{{ catProcesoProductivo * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catProcesoProductivo > 0 ? (catProcesoProductivo * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-1.svg" alt="Proceso Productivo">
                         </div>
@@ -112,7 +120,9 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-biofisico" *ngIf="viewEBI">
-                        <div class="col-4 number">{{ catEspacioBiofisico * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catEspacioBiofisico > 0 ? (catEspacioBiofisico * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-2.svg" alt="Espacio Biofísico">
                         </div>
@@ -124,7 +134,9 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-biofisico-amb" *ngIf="viewEBA">
-                        <div class="col-4 number">{{ catEntornoBiosifico * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catEntornoBiosifico > 0 ? (catEntornoBiosifico * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-3.svg" alt="Entorno Biofísico-Ambiental">
                         </div>
@@ -137,7 +149,9 @@
                     </div>
 
                     <div class="col-12 mt-2 px-0 categoria proc-socio-ec" *ngIf="viewESO">
-                        <div class="col-4 number">{{ catSocioEconomico * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catSocioEconomico > 0 ? (catSocioEconomico * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-6.svg" alt="Entorno Socio-Económico">
                         </div>
@@ -149,7 +163,9 @@
                         </div>
                     </div>
                     <div class="col-12 mt-2 px-0 categoria proc-manejo-san" *ngIf="viewSAN">
-                        <div class="col-4 number">{{ catManejoSanitario * 100 | number:'1.0-0' }}</div>
+                        <div class="col-4 number">
+                            {{ catManejoSanitario > 0 ? (catManejoSanitario * 100 | number:'1.0-0') : 'N/A' }}
+                        </div>
                         <div class="col-2 icon">
                             <img src="../../../assets/icons/icon-7.svg" alt="Manejo Sanitario">
                         </div>
@@ -167,7 +183,8 @@
                             <li *ngFor="let riskData of riskWithData">
                                 <h4 class="name">{{ riskData.name }}</h4>
                                 <span class="value">
-                                    {{ isNumber(riskData.categorieValue) ? (riskData.categorieValue * 100 | number:'1.1-1') + '%' : riskData.categorieValue }}
+                                    {{ isNumber(riskData.categorieValue) ? (riskData.categorieValue * 100 |
+                                    number:'1.1-1') + '%' : riskData.categorieValue }}
                                 </span>
                             </li>
                         </ul>

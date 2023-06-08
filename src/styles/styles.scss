@@ -131,6 +131,26 @@ input[type="text"] {
   .leaflet-bottom.leaflet-left {
     left: calc(50vw + 41px) !important;
     position: relative;
-    top: calc(100vh - 148px);
+    top: calc(100vh - 182px);
+  }
+}
+
+.leaflet-right {
+  right: calc(50vw - 220px) !important;
+
+  .info.leaflet-control {
+    padding-left: 32px;
+
+    .dept {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: url("../assets/svg/compass-north.svg");
+        height: 27px;
+        width: 18px;
+        left: -24px;
+      }
+    }
   }
 }

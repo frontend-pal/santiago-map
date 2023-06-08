@@ -197,8 +197,9 @@ export class MapControllerService {
         labels = [];
 
       // loop through our density intervals and generate a label with a colored square for each interval
-      div.innerHTML += 
-      '<i style="background: #636363"></i>0<br>';
+
+      div.innerHTML += '<h3 style="text-align: center;font-weight: 700;margin-bottom: .5rem;">NIVEL</h3>';
+      div.innerHTML += '<i style="background: #636363"></i>0<br>';
       for (var i = 0; i < grades.length - 1; i++) {
         div.innerHTML +=
           '<i style="background:' + this.getLegendColor(grades[i] + 1) + '"></i> '
@@ -213,7 +214,9 @@ export class MapControllerService {
 
   public setInfo() {
     if (this.info) this.info.remove();
-    this.info = new L.Control();
+    this.info = new L.Control({
+      position: 'topright'
+    });
     this.info.onAdd = function () {
       this._div = L.DomUtil.create("div", "info");
       this.update();
@@ -222,8 +225,8 @@ export class MapControllerService {
 
     this.info.update = function (props: any) {
       this._div.innerHTML =
-        "<h4>Nombre del Municipio</h4>" +
-        (props ? "<b>" + props.nombre_mpi + "</b><br />" : "");
+        '<div class="dept"><h4>Nombre del Municipio</h4>' +
+        (props ? '<b>' + props.nombre_mpi + '</b><br /></div>' : '');
     };
 
     this.info.addTo(this.map);

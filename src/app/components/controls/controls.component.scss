@@ -15,6 +15,9 @@
 
   .controls {
     max-height: calc(100vh - 98px);
+    height: calc(100vh - 98px);
+    display: flex;
+    flex-direction: column;
   }
 }
 
