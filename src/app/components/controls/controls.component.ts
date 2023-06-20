@@ -333,6 +333,7 @@ export class ControlsComponent implements OnInit {
   }
 
   resetDpto() {
+    console.log('entre al reset');
     this.selectedDpto = '';
     this.setControl('riskfact', null);
     this.setControl('municipality', null);
@@ -363,6 +364,7 @@ export class ControlsComponent implements OnInit {
   }
 
   resetMuni() {
+    console.log('entre al reset muni');
     this.mapForm.controls['municipality'].patchValue('');
 
     this.setControl('municipality', null);

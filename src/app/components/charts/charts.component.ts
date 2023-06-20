@@ -148,12 +148,14 @@ export class ChartsComponent implements OnInit {
         }
         break;
       case 'municipality':
+        console.log(event);
         if (event.value !== 'null' && event.value !== null) {
           const municData = JSON.parse(event?.value as string);
 
           this.setMuniData(municData.code);
         } else {
           this.setDptoData();
+          console
         }
         break;
       case 'reset':

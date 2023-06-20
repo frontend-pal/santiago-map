@@ -21,6 +21,7 @@ export class ControlFormService {
   }
 
   public setControlData(controlEvt: ControlEvent) {
+    console.log(controlEvt);
     if (typeof controlEvt?.value !== 'string') {
       controlEvt.value = JSON.stringify(controlEvt?.value);
     }
