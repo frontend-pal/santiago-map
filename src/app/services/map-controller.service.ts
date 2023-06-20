@@ -161,10 +161,10 @@ export class MapControllerService {
 
   private zoomToFeature(e: any, layerType?: string) {
     this.map.fitBounds(e.target.getBounds());
-    this.controlService.setControlData({
-      control: 'dptoFromMap',
-      value: e.target.feature.properties.DPTO_CCDGO
-    });
+    // this.controlService.setControlData({
+    //   control: 'dptoFromMap',
+    //   value: e.target.feature.properties.DPTO_CCDGO
+    // });
   }
 
   public zoomToFeatureMap(muniCode: string) {
