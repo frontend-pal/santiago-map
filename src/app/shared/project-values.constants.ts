@@ -89,7 +89,7 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Tipo de alimentación",
-        value: "FacRiesgo_Tipo_de_alimentación",
+        value: "FacRiesgo_Tipo_de_alimentacion",
         riskcat: "BIO",
         risk: "COA"
     },
@@ -101,13 +101,13 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Existencia de Vacunación",
-        value: "FacRiesgo_Existencia_de_Vacunación",
+        value: "FacRiesgo_Existencia_de_Vacunacion",
         riskcat: "SAN",
         risk: "COA"
     },
     {
         name: "Movilización de personas en el territorio nacional",
-        value: "FacRiesgo_Movilización_de_personas_en_el_territorio_nacional",
+        value: "FacRiesgo_Movilizacion_de_personas_en_el_territorio_nacional",
         riskcat: "MOV",
         risk: "COA"
     },
@@ -137,7 +137,7 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Susceptibilidad al contagio\npor proximidad\na humedales, aves migratorias y granjas avícolas",
-        value: "FacRiesgo_Susceptibilidad_al_contagio_por_proximidad_a_humedales,_aves_migratorias_y_granjas_avícolas",
+        value: "FacRiesgo_Susceptibilidad_al_contagio_por_proximidad_a_humedales,_aves_migratorias_y_granjas_avicolas",
         riskcat: "EBA",
         risk: "COV"
     },
@@ -161,19 +161,19 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Cultura frente al Diagnóstico",
-        value: "FacRiesgo_Cultura_frente_al_Diagnóstico",
+        value: "FacRiesgo_Cultura_frente_al_Diagnostico",
         riskcat: "ESO",
         risk: "COV"
     },
     {
         name: "Zonas epidemiológicas",
-        value: "FacRiesgo_Zonas_epidemiológicas",
+        value: "FacRiesgo_Zonas_epidemiologicas",
         riskcat: "ESO",
         risk: "COV"
     },
     {
         name: "Densidad poblacional de la producción potencial en las granjas porcinas",
-        value: "FacRiesgo_Densidad_poblacional_de_la_producción_potencial_en_las_granjas_porcinas",
+        value: "FacRiesgo_Densidad_poblacional_de_la_produccion_potencial_en_las_granjas_porcinas",
         riskcat: "ESO",
         risk: "COV"
     },
@@ -233,7 +233,7 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Acceso a servicios de diagnóstico",
-        value: "FacRiesgo_Acceso_a_servicios_de_diagnóstico",
+        value: "FacRiesgo_Acceso_a_servicios_de_diagnostico",
         riskcat: "SAN",
         risk: "COV"
     },
@@ -251,31 +251,31 @@ export const RISKFACT: RiskSelectFacValue[] = [
     },
     {
         name: "Densidad de granjas de producción comercial tecnificada vs granjas produccon porcina",
-        value: "FacRiesgo_Densidad_de_granjas_de_producción_comercial_tecnificada_vs_granjas_produccon_porcina",
+        value: "FacRiesgo_Densidad_de_granjas_de_produccion_comercial_tecnificada_vs_granjas_produccon_porcina",
         riskcat: "PRO",
         risk: "COV"
     },
     {
         name: "Densidad de granjas de producción de cria",
-        value: "FacRiesgo_Densidad_de_granjas_de_producción_de_cria",
+        value: "FacRiesgo_Densidad_de_granjas_de_produccion_de_cria",
         riskcat: "PRO",
         risk: "COV"
     },
     {
         name: "Densidad de granjas de producción de levante y ceba",
-        value: "FacRiesgo_Densidad_de_granjas_de_producción_de_levante_y_ceba",
+        value: "FacRiesgo_Densidad_de_granjas_de_produccion_de_levante_y_ceba",
         riskcat: "PRO",
         risk: "COV"
     },
     {
         name: "Densidad de granjas de producción Familiar vs granjas produccon porcina",
-        value: "FacRiesgo_Densidad_de_granjas_de_producción_Familiar_vs_granjas_produccon_porcina",
+        value: "FacRiesgo_Densidad_de_granjas_de_produccion_Familiar_vs_granjas_produccon_porcina",
         riskcat: "PRO",
         risk: "COV"
     },
     {
         name: "Densidad de hembras en cria en granjas porcinas",
-        value: "FacRiesgo_Densidad_de_hembras_de_cría_en_granjas_porcinas",
+        value: "FacRiesgo_Densidad_de_hembras_de_cria_en_granjas_porcinas",
         riskcat: "PRO",
         risk: "COV"
     }

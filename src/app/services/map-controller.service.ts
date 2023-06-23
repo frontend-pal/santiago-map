@@ -461,7 +461,7 @@ export class MapControllerService {
         idxValue = 'Prob_Cat_Manejo_Sanitario';
         break;
       case 'MOV':
-        idxValue = 'Prob_Cat_Movilización';
+        idxValue = 'Prob_Cat_Movilizacion';
         break;
       case 'EBA':
         idxValue = 'Prob_Cat_Entorno_Biofísico_Ambiental';

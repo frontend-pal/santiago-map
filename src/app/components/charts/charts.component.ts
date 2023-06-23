@@ -300,6 +300,7 @@ export class ChartsComponent implements OnInit {
     if (muniSelected) {
       const muniCode = muniSelected.code;
       this.riskWithData = this.filteredRiskCat.map(riskCat => {
+        console.log(riskCat.value);
         const idx = `Prob_${riskCat.value}`;
         const currentData = this.jsonService.currentDiseaseData.find((x: any) => x.DPTOMPIO === muniCode);
         return {

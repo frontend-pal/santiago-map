@@ -229,6 +229,7 @@ export class ControlsComponent implements OnInit {
 
   setRiskComp(event: MatSelectChange) {
     // resetea el riesgo de la catetgoria
+    console.log(event.value);
     this.mapForm.controls['riskCat'].patchValue('');
     this.setControl('riskfact', null);
 

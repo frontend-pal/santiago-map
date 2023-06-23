@@ -38,7 +38,7 @@
   "Prob_Cat_Proceso_productivo": 0.54108309831857,
   "Prob_Cat_Entorno_sociEco": 0.7735523466403776,
   "Prob_Amnza_Total": 0.542304615923193,
-  "Nvl__FacRiesgo_Tipo_de_alimentación": 1,
+  "Nvl__FacRiesgo_Tipo_de_alimentacion": 1,
   "Nvl_FacRiesgo_infra_y_uso_intalaciones": -1,
   "Nvl_FacRiesgo_Contac_IndirecPerson": 0.5,
   "Nvl_FacRiesgo_Manejo_muertos": -1,
