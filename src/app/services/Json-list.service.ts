@@ -18,11 +18,11 @@ export class JsonListService {
   constructor(private http: HttpClient) { }
 
   public getDepartments(): Observable<Department[]> {
-    return this.http.get<Department[]>('../../assets/json/departamentos.json');
+    return this.http.get<Department[]>('assets/json/departamentos.json');
   }
 
   public getMunicipality() {
-    return this.http.get<Municipality[]>('../../assets/json/municipios.json')
+    return this.http.get<Municipality[]>('assets/json/municipios.json')
       .pipe(
         map(res => {
           if (!!res && res.length !== 0) {
@@ -35,11 +35,11 @@ export class JsonListService {
   }
 
   public getColombiaGeoJson() {
-    return this.http.get('../../assets/json/Colombia_departamentos_poblacion.geojson');
+    return this.http.get('assets/json/Colombia_departamentos_poblacion.geojson');
   }
 
   public getViewTypeGeoJson(name: string) {
-    return this.http.get(`../../assets/json/viewtypes/${name}.json`);
+    return this.http.get(`assets/json/viewtypes/${name}.json`);
   }
 
   public getDiseases() {
@@ -48,7 +48,7 @@ export class JsonListService {
 
     const diseaseObs = new Observable(obs => {
       if (diseasesGlobalData === null) {
-        return this.http.get(`../../assets/json/diseases/valores_globales_por_enfermedad.json`).subscribe(res => {
+        return this.http.get(`assets/json/diseases/valores_globales_por_enfermedad.json`).subscribe(res => {
           sessionStorage.setItem('diseasesGlobalData', JSON.stringify(res));
           subscribeRequest = JSON.parse(sessionStorage.getItem('diseasesGlobalData') || '');
 
@@ -67,11 +67,11 @@ export class JsonListService {
   }
 
   public getMunicGeoJson() {
-    return this.http.get('../../assets/json/municipios/MGN_ANM_MPIOS.geojson');
+    return this.http.get('assets/json/municipios/MGN_ANM_MPIOS.geojson');
   }
 
   public getDiseaseDptoJson(dpto?: string) {
-    return this.http.get('../../assets/json/departamentos_promedios.json');
+    return this.http.get('assets/json/departamentos_promedios.json');
   }
 
   public getMunicipalityByCode(code: string | undefined): Municipality[] | [] {
@@ -81,24 +81,23 @@ export class JsonListService {
   public getDptoDataGeoJson(name: string, disease = 'ASF') {
     name = name.toUpperCase();
     disease = disease.toUpperCase();
-    return this.http.get(`../../assets/json/excelData/${name}_${disease}.json`);
+    return this.http.get(`assets/json/excelData/${name}_${disease}.json`);
   }
 
   public getDptoGeoJson(name: string) {
-    return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`);
+    return this.http.get<GeoJsonData>(`assets/json/dptos/${name}.geojson`);
   }
 
   public getDptoDiseaseData(code: any, disease: string) {
     const name = this.getDiseaseName(code, disease);
-    return this.http.get<GeoJsonData>(`../../assets/json/diseases/${disease}/${name}.json`);
+    return this.http.get<GeoJsonData>(`assets/json/diseases/${disease}/${name}.json`);
   }
 
   public getMuniDataGeoJson(data: Municipality): Observable<Feature | undefined> {
     const name = data.departmentCode;
-    console.log(name);
     const muniCode = data.code;
 
-    return this.http.get<GeoJsonData>(`../../assets/json/dptos/${name}.geojson`)
+    return this.http.get<GeoJsonData>(`assets/json/dptos/${name}.geojson`)
       .pipe(
         map(res => {
           const muniFeature = res.features.find(x => x.properties.mpios === muniCode);
@@ -130,7 +129,7 @@ export class JsonListService {
         name = `${code}_Parvovirosis_prob_y_niveles`;
         break;
       case 'ASF':
-        name = `${code}_ASF_prob_y_niveles`;
+        name = `${code}_PPA_prob_y_niveles`;
         break;
       case 'APP':
         name = `${code}_Pleuroneumonía Contagiosa_prob_y_niveles`;

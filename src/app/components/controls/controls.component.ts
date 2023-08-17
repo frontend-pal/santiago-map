@@ -229,7 +229,6 @@ export class ControlsComponent implements OnInit {
 
   setRiskComp(event: MatSelectChange) {
     // resetea el riesgo de la catetgoria
-    console.log(event.value);
     this.mapForm.controls['riskCat'].patchValue('');
     this.setControl('riskfact', null);
 
@@ -334,7 +333,6 @@ export class ControlsComponent implements OnInit {
   }
 
   resetDpto() {
-    console.log('entre al reset');
     this.selectedDpto = '';
     this.setControl('riskfact', null);
     this.setControl('municipality', null);
@@ -365,7 +363,6 @@ export class ControlsComponent implements OnInit {
   }
 
   resetMuni() {
-    console.log('entre al reset muni');
     this.mapForm.controls['municipality'].patchValue('');
 
     this.setControl('municipality', null);
@@ -385,7 +382,13 @@ export class ControlsComponent implements OnInit {
   }
 
   openDialog(templateRef: any) {
-    console.log(templateRef);
     this.dialog.open(templateRef);
+  }
+
+  goToLink(name: string) {
+    const baseUrl = window.location.href;
+    const path = `${baseUrl}assets/pdf/${name}`
+
+    window.open(path, "_blank");
   }
 }

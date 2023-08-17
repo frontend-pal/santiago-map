@@ -137,7 +137,6 @@ export class ChartsComponent implements OnInit {
         break;
       case 'dpto':
         this.currentDpto = event.value;
-
         if (!!this.currentDpto && !!this.currentDisease && this.currentDpto !== null && this.currentDpto !== 'null') {
           this.currentDpto = JSON.parse(this.currentDpto);
           this.jsonService.getDptoDiseaseData(this.currentDpto.code, this.currentDisease).subscribe(res => {
@@ -148,7 +147,6 @@ export class ChartsComponent implements OnInit {
         }
         break;
       case 'municipality':
-        console.log(event);
         if (event.value !== 'null' && event.value !== null) {
           const municData = JSON.parse(event?.value as string);
 
@@ -300,7 +298,6 @@ export class ChartsComponent implements OnInit {
     if (muniSelected) {
       const muniCode = muniSelected.code;
       this.riskWithData = this.filteredRiskCat.map(riskCat => {
-        console.log(riskCat.value);
         const idx = `Prob_${riskCat.value}`;
         const currentData = this.jsonService.currentDiseaseData.find((x: any) => x.DPTOMPIO === muniCode);
         return {
@@ -328,8 +325,7 @@ export class ChartsComponent implements OnInit {
   private caculateRiskValue(dataValue: number | string | null): number | string {
     let value;
 
-    console.log(dataValue);
-    if (!!dataValue && dataValue >= 0) {
+    if (!!dataValue && dataValue as number >= 0) {
       value = dataValue;
     } else {
       value = 'N/A';
